@@ -1,0 +1,60 @@
+<section class="wrapper style2" id="certifications" style="background:none !important; background-color:transparent !important; background-image:none !important;">
+  <div class="container" style="text-align:center;">
+    <header>
+      <h2>{{ .item.title }}</h2>
+      <p>{{ .item.subtitle }}</p>
+    </header>
+  <div id="cert-slider-wrapper" style="overflow:hidden; width:100%; display:flex; justify-content:center; align-items:center; background:none;">
+      <div id="cert-slider" style="display:flex; transition: transform 0.8s cubic-bezier(.22,.9,.32,1); will-change:transform; gap:2rem; margin-top:2rem; min-height:192px; align-items:center;"></div>
+    </div>
+    <script>
+      (function() {
+        var badges = JSON.parse('{{ .item.badges | jsonify | safeJS }}');
+        var slider = document.getElementById('cert-slider');
+        var wrapper = document.getElementById('cert-slider-wrapper');
+        var idx = 0, perSlide = 4;
+        // Create all images in a row
+        // Render all images in order for sliding
+        badges.forEach(function(badge) {
+          var img = document.createElement('img');
+          img.src = '/' + badge.image;
+          img.alt = badge.alt;
+           img.style.height = '192px';
+           img.style.margin = '0 1rem';
+           img.style.borderRadius = '0.5rem';
+           img.style.background = 'none';
+           img.style.padding = '0';
+           img.style.border = 'none';
+          img.style.boxShadow = '0 2px 12px rgba(60,125,125,0.10)';
+          slider.appendChild(img);
+        });
+        var perSlide = 4;
+        var imgWidth = 224; // fallback width
+        function updateImgWidth() {
+          if (slider.children[0]) {
+            imgWidth = slider.children[0].offsetWidth + 32;
+          }
+        }
+        updateImgWidth();
+        window.addEventListener('resize', updateImgWidth);
+
+        // Show initial position
+        slider.style.transform = 'translateX(0)';
+
+        setInterval(function() {
+          updateImgWidth();
+          // Animate left by 1 image
+          slider.style.transition = 'transform 0.8s cubic-bezier(.22,.9,.32,1)';
+          slider.style.transform = 'translateX(-' + imgWidth + 'px)';
+          setTimeout(function() {
+            // Move first image to end
+            slider.appendChild(slider.children[0]);
+            // Instantly reset transform
+            slider.style.transition = 'none';
+            slider.style.transform = 'translateX(0)';
+          }, 820);
+        }, 3000);
+      })();
+    </script>
+  </div>
+</section>

@@ -65,6 +65,16 @@ items:
     #heading: Recent Posts
     content_type: posts
     max: 4
+  - type: certifications
+    title: "Certified Engineers"
+    subtitle: "Our team includes certified professionals in leading cloud technologies. We proudly display our certifications below."
+    badges:
+      - image: "images/cert-aws.png"
+        alt: "AWS Certified"
+      - image: "images/cert-openshift.png"
+        alt: "OpenShift Certified"
+      - image: "images/cert-k8s.png"
+        alt: "K8S Certified"
   - type: contact-hero
     title: "Let's Connect & Create Together"
     subtitle: "Ready to transform your business with cloud innovation? Let's make it happen."
