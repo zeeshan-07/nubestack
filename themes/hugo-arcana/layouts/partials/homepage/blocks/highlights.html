@@ -1,40 +1,112 @@
 <section class="wrapper style1">
-    <div class="container">
-        {{- if .item.title }}
-        <header class="major">
-            <h2>{{ .item.title }}</h2>
-            {{- if .item.subtitle }}
-            <p>{{ .item.subtitle }}</p>
-            {{- end }}
-        </header>
+  <div class="container">
+
+  <style>
+  .major p { font-size: 0.75rem; }
+    /* Remove underline from svc-tile links and children */
+    .svc-tile-link,
+    .svc-tile-link:hover,
+    .svc-tile-link:focus,
+    .svc-tile-link * {
+      text-decoration: none !important;
+      color: inherit;
+      border-bottom: none !important;
+    }
+    /* Services grid and square tiles (theme-native CSS) */
+  .svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+  /* Tile visual treatment: use aspect-ratio for square tiles and avoid forcing a min-height that can clip content */
+  .svc-tile { background: #fff; border-radius: 0.5rem; box-shadow: 0 8px 26px rgba(9,10,11,0.08); overflow: hidden; transform: translateY(12px); opacity: 0; transition: transform 420ms cubic-bezier(.22,.9,.32,1), opacity 420ms, box-shadow 0.35s cubic-bezier(.22,.9,.32,1), background 0.35s cubic-bezier(.22,.9,.32,1); }
+  /* Animate the entire box on hover: scale, shadow, background */
+  .svc-tile:hover {
+    transform: scale(1.035);
+    box-shadow: 0 16px 40px rgba(60,125,125,0.16);
+    background: linear-gradient(135deg, #ecfdf5 0%, #fff 100%);
+    z-index: 2;
+  }
+    .svc-tile.play { transform: translateY(0); opacity: 1; }
+    /* Square tiles using aspect-ratio (simpler, avoids padding-top hack) */
+  .svc-square { width: 100%; display: flex; align-items: flex-start; height: 360px; }
+    /* Top-align so descriptions and content have room and won't be clipped. Make inner a normal flow element sized to the square. */
+    .svc-inner { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 1.25rem 1rem; text-align: center; height: 100%; box-sizing: border-box; }
+  .svc-icon { width: 80px; height: 80px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; background: #3c7d7d; color: #fff; font-size: 32px; margin-bottom: 0.5rem; aspect-ratio: 1 / 1; }
+  .svc-icon i { color: #fff !important; }
+  .svc-title { font-weight: 600; margin: 0.25rem 0; color: #3c7d7d; }
+    .svc-title { font-weight: 600; margin: 0.25rem 0; }
+  /* Use theme "fg-light" palette color for secondary text and make it slightly smaller */
+  /* Use site typography (inherit) so box text matches body font-size and line-height across breakpoints. Keep muted color. */
+  .svc-desc { color: #474747; font: inherit; line-height: inherit; margin-bottom: 0.35rem; font-size: 1.05rem; }
+  /* clamp content to ensure it fits within the square tile (allow a little more room) */
+  .svc-content { color: #474747; font: inherit; line-height: inherit; font-size: 1.07rem; }
+  @media (max-width: 640px) {
+    .svc-grid { grid-template-columns: 1fr; padding-left: 0.75rem; padding-right: 0.75rem; }
+    .svc-icon { width: 56px; height: 56px; font-size: 20px; border-radius: 8px; aspect-ratio: 1 / 1; }
+  .svc-inner { padding: 0.75rem 0.5rem; justify-content: center; }
+  .svc-square { height: auto; aspect-ratio: 1 / 1; }
+  }
+      @media (max-width: 900px) and (min-width: 641px) {
+        .svc-square { height: 240px; }
+        .svc-inner { justify-content: center; }
+      }
+    </style>
+
+    {{- if .item.title }}
+    <header class="major">
+      <h2>{{ .item.title }}</h2>
+      {{- if .item.subtitle }}
+      <p>{{ .item.subtitle }}</p>
+      {{- end }}
+    </header>
+    {{- end }}
+
+    <div class="svc-grid">
+
+      {{- range $i, $svc := .item.items }}
+        {{- $delay := mul $i 100 }}
+        {{- if $svc.url }}
+          <a href="{{ $svc.url }}" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="{{ $delay }}">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas {{ $svc.icon }}" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">{{ $svc.title }}</h3>
+                  {{- if $svc.description }}
+                    <div class="svc-desc">{{ $svc.description }}</div>
+                  {{- end }}
+                  <div class="svc-content">{{ $svc.content | plainify }}</div>
+                </div>
+              </div>
+            </div>
+          </a>
+        {{- else }}
+          <div class="svc-tile" data-delay="{{ $delay }}">
+            <div class="svc-square">
+              <div class="svc-inner">
+                <div class="svc-icon"><i class="fas {{ $svc.icon }}" aria-hidden="true"></i></div>
+                <h3 class="svc-title">{{ $svc.title }}</h3>
+                {{- if $svc.description }}
+                  <div class="svc-desc">{{ $svc.description }}</div>
+                {{- end }}
+                <div class="svc-content">{{ $svc.content | plainify }}</div>
+              </div>
+            </div>
+          </div>
         {{- end }}
-        <div class="row gtr-50">
-            {{- $item_cols := (div 12 (.item.items_per_row | default 3)) }}
-            {{- range .item.items }}
-                <section class="col-{{ $item_cols }} col-12-narrower">
-                    <div class="box highlight">
-                        {{- if .url }}
-                        <a href="{{ .url }}" class="service-box">
-                            <i class="icon solid major square {{ .icon }}"></i>
-                            <h3>{{ .title }}</h3>
-                            {{- if .description }}
-                            <span class="service-description">{{ .description }}</span>
-                            {{- end }}
-                            <p>{{ .content | markdownify }}</p>
-                        </a>
-                        {{- else }}
-                        <div class="service-box">
-                            <i class="icon solid major square {{ .icon }}"></i>
-                            <h3>{{ .title }}</h3>
-                            {{- if .description }}
-                            <span class="service-description">{{ .description }}</span>
-                            {{- end }}
-                            <p>{{ .content | markdownify }}</p>
-                        </div>
-                        {{- end }}
-                    </div>
-                </section>
-            {{- end }}
-        </div>
+      {{- end }}
     </div>
+
+    <!-- Removed duplicate style block that was rendering as text -->
+
+  </div>
+
+  <script>
+  // Staggered entrance animation for service tiles (theme-native JS)
+  document.addEventListener('DOMContentLoaded', function(){
+    var tiles = document.querySelectorAll('.svc-tile');
+    tiles.forEach(function(t, idx){
+      var delay = parseInt(t.getAttribute('data-delay')) || (idx*100);
+      setTimeout(function(){ t.classList.add('play'); }, delay);
+    });
+  });
+  </script>
+
 </section>

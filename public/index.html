@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-	<meta name="generator" content="Hugo 0.151.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.152.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
 <title></title>
 <meta charset="utf-8" />
@@ -88,87 +88,175 @@
     </header>
 </section>
 <section class="wrapper style1">
-    <div class="container">
-        <header class="major">
-            <h2>Our Services</h2>
-            <p>Comprehensive technology solutions for your business</p>
-        </header>
-        <div class="row gtr-50">
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/private-cloud" class="service-box">
-                            <i class="icon solid major square fa-server"></i>
-                            <h3>Private Cloud Solutions</h3>
-                            <p>OpenStack and OpenShift based cloud solutions for building and managing private clouds with flexibility, scalability, and cost-effectiveness.</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/container-orchestration" class="service-box">
-                            <i class="icon solid major square fa-project-diagram"></i>
-                            <h3>Container Orchestration</h3>
-                            <p>Scalable and secure Kubernetes solutions for managing containerized applications across cloud environments with enterprise-grade security and 99.9% uptime guarantee.</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/nfv" class="service-box">
-                            <i class="icon solid major square fa-tachometer-alt"></i>
-                            <h3>NFV Solutions</h3>
-                            <p>Incorporate Telco grade NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/managed-services" class="service-box">
-                            <i class="icon solid major square fa-robot"></i>
-                            <h3>Managed Services</h3>
-                            <p>Let us do the heavy lifting. We provide 24/7 monitoring, maintenance, and support to ensure your cloud infrastructure runs smoothly and efficiently.</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/public-cloud" class="service-box">
-                            <i class="icon solid major square fa-cloud"></i>
-                            <h3>Public Cloud Solutions</h3>
-                            <p>GCP, AWS, and Azure based cloud infrastructure solutions to help your business grow efficiently with enterprise-grade security and 99.9% uptime guarantee.</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/automation" class="service-box">
-                            <i class="icon solid major square fa-code"></i>
-                            <h3>Infrastructure Automation</h3>
-                            <p>Automate your IT infrastructure deployment with IaC (Terraform/Ansible) to reduce provisioning time, enhance consistency, ensure disaster recovery, and lower costs.</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/devops" class="service-box">
-                            <i class="icon solid major square fa-cogs"></i>
-                            <h3>DevOps Services</h3>
-                            <p>Streamline your development and operations with automated CI/CD pipelines, containerization, and infrastructure as code for faster deployments.</p>
-                        </a>
-                    </div>
-                </section>
-                <section class="col-3 col-12-narrower">
-                    <div class="box highlight">
-                        <a href="/services/consulting" class="service-box">
-                            <i class="icon solid major square fa-lightbulb"></i>
-                            <h3>Technology Consulting</h3>
-                            <span class="service-description">Strategy &amp; Architecture</span>
-                            <p>Expert guidance and strategic advice to help you make informed technology decisions, optimize processes, and drive digital transformation.</p>
-                        </a>
-                    </div>
-                </section>
-        </div>
+  <div class="container">
+
+  <style>
+  .major p { font-size: 0.75rem; }
+     
+    .svc-tile-link,
+    .svc-tile-link:hover,
+    .svc-tile-link:focus,
+    .svc-tile-link * {
+      text-decoration: none !important;
+      color: inherit;
+      border-bottom: none !important;
+    }
+     
+  .svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
+   
+  .svc-tile { background: #fff; border-radius: 0.5rem; box-shadow: 0 8px 26px rgba(9,10,11,0.08); overflow: hidden; transform: translateY(12px); opacity: 0; transition: transform 420ms cubic-bezier(.22,.9,.32,1), opacity 420ms, box-shadow 0.35s cubic-bezier(.22,.9,.32,1), background 0.35s cubic-bezier(.22,.9,.32,1); }
+   
+  .svc-tile:hover {
+    transform: scale(1.035);
+    box-shadow: 0 16px 40px rgba(60,125,125,0.16);
+    background: linear-gradient(135deg, #ecfdf5 0%, #fff 100%);
+    z-index: 2;
+  }
+    .svc-tile.play { transform: translateY(0); opacity: 1; }
+     
+  .svc-square { width: 100%; display: flex; align-items: flex-start; height: 360px; }
+     
+    .svc-inner { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; padding: 1.25rem 1rem; text-align: center; height: 100%; box-sizing: border-box; }
+  .svc-icon { width: 80px; height: 80px; border-radius: 12px; display: inline-flex; align-items: center; justify-content: center; background: #3c7d7d; color: #fff; font-size: 32px; margin-bottom: 0.5rem; aspect-ratio: 1 / 1; }
+  .svc-icon i { color: #fff !important; }
+  .svc-title { font-weight: 600; margin: 0.25rem 0; color: #3c7d7d; }
+    .svc-title { font-weight: 600; margin: 0.25rem 0; }
+   
+   
+  .svc-desc { color: #474747; font: inherit; line-height: inherit; margin-bottom: 0.35rem; font-size: 1.05rem; }
+   
+  .svc-content { color: #474747; font: inherit; line-height: inherit; font-size: 1.07rem; }
+  @media (max-width: 640px) {
+    .svc-grid { grid-template-columns: 1fr; padding-left: 0.75rem; padding-right: 0.75rem; }
+    .svc-icon { width: 56px; height: 56px; font-size: 20px; border-radius: 8px; aspect-ratio: 1 / 1; }
+  .svc-inner { padding: 0.75rem 0.5rem; justify-content: center; }
+  .svc-square { height: auto; aspect-ratio: 1 / 1; }
+  }
+      @media (max-width: 900px) and (min-width: 641px) {
+        .svc-square { height: 240px; }
+        .svc-inner { justify-content: center; }
+      }
+    </style>
+    <header class="major">
+      <h2>Our Services</h2>
+      <p>From private to public and hybrid environments — we make cloud design and migration seamless and stress-free.</p>
+    </header>
+
+    <div class="svc-grid">
+          <a href="/services/private-cloud" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="0">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">Private Cloud Solutions</h3>
+                  <div class="svc-content">OpenStack and OpenShift based cloud solutions for building and managing private clouds with flexibility, scalability, and cost-effectiveness.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/services/container-orchestration" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="100">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">Container Orchestration</h3>
+                  <div class="svc-content">Scalable and secure Kubernetes solutions for managing containerized applications across cloud environments with enterprise-grade security and 99.9% uptime guarantee.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/services/nfv" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="200">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-tachometer-alt" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">NFV Solutions</h3>
+                  <div class="svc-content">Incorporate Telco and HPC grade low-latency NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/services/managed-services" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="300">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-robot" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">Managed Services</h3>
+                  <div class="svc-content">Let us do the heavy lifting. We provide 24/7 monitoring, maintenance, and support to ensure your cloud infrastructure runs smoothly and efficiently.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/services/public-cloud" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="400">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-cloud" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">Public Cloud Solutions</h3>
+                  <div class="svc-content">GCP, AWS, and Azure based cloud infrastructure solutions to help your business grow efficiently with enterprise-grade security and 99.9% uptime guarantee.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/services/automation" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="500">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">Infrastructure Automation</h3>
+                  <div class="svc-content">Automate your IT infrastructure deployment with IaC (Terraform/Ansible) to reduce provisioning time, enhance consistency, ensure disaster recovery, and lower costs.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/services/devops" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="600">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-cogs" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">DevOps Services</h3>
+                  <div class="svc-content">Streamline your development and operations with automated CI/CD pipelines, containerization, and infrastructure as code for faster deployments.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="/services/consulting" class="svc-tile-link" style="text-decoration:none;">
+            <div class="svc-tile" data-delay="700">
+              <div class="svc-square">
+                <div class="svc-inner">
+                  <div class="svc-icon"><i class="fas fa-lightbulb" aria-hidden="true"></i></div>
+                  <h3 class="svc-title">Technology Consulting</h3>
+                    <div class="svc-desc">Strategy &amp; Architecture</div>
+                  <div class="svc-content">Expert guidance and strategic advice to help you make informed technology decisions, optimize processes, and drive digital transformation.
+</div>
+                </div>
+              </div>
+            </div>
+          </a>
     </div>
+
+    
+
+  </div>
+
+  <script>
+  
+  document.addEventListener('DOMContentLoaded', function(){
+    var tiles = document.querySelectorAll('.svc-tile');
+    tiles.forEach(function(t, idx){
+      var delay = parseInt(t.getAttribute('data-delay')) || (idx*100);
+      setTimeout(function(){ t.classList.add('play'); }, delay);
+    });
+  });
+  </script>
+
 </section>
 <section class="wrapper style1">
     <div class="container">

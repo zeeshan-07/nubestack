@@ -8,7 +8,7 @@ banner:
 items:
   - type: highlights
     title: "Our Services"
-    subtitle: "Comprehensive technology solutions for your business"
+    subtitle: "From private to public and hybrid environments — we make cloud design and migration seamless and stress-free."
     items_per_row: 4
     items:
     - title: Private Cloud Solutions
@@ -28,7 +28,7 @@ items:
       url: /services/nfv
 #      description: "Network Functions Virtualization"
       content: >
-        Incorporate Telco grade NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.
+        Incorporate Telco and HPC grade low-latency NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.
     - title: Managed Services
       icon: fa-robot
       url: /services/managed-services
