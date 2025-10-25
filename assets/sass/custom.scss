@@ -68,3 +68,14 @@
         transform: rotate(270deg);
     }
 }
+
+/* Fix mobile titleBar logo size for responsive testing */
+@media screen and (max-width: 980px) {
+    #titleBar .title a img {
+        height: 38px !important;
+        max-height: 38px !important;
+        width: auto !important;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+    }
+}
