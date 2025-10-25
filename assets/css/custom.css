@@ -27,3 +27,29 @@
 .box.highlight:hover {
     transform: translateY(-2px);
 }
+
+/* Mobile menu collapsible submenu styles */
+#navPanel .submenu-toggle {
+    float: right;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 0.5em;
+    cursor: pointer;
+    user-select: none;
+}
+
+#navPanel .has-submenu {
+    position: relative;
+}
+
+#navPanel .hidden-submenu {
+    display: none !important;
+}
+
+#navPanel .has-submenu.collapsed .submenu-toggle {
+    opacity: 0.7;
+}
+
+#navPanel .has-submenu:not(.collapsed) .submenu-toggle {
+    opacity: 1;
+}

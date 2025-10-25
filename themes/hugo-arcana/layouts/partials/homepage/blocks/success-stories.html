@@ -1,0 +1,58 @@
+<section class="wrapper style2">
+  <div class="container">
+    <header class="major">
+      <h2>{{ .item.title }}</h2>
+      {{- if .item.subtitle }}<p>{{ .item.subtitle }}</p>{{- end }}
+    </header>
+<section class="wrapper style2">
+  <div class="container">
+    <header class="major">
+      <h2>{{ .item.title }}</h2>
+      {{- if .item.subtitle }}<p>{{ .item.subtitle }}</p>{{- end }}
+    </header>
+
+    <div class="svc-grid">
+      {{- range $i, $story := .item.items }}
+        <div class="svc-tile play" data-delay="{{ mul $i 100 }}">
+          <a class="svc-tile-link" href="{{ $story.url }}">
+            <div class="svc-square">
+              <img src="/{{ $story.image }}" alt="{{ $story.title }}" style="width:100%;height:100%;object-fit:cover;border-radius:0.5rem;" />
+            </div>
+            <div class="svc-inner">
+              <div class="svc-title">{{ $story.title }}</div>
+              <div class="svc-content">{{ $story.summary }}</div>
+            </div>
+          </a>
+        </div>
+      {{- end }}
+    </div>
+
+    <div style="text-align:center;margin-top:1.5rem;">
+      <a class="button" href="/success-stories">Explore more success stories</a>
+    </div>
+  </div>
+</section>
+    <div class="svc-grid">
+      {{- range $i, $story := .item.items }}
+        {{- $delay := mul $i 80 }}
+        <div class="svc-tile play" style="transition-delay: {{$delay}}ms;">
+          <a class="svc-tile-link" href="{{ $story.url }}">
+            <div class="svc-square">
+              <picture>
+                <img src="/{{ $story.image }}" alt="{{ $story.title }}" style="width:100%;height:100%;object-fit:cover;border-radius:0.5rem;" />
+              </picture>
+            </div>
+            <div class="svc-inner">
+              <div class="svc-title">{{ $story.title }}</div>
+              <div class="svc-content">{{ $story.summary }}</div>
+            </div>
+          </a>
+        </div>
+      {{- end }}
+    </div>
+
+    <div style="text-align:center;margin-top:1.25rem;">
+      <a class="button" href="/success-stories">Explore more success stories</a>
+    </div>
+  </div>
+</section>

@@ -24,6 +24,13 @@
       <description>&lt;h1 id=&#34;container-orchestration&#34;&gt;Container Orchestration&lt;/h1&gt;&#xA;&lt;p&gt;Scalable and secure Kubernetes solutions for managing containerized applications across cloud environments with enterprise-grade security and 99.9% uptime guarantee.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Data Sovereignty: On-Prem Storage for Compliance</title>
+      <link>http://localhost:1313/success-stories/data-sovereignty-onprem/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success-stories/data-sovereignty-onprem/</guid>
+      <description>How NubeStack enabled a global enterprise to meet data residency requirements with on-prem Ceph storage clusters.</description>
+    </item>
+    <item>
       <title>Industry Solutions</title>
       <link>http://localhost:1313/industry/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
@@ -57,6 +64,13 @@
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/cloud-solutions/</guid>
       <description>&lt;h1 id=&#34;privatepublic-cloud-solutions&#34;&gt;Private/Public Cloud Solutions&lt;/h1&gt;&#xA;&lt;p&gt;OpenStack, OpenShift, AWS, Azure, and GCP based cloud solutions for building, managing, and scaling private and public clouds with flexibility, security, and cost-effectiveness.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-cloud-services&#34;&gt;Our Cloud Services&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Private cloud design and deployment (OpenStack, OpenShift)&lt;/li&gt;&#xA;&lt;li&gt;Public cloud migration and management (AWS, Azure, GCP)&lt;/li&gt;&#xA;&lt;li&gt;Hybrid and multi-cloud strategies&lt;/li&gt;&#xA;&lt;li&gt;Enterprise-grade security and compliance&lt;/li&gt;&#xA;&lt;li&gt;99.9% uptime guarantee&lt;/li&gt;&#xA;&lt;li&gt;24/7 support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ready to transform your business with the right cloud solution? &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Contact us&lt;/a&gt; today!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VMware to OpenStack: Enterprise Cloud Migration Success</title>
+      <link>http://localhost:1313/success-stories/vmware-to-openstack/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success-stories/vmware-to-openstack/</guid>
+      <description>How a major enterprise reduced costs and gained flexibility by migrating from VMware to OpenStack with NubeStack.</description>
     </item>
     <item>
       <title>DevOps Services</title>

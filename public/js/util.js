@@ -15,16 +15,30 @@
             var $this = $(this),
                 indent = Math.max(0, $this.parents('li').length - 1),
                 href = $this.attr('href'),
-                target = $this.attr('target');
+                target = $this.attr('target'),
+                $parent = $this.parent('li'),
+                hasSubmenu = $parent.find('ul').length > 0;
+
+            // Add collapsible class and toggle icon for parent items
+            var extraClasses = hasSubmenu ? ' has-submenu' : '';
+            var toggleIcon = hasSubmenu ? '<span class="submenu-toggle">›</span>' : '';
+            
+            // For items with submenus, don't add href (they will be toggle buttons)
+            var hrefAttr = '';
+            if (!hasSubmenu && typeof href !== 'undefined' && href != '') {
+                hrefAttr = ' href="' + href + '"';
+            }
 
             b.push(
                 '<a ' +
-                    'class="link depth-' + indent + '"' +
+                    'class="link depth-' + indent + extraClasses + '"' +
                     ( (typeof target !== 'undefined' && target != '') ? ' target="' + target + '"' : '') +
-                    ( (typeof href !== 'undefined' && href != '') ? ' href="' + href + '"' : '') +
+                    hrefAttr +
+                    ' data-depth="' + indent + '"' +
                 '>' +
                     '<span class="indent-' + indent + '"></span>' +
                     $this.text() +
+                    toggleIcon +
                 '</a>'
             );
 
