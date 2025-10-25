@@ -73,46 +73,18 @@
       <description>&lt;h1 id=&#34;web-development&#34;&gt;Web Development&lt;/h1&gt;&#xA;&lt;p&gt;Professional web development services to bring your digital vision to life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-development-services&#34;&gt;Our Development Services&lt;/h2&gt;&#xA;&lt;h3 id=&#34;frontend-development&#34;&gt;Frontend Development&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsive web design&lt;/li&gt;&#xA;&lt;li&gt;React, Vue.js, Angular&lt;/li&gt;&#xA;&lt;li&gt;Progressive Web Apps (PWA)&lt;/li&gt;&#xA;&lt;li&gt;Mobile-first approach&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;backend-development&#34;&gt;Backend Development&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RESTful APIs&lt;/li&gt;&#xA;&lt;li&gt;Database design&lt;/li&gt;&#xA;&lt;li&gt;Server architecture&lt;/li&gt;&#xA;&lt;li&gt;Performance optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;full-stack-solutions&#34;&gt;Full-Stack Solutions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;End-to-end development&lt;/li&gt;&#xA;&lt;li&gt;Modern frameworks&lt;/li&gt;&#xA;&lt;li&gt;Scalable architecture&lt;/li&gt;&#xA;&lt;li&gt;Cross-platform compatibility&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technologies-we-use&#34;&gt;Technologies We Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: HTML5, CSS3, JavaScript, React, Vue.js&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Node.js, Python, PHP, Java&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt;: PostgreSQL, MongoDB, MySQL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloud&lt;/strong&gt;: AWS, Google Cloud, Azure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;development-process&#34;&gt;Development Process&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Requirements Analysis&lt;/strong&gt;: Understanding your needs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Design &amp;amp; Planning&lt;/strong&gt;: Creating the roadmap&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: Building your solution&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Ensuring quality and performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: Launch and maintenance&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Ready to build your web presence? &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Sixth Thing</title>
-      <link>http://localhost:1313/blog/sixth/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/sixth/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Fifth Thing</title>
-      <link>http://localhost:1313/blog/fifth/</link>
-      <pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/fifth/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Fourth Thing</title>
-      <link>http://localhost:1313/blog/fourth/</link>
-      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/fourth/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Third Thing</title>
-      <link>http://localhost:1313/blog/third/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/third/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Second Thing</title>
-      <link>http://localhost:1313/blog/second/</link>
+      <title>Cloud Data Sovereignty Challenges and On-Prem Storage Solutions</title>
+      <link>http://localhost:1313/blog/02/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/second/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/02/</guid>
+      <description>&lt;p&gt;As enterprises increasingly adopt cloud technologies, &lt;strong&gt;data sovereignty and compliance&lt;/strong&gt; have become critical concerns. Organizations must ensure that &lt;strong&gt;sensitive data remains within specific geographic or regulatory boundaries&lt;/strong&gt; while still enabling modern cloud workloads.&lt;/p&gt;&#xA;&lt;p&gt;NubeStack helps enterprises address these challenges by provisioning &lt;strong&gt;on-prem Ceph storage clusters&lt;/strong&gt;, allowing &lt;strong&gt;public and private workloads to access data securely&lt;/strong&gt; without ever leaving the organization’s premises.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The First Thing</title>
-      <link>http://localhost:1313/blog/first/</link>
+      <title>VMware State and OpenStack Migrations</title>
+      <link>http://localhost:1313/blog/01/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/first/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/blog/01/</guid>
+      <description>&lt;p&gt;Virtualization has been the backbone of modern IT infrastructure for over a decade. VMware continues to be a dominant player, powering enterprise data centers with robust virtualization, management tools, and integrated solutions. However, many organizations are now exploring &lt;strong&gt;OpenStack&lt;/strong&gt; as a &lt;strong&gt;flexible, open-source alternative&lt;/strong&gt; to reduce vendor lock-in, enable cloud-native workloads, and achieve cost optimization.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we explore the current state of VMware environments, the challenges organizations face during migration, and how &lt;strong&gt;NubeStack&lt;/strong&gt; can help enterprises &lt;strong&gt;successfully transition to OpenStack-based cloud solutions&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Contact</title>

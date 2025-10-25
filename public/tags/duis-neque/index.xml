@@ -7,22 +7,8 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© NubeStack. All rights reserved</copyright>
-    <lastBuildDate>Mon, 06 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/duis-neque/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Sixth Thing</title>
-      <link>http://localhost:1313/blog/sixth/</link>
-      <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/sixth/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Third Thing</title>
-      <link>http://localhost:1313/blog/third/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/third/</guid>
-      <description>&lt;p&gt;Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl amet&#xA;mattis, sed a rutrum accumsan sed. Suspendisse eu.&lt;/p&gt;&#xA;&lt;p&gt;Suspendisse laoreet metus ut metus imperdiet interdum aliquam justo tincidunt.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>The Second Thing</title>
       <link>http://localhost:1313/blog/second/</link>
