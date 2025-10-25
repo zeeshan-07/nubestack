@@ -40,17 +40,27 @@
     }
 }
 
+@keyframes borderPulse {
+    0%, 100% {
+        box-shadow: 0 0 0 0 rgba(76, 141, 141, 0.7);
+    }
+    50% {
+        box-shadow: 0 0 0 8px rgba(76, 141, 141, 0);
+    }
+}
+
 .banner-text-slide {
     animation: fadeInLeft 1s ease-out 0.3s both;
 }
 
 .banner-cta-btn {
-    animation: fadeInUp 0.8s ease-out 0.8s both;
+    animation: fadeInUp 0.8s ease-out 0.8s both, borderPulse 2s ease-in-out 1.5s infinite;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .banner-cta-btn:hover {
     background-color: #4c8d8d !important;
+    animation: fadeInUp 0.8s ease-out 0.8s both;
 }
 
 </style>
