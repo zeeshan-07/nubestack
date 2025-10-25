@@ -63,7 +63,7 @@
                 <li class="">
                     <a href="#">Services</a><ul>
                         <li class="">
-                            <a href="/services/private-cloud">Private Cloud Solutions</a>
+                            <a href="/services/cloud-solutions">Private/Public Cloud Solutions</a>
                         <li class="">
                             <a href="/services/container-orchestration">Container Orchestration</a>
                         <li class="">
@@ -71,12 +71,19 @@
                         <li class="">
                             <a href="/services/managed-services">Managed Services</a>
                         <li class="">
-                            <a href="/services/public-cloud">Public Cloud Solutions</a>
+                            <a href="/services/devops">DevOps Services</a>
                         <li class="">
                             <a href="/services/automation">Infrastructure Automation</a>
                     </ul>
                 <li class="">
-                    <a href="/industry">Industry</a>
+                    <a href="/industry">Industry</a><ul>
+                        <li class="">
+                            <a href="/industry#telecommunication">Telecommunications</a>
+                        <li class="">
+                            <a href="/industry#bioinformatics">Bioinformatics</a>
+                        <li class="">
+                            <a href="/industry#education">Education &amp; Research</a>
+                    </ul>
                 <li class="">
                     <a href="/blog">Blog</a>
                 <li class="">
@@ -226,13 +233,13 @@ document.addEventListener('DOMContentLoaded', function() {
     </header>
 
     <div class="svc-grid">
-          <a href="/services/private-cloud" class="svc-tile-link" style="text-decoration:none;">
+          <a href="/services/cloud-solutions" class="svc-tile-link" style="text-decoration:none;">
             <div class="svc-tile" data-delay="0">
               <div class="svc-square">
                 <div class="svc-inner">
                   <div class="svc-icon"><i class="fas fa-server" aria-hidden="true"></i></div>
-                  <h3 class="svc-title">Private Cloud Solutions</h3>
-                  <div class="svc-content">OpenStack and OpenShift based cloud solutions for building and managing private clouds with flexibility, scalability, and cost-effectiveness.
+                  <h3 class="svc-title">Private/Public Cloud Solutions</h3>
+                  <div class="svc-content">OpenStack, OpenShift, AWS, Azure, and GCP based cloud solutions for building, managing, and scaling private and public clouds with flexibility, security, and cost-effectiveness.
 </div>
                 </div>
               </div>
@@ -274,20 +281,8 @@ document.addEventListener('DOMContentLoaded', function() {
               </div>
             </div>
           </a>
-          <a href="/services/public-cloud" class="svc-tile-link" style="text-decoration:none;">
-            <div class="svc-tile" data-delay="400">
-              <div class="svc-square">
-                <div class="svc-inner">
-                  <div class="svc-icon"><i class="fas fa-cloud" aria-hidden="true"></i></div>
-                  <h3 class="svc-title">Public Cloud Solutions</h3>
-                  <div class="svc-content">GCP, AWS, and Azure based cloud infrastructure solutions to help your business grow efficiently with enterprise-grade security and 99.9% uptime guarantee.
-</div>
-                </div>
-              </div>
-            </div>
-          </a>
           <a href="/services/automation" class="svc-tile-link" style="text-decoration:none;">
-            <div class="svc-tile" data-delay="500">
+            <div class="svc-tile" data-delay="400">
               <div class="svc-square">
                 <div class="svc-inner">
                   <div class="svc-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
@@ -299,25 +294,12 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
           </a>
           <a href="/services/devops" class="svc-tile-link" style="text-decoration:none;">
-            <div class="svc-tile" data-delay="600">
+            <div class="svc-tile" data-delay="500">
               <div class="svc-square">
                 <div class="svc-inner">
                   <div class="svc-icon"><i class="fas fa-cogs" aria-hidden="true"></i></div>
                   <h3 class="svc-title">DevOps Services</h3>
                   <div class="svc-content">Streamline your development and operations with automated CI/CD pipelines, containerization, and infrastructure as code for faster deployments.
-</div>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="/services/consulting" class="svc-tile-link" style="text-decoration:none;">
-            <div class="svc-tile" data-delay="700">
-              <div class="svc-square">
-                <div class="svc-inner">
-                  <div class="svc-icon"><i class="fas fa-lightbulb" aria-hidden="true"></i></div>
-                  <h3 class="svc-title">Technology Consulting</h3>
-                    <div class="svc-desc">Strategy &amp; Architecture</div>
-                  <div class="svc-content">Expert guidance and strategic advice to help you make informed technology decisions, optimize processes, and drive digital transformation.
 </div>
                 </div>
               </div>
@@ -474,19 +456,18 @@ document.addEventListener('DOMContentLoaded', function() {
     <div class="container">
         <div class="row">
                 <section class="col-4 col-6-narrower col-12-mobilep">
-                    <h3>Links to Stuff</h3>
-                    <ul class="links"><li><a href="#">Mattis et quis rutrum</a><li><a href="#">Suspendisse amet varius</a><li><a href="#">Sed et dapibus quis</a><li><a href="#">Rutrum accumsan dolor</a>
+                        <h3>Quick Links</h3>
+                    <ul class="links"><li><a href="/about">About Us</a><li><a href="/industry">Industries</a><li><a href="/blog">Blog</a><li><a href="/contact">Contact Us</a>
                     </ul>
                 </section>
                 <section class="col-4 col-6-narrower col-12-mobilep">
-                    <h3>More Links to Stuff</h3>
-                    <ul class="links"><li><a href="#">Duis neque nisi dapibus</a><li><a href="#">Sed et dapibus quis</a><li><a href="#">Rutrum accumsan sed</a><li><a href="#">Mattis et sed accumsan</a>
+                        <h3>Services</h3>
+                    <ul class="links"><li><a href="/services/cloud-solutions">Private/Public Cloud Solutions</a><li><a href="/services/container-orchestration">Container Orchestration</a><li><a href="/services/nfv">NFV Solutions</a><li><a href="/services/managed-services">Managed Services</a><li><a href="/services/automation">Infrastructure Automation</a><li><a href="/services/devops">DevOps Services</a>
                     </ul>
                 </section>
                 <section class="col-4 col-6-narrower col-12-mobilep">
-                    <h3>Additional Resources</h3>
-                    <ul class="links"><li><a href="#">Cloud Migration Guide</a><li><a href="#">DevOps Best Practices</a><li><a href="#">Security Compliance</a><li><a href="#">Technology Roadmap</a>
-                    </ul>
+                        <img src="/images/logo2.png" alt="NubeStack Logo" style="max-width:200px;display:block;margin:0 auto 10px auto;">
+                        <p style="margin-bottom:0.5em;text-align:center;">NubeStack delivers Private/Public Cloud, DevOps, Automation, NFV, and Managed Services for modern enterprises.</p>
                 </section>
             
         </div>

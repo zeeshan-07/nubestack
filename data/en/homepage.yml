@@ -17,12 +17,12 @@ items:
     subtitle: "From private to public and hybrid environments — we make cloud design and migration seamless and stress-free."
     items_per_row: 4
     items:
-    - title: Private Cloud Solutions
+    - title: Private/Public Cloud Solutions
       icon: fa-server
-      url: /services/private-cloud
-#      description: "Private Cloud & Storage"
+      url: /services/cloud-solutions
+#      description: "Private & Public Cloud Solutions"
       content: >
-        OpenStack and OpenShift based cloud solutions for building and managing private clouds with flexibility, scalability, and cost-effectiveness.
+        OpenStack, OpenShift, AWS, Azure, and GCP based cloud solutions for building, managing, and scaling private and public clouds with flexibility, security, and cost-effectiveness.
     - title: Container Orchestration
       icon: fa-project-diagram
       url: /services/container-orchestration
@@ -41,12 +41,6 @@ items:
 #      description: "Managed Cloud Infrastructure"
       content: >
         Let us do the heavy lifting. We provide 24/7 monitoring, maintenance, and support to ensure your cloud infrastructure runs smoothly and efficiently.
-    - title: Public Cloud Solutions
-      icon: fa-cloud
-      url: /services/public-cloud
-#      description: "AWS, Azure & Google Cloud"
-      content: >
-        GCP, AWS, and Azure based cloud infrastructure solutions to help your business grow efficiently with enterprise-grade security and 99.9% uptime guarantee.
     - title: Infrastructure Automation
       icon: fa-code
       url: /services/automation
@@ -59,12 +53,6 @@ items:
 #      description: "CI/CD, Docker & Kubernetes"
       content: >
         Streamline your development and operations with automated CI/CD pipelines, containerization, and infrastructure as code for faster deployments.
-    - title: Technology Consulting
-      icon: fa-lightbulb
-      url: /services/consulting
-      description: "Strategy & Architecture"
-      content: >
-        Expert guidance and strategic advice to help you make informed technology decisions, optimize processes, and drive digital transformation.
     heading: A gigantic heading you can use for whatever
     contents: With a much smaller subtitle hanging out just below it
   - type: posts
