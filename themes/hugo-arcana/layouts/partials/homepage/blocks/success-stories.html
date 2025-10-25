@@ -1,58 +1,248 @@
-<section class="wrapper style2">
-  <div class="container">
-    <header class="major">
-      <h2>{{ .item.title }}</h2>
-      {{- if .item.subtitle }}<p>{{ .item.subtitle }}</p>{{- end }}
-    </header>
-<section class="wrapper style2">
-  <div class="container">
-    <header class="major">
-      <h2>{{ .item.title }}</h2>
-      {{- if .item.subtitle }}<p>{{ .item.subtitle }}</p>{{- end }}
-    </header>
+<!-- Success Stories Section -->
+<style>
+.success-stories-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 4em 0;
+    position: relative;
+    overflow: hidden;
+}
 
-    <div class="svc-grid">
-      {{- range $i, $story := .item.items }}
-        <div class="svc-tile play" data-delay="{{ mul $i 100 }}">
-          <a class="svc-tile-link" href="{{ $story.url }}">
-            <div class="svc-square">
-              <img src="/{{ $story.image }}" alt="{{ $story.title }}" style="width:100%;height:100%;object-fit:cover;border-radius:0.5rem;" />
+.success-stories-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(60, 125, 125, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.success-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.success-card.animate-in {
+    animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.success-card:nth-child(1) { animation-delay: 0.1s; }
+.success-card:nth-child(2) { animation-delay: 0.2s; }
+.success-card:nth-child(3) { animation-delay: 0.3s; }
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.success-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.success-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #3c7d7d, #5fa3a3);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.4s ease;
+}
+
+.success-card:hover::after {
+    transform: scaleX(1);
+}
+
+.success-image-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    background: #f8f9fa;
+}
+
+.success-image-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, transparent 0%, rgba(0, 0, 0, 0.3) 100%);
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.success-card:hover .success-image-wrapper::before {
+    opacity: 1;
+}
+
+.success-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.success-card:hover .success-image {
+    transform: scale(1.08);
+}
+
+.success-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(60, 125, 125, 0.95);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.75em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    z-index: 2;
+    backdrop-filter: blur(10px);
+}
+
+.success-content {
+    padding: 1.8em;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.success-title {
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 0.8em;
+    line-height: 1.3;
+    transition: color 0.3s ease;
+}
+
+.success-card:hover .success-title {
+    color: #3c7d7d;
+}
+
+.success-summary {
+    color: #5a6c7d;
+    line-height: 1.7;
+    font-size: 0.95em;
+    flex: 1;
+    margin-bottom: 1.2em;
+}
+
+.success-link {
+    display: inline-flex;
+    align-items: center;
+    color: #3c7d7d;
+    font-weight: 600;
+    font-size: 0.9em;
+    text-decoration: none;
+    transition: gap 0.3s ease;
+    gap: 8px;
+}
+
+.success-link:hover {
+    gap: 12px;
+}
+
+.success-link::after {
+    content: '→';
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+.success-link:hover::after {
+    transform: translateX(4px);
+}
+
+.success-cta {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.success-cta .button {
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.success-cta .button:hover {
+    background-color: #4c8d8d !important;
+}
+
+@media screen and (max-width: 980px) {
+    .success-image-wrapper {
+        height: 200px;
+    }
+    
+    .success-content {
+        padding: 1.5em;
+    }
+}
+</style>
+
+<section class="success-stories-section">
+    <div class="container">
+        <header class="major">
+            <h2>{{ .item.title }}</h2>
+            {{- if .item.subtitle }}<p>{{ .item.subtitle }}</p>{{- end }}
+        </header>
+
+        <div class="row gtr-50">
+            {{- range $i, $story := .item.items }}
+            <div class="col-4 col-12-narrower">
+                <article class="success-card">
+                    <div class="success-image-wrapper">
+                        <img src="/{{ $story.image }}" alt="{{ $story.title }}" class="success-image" />
+                        <span class="success-badge">Case Study</span>
+                    </div>
+                    <div class="success-content">
+                        <h3 class="success-title">{{ $story.title }}</h3>
+                        <p class="success-summary">{{ $story.summary }}</p>
+                        <a href="{{ $story.url }}" class="success-link">Read full story</a>
+                    </div>
+                </article>
             </div>
-            <div class="svc-inner">
-              <div class="svc-title">{{ $story.title }}</div>
-              <div class="svc-content">{{ $story.summary }}</div>
-            </div>
-          </a>
+            {{- end }}
         </div>
-      {{- end }}
-    </div>
 
-    <div style="text-align:center;margin-top:1.5rem;">
-      <a class="button" href="/success-stories">Explore more success stories</a>
-    </div>
-  </div>
-</section>
-    <div class="svc-grid">
-      {{- range $i, $story := .item.items }}
-        {{- $delay := mul $i 80 }}
-        <div class="svc-tile play" style="transition-delay: {{$delay}}ms;">
-          <a class="svc-tile-link" href="{{ $story.url }}">
-            <div class="svc-square">
-              <picture>
-                <img src="/{{ $story.image }}" alt="{{ $story.title }}" style="width:100%;height:100%;object-fit:cover;border-radius:0.5rem;" />
-              </picture>
-            </div>
-            <div class="svc-inner">
-              <div class="svc-title">{{ $story.title }}</div>
-              <div class="svc-content">{{ $story.summary }}</div>
-            </div>
-          </a>
+        <div class="success-cta">
+            <a class="button" href="/success-stories">View All Success Stories</a>
         </div>
-      {{- end }}
     </div>
-
-    <div style="text-align:center;margin-top:1.25rem;">
-      <a class="button" href="/success-stories">Explore more success stories</a>
-    </div>
-  </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-in');
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.success-card').forEach(card => {
+        observer.observe(card);
+    });
+});
+</script>
