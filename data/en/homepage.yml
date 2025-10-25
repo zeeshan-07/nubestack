@@ -54,6 +54,7 @@ items:
       content: >
         Streamline your development and operations with automated CI/CD pipelines, containerization, and infrastructure as code for faster deployments.
     heading: A gigantic heading you can use for whatever
+    contents: With a much smaller subtitle hanging out just below it
     
   - type: success-stories
     title: "Success Stories"
@@ -67,13 +68,11 @@ items:
         url: "/success-stories/data-sovereignty-onprem"
         image: "images/blog02.png"
         summary: "How NubeStack enabled a global enterprise to meet data residency requirements with on-prem Ceph storage clusters."
+        
+  - type: posts
     #heading: Recent Posts
     content_type: posts
     max: 4
-  - type: posts
-    content_type: posts
-    max: 4
-
   - type: certifications
     title: "Certified Engineers"
     subtitle: "Our team includes certified professionals in leading cloud technologies. We proudly display our certifications below."
@@ -89,7 +88,7 @@ items:
       - image: "images/cert-redhat.png"
         alt: "Red Hat Certified"
       - image: "images/cert-rhcsa.png"
-        alt: "RHCSACertified"
+        alt: "RHCSA Certified"
   - type: contact-hero
     title: "Let's Connect & Create Together"
     subtitle: "Ready to transform your business with cloud innovation? Let's make it happen."

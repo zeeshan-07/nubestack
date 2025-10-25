@@ -1,59 +1,134 @@
-<section class="wrapper style2" id="certifications" style="background:none !important; background-color:transparent !important; background-image:none !important;">
-  <div class="container" style="text-align:center;">
-    <header>
-      <h2>{{ .item.title }}</h2>
-      <p>{{ .item.subtitle }}</p>
-    </header>
-    <div id="cert-slider-wrapper" style="overflow:hidden; max-width:700px; margin:0 auto; display:flex; justify-content:center; align-items:center; background:none;">
-  <div id="cert-slider" style="display:flex; gap:10px; margin-top:2rem; min-height:170px; align-items:center;"></div>
+<style>
+.certifications-section {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 4em 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.cert-header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.cert-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #2c3e50;
+}
+
+.cert-header p {
+    font-size: 1.1em;
+    color: #5a6c7d;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.cert-slider-wrapper {
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.cert-slider {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cert-image {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+    filter: grayscale(0%);
+}
+
+.cert-image:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%) brightness(1.1);
+}
+
+@media screen and (max-width: 980px) {
+    .cert-image {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .cert-slider {
+        gap: 2em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .cert-image {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .cert-slider {
+        gap: 1.5em;
+    }
+}
+</style>
+
+<section class="certifications-section">
+    <div class="container">
+        <div class="cert-header">
+            <h2>{{ .item.title }}</h2>
+            {{- if .item.subtitle }}<p>{{ .item.subtitle }}</p>{{- end }}
+        </div>
+
+        <div class="cert-slider-wrapper">
+            <div class="cert-slider" id="cert-slider">
+                {{- range .item.badges }}
+                <img src="/{{ .image }}" alt="{{ .alt }}" class="cert-image" />
+                {{- end }}
+            </div>
+        </div>
     </div>
-    <script>
-      (function() {
-  var visible = 4; // Number of images visible at once
-  var imgSize = 180;
-  var gap = 8; // 8px gap for spacing
-        var badges = JSON.parse('{{ .item.badges | jsonify | safeJS }}');
-        var slider = document.getElementById('cert-slider');
-        var wrapper = document.getElementById('cert-slider-wrapper');
-        (function() {
-          var visible = 4;
-          var imgSize = 170;
-          var gap = 10;
-          var badges = JSON.parse('{{ .item.badges | jsonify | safeJS }}');
-          var slider = document.getElementById('cert-slider');
-          var wrapper = document.getElementById('cert-slider-wrapper');
-          badges.forEach(function(badge) {
-            var img = document.createElement('img');
-            img.src = '/' + badge.image;
-            img.alt = badge.alt;
-            img.style.height = imgSize + 'px';
-            img.style.width = imgSize + 'px';
-            img.style.objectFit = 'contain';
-            img.style.margin = '0';
-            img.style.borderRadius = '0.5rem';
-            img.style.background = 'none';
-            img.style.padding = '0';
-            img.style.border = 'none';
-            img.style.boxShadow = '0 2px 12px rgba(60,125,125,0.10)';
-            slider.appendChild(img);
-          });
-          wrapper.style.width = (imgSize * visible + gap * (visible - 1)) + 'px';
-          var sliding = false;
-          function slideToNext() {
-            if (sliding) return;
-            sliding = true;
-            slider.style.transition = 'transform 0.7s cubic-bezier(.22,.9,.32,1)';
-            slider.style.transform = 'translateX(-' + (imgSize + gap) + 'px)';
-          }
-          slider.addEventListener('transitionend', function() {
-            slider.style.transition = 'none';
-            slider.appendChild(slider.children[0]);
-            slider.style.transform = 'translateX(0)';
-            setTimeout(function() { sliding = false; }, 20);
-          });
-          setInterval(slideToNext, 2600);
-        })();
-      })();
-    </script>
-  </div>
 </section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const slider = document.getElementById('cert-slider');
+    const images = slider.querySelectorAll('.cert-image');
+    
+    // Clone all images and append to create infinite loop
+    images.forEach(img => {
+        const clone = img.cloneNode(true);
+        slider.appendChild(clone);
+    });
+    
+    let currentIndex = 0;
+    const imageWidth = 160;
+    const gap = 32; // 2em = 32px
+    const slideDistance = imageWidth + gap;
+    
+    function slideNext() {
+        currentIndex++;
+        slider.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+        slider.style.transform = `translateX(-${slideDistance * currentIndex}px)`;
+        
+        // Reset position when we've moved through all original images
+        if (currentIndex >= images.length) {
+            setTimeout(() => {
+                slider.style.transition = 'none';
+                currentIndex = 0;
+                slider.style.transform = 'translateX(0)';
+                
+                // Re-enable transition after reset
+                setTimeout(() => {
+                    slider.style.transition = 'transform 0.7s cubic-bezier(0.4, 0, 0.2, 1)';
+                }, 50);
+            }, 700);
+        }
+    }
+    
+    // Start auto-sliding
+    setInterval(slideNext, 3000);
+});
+</script>
