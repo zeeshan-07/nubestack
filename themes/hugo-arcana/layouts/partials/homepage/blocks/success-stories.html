@@ -209,23 +209,32 @@
 
 <section class="success-stories-section">
     <div class="container">
+
         <header class="major">
-            <h2>{{ .item.title }}</h2>
-            {{- if .item.subtitle }}<p>{{ .item.subtitle }}</p>{{- end }}
+            <h2>Success Stories</h2>
+            <p>Real-world transformations powered by our expertise</p>
         </header>
 
         <div class="row gtr-50">
-            {{- range $i, $story := .item.items }}
+            {{- $site := .ctx.Site }}
+            {{- $stories := (where $site.RegularPages "Section" "success-stories") | first 3 }}
+            {{- range $i, $story := $stories }}
             <div class="col-4 col-12-narrower">
                 <article class="success-card">
                     <div class="success-image-wrapper">
-                        <img src="/{{ $story.image }}" alt="{{ $story.title }}" class="success-image" />
+                        {{- with $story.Params.image }}
+                        <img src="/{{ . }}" alt="{{ $story.Title }}" class="success-image" />
+                        {{- end }}
                         <span class="success-badge">Case Study</span>
                     </div>
                     <div class="success-content">
-                        <h3 class="success-title">{{ $story.title }}</h3>
-                        <p class="success-summary">{{ $story.summary }}</p>
-                        <a href="{{ $story.url }}" class="success-link">Read full story</a>
+                        <h3 class="success-title">{{ $story.Title }}</h3>
+                        {{- with $story.Params.summary }}
+                        <p class="success-summary">{{ . }}</p>
+                        {{- else }}
+                        <p class="success-summary">{{ $story.Summary }}</p>
+                        {{- end }}
+                        <a href="{{ $story.RelPermalink }}" class="success-link">Read full story</a>
                     </div>
                 </article>
             </div>

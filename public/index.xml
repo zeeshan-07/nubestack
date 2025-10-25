@@ -24,11 +24,11 @@
       <description>&lt;h1 id=&#34;container-orchestration&#34;&gt;Container Orchestration&lt;/h1&gt;&#xA;&lt;p&gt;Scalable and secure Kubernetes solutions for managing containerized applications across cloud environments with enterprise-grade security and 99.9% uptime guarantee.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Data Sovereignty: On-Prem Storage for Compliance</title>
-      <link>http://localhost:1313/success-stories/data-sovereignty-onprem/</link>
+      <title>Data Sovereignty Solved: On-Prem Compliance with Ceph Storage</title>
+      <link>http://localhost:1313/success-stories/data-sovereignty-ceph/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/success-stories/data-sovereignty-onprem/</guid>
-      <description>How NubeStack enabled a global enterprise to meet data residency requirements with on-prem Ceph storage clusters.</description>
+      <guid>http://localhost:1313/success-stories/data-sovereignty-ceph/</guid>
+      <description>How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack.</description>
     </item>
     <item>
       <title>Industry Solutions</title>
@@ -52,6 +52,13 @@
       <description>&lt;h1 id=&#34;managed-services&#34;&gt;Managed Services&lt;/h1&gt;&#xA;&lt;p&gt;We provide 24/7 monitoring, maintenance, and support to ensure your cloud infrastructure runs smoothly and efficiently.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction</title>
+      <link>http://localhost:1313/success-stories/multicloud-k8s-optimization/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success-stories/multicloud-k8s-optimization/</guid>
+      <description>How a technology provider achieved true multi-cloud portability and massive cost savings by standardizing on OpenStack and Kubernetes with NubeStack&amp;rsquo;s guidance.</description>
+    </item>
+    <item>
       <title>NFV Solutions</title>
       <link>http://localhost:1313/services/nfv/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
@@ -66,11 +73,11 @@
       <description>&lt;h1 id=&#34;privatepublic-cloud-solutions&#34;&gt;Private/Public Cloud Solutions&lt;/h1&gt;&#xA;&lt;p&gt;OpenStack, OpenShift, AWS, Azure, and GCP based cloud solutions for building, managing, and scaling private and public clouds with flexibility, security, and cost-effectiveness.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-cloud-services&#34;&gt;Our Cloud Services&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Private cloud design and deployment (OpenStack, OpenShift)&lt;/li&gt;&#xA;&lt;li&gt;Public cloud migration and management (AWS, Azure, GCP)&lt;/li&gt;&#xA;&lt;li&gt;Hybrid and multi-cloud strategies&lt;/li&gt;&#xA;&lt;li&gt;Enterprise-grade security and compliance&lt;/li&gt;&#xA;&lt;li&gt;99.9% uptime guarantee&lt;/li&gt;&#xA;&lt;li&gt;24/7 support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ready to transform your business with the right cloud solution? &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Contact us&lt;/a&gt; today!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>VMware to OpenStack: Enterprise Cloud Migration Success</title>
-      <link>http://localhost:1313/success-stories/vmware-to-openstack/</link>
+      <title>Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</title>
+      <link>http://localhost:1313/success-stories/zero-trust-google-cloud/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/success-stories/vmware-to-openstack/</guid>
-      <description>How a major enterprise reduced costs and gained flexibility by migrating from VMware to OpenStack with NubeStack.</description>
+      <guid>http://localhost:1313/success-stories/zero-trust-google-cloud/</guid>
+      <description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description>
     </item>
     <item>
       <title>DevOps Services</title>
@@ -85,6 +92,13 @@
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/web-development/</guid>
       <description>&lt;h1 id=&#34;web-development&#34;&gt;Web Development&lt;/h1&gt;&#xA;&lt;p&gt;Professional web development services to bring your digital vision to life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-development-services&#34;&gt;Our Development Services&lt;/h2&gt;&#xA;&lt;h3 id=&#34;frontend-development&#34;&gt;Frontend Development&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsive web design&lt;/li&gt;&#xA;&lt;li&gt;React, Vue.js, Angular&lt;/li&gt;&#xA;&lt;li&gt;Progressive Web Apps (PWA)&lt;/li&gt;&#xA;&lt;li&gt;Mobile-first approach&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;backend-development&#34;&gt;Backend Development&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RESTful APIs&lt;/li&gt;&#xA;&lt;li&gt;Database design&lt;/li&gt;&#xA;&lt;li&gt;Server architecture&lt;/li&gt;&#xA;&lt;li&gt;Performance optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;full-stack-solutions&#34;&gt;Full-Stack Solutions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;End-to-end development&lt;/li&gt;&#xA;&lt;li&gt;Modern frameworks&lt;/li&gt;&#xA;&lt;li&gt;Scalable architecture&lt;/li&gt;&#xA;&lt;li&gt;Cross-platform compatibility&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technologies-we-use&#34;&gt;Technologies We Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: HTML5, CSS3, JavaScript, React, Vue.js&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Node.js, Python, PHP, Java&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt;: PostgreSQL, MongoDB, MySQL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloud&lt;/strong&gt;: AWS, Google Cloud, Azure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;development-process&#34;&gt;Development Process&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Requirements Analysis&lt;/strong&gt;: Understanding your needs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Design &amp;amp; Planning&lt;/strong&gt;: Creating the roadmap&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: Building your solution&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Ensuring quality and performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: Launch and maintenance&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Ready to build your web presence? &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Strengthening Cloud Security with Zero Trust and VPC Service Controls</title>
+      <link>http://localhost:1313/blog/03/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/03/</guid>
+      <description>&lt;p&gt;As organizations continue their digital transformation journeys, securing cloud environments has become more critical than ever. Traditional perimeter-based security is no longer sufficient in a world where workloads are distributed across hybrid and multi-cloud environments.&lt;/p&gt;&#xA;&lt;p&gt;Enter the &lt;strong&gt;Zero Trust model&lt;/strong&gt; — a modern approach to cloud security that assumes no user, device, or service is inherently trusted. Combined with &lt;strong&gt;Google Cloud’s VPC Service Controls&lt;/strong&gt;, enterprises can significantly reduce data exfiltration risks, strengthen compliance, and maintain strict control over sensitive assets.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Cloud Data Sovereignty Challenges and On-Prem Storage Solutions</title>

@@ -8,7 +8,7 @@
     <loc>http://localhost:1313/tags/ceph/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cloudmigration/</loc>
+    <loc>http://localhost:1313/tags/cloudsecurity/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/compliance/</loc>
@@ -17,16 +17,22 @@
     <loc>http://localhost:1313/services/container-orchestration/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/success-stories/data-sovereignty-onprem/</loc>
+    <loc>http://localhost:1313/tags/costoptimization/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/success-stories/data-sovereignty-ceph/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/datasovereignty/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/enterprise/</loc>
+    <loc>http://localhost:1313/tags/googlecloud/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/hybridcloud/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/industry/</loc>
@@ -35,16 +41,19 @@
     <loc>http://localhost:1313/services/automation/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/kubernetes/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/services/managed-services/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/success-stories/multicloud-k8s-optimization/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/multicloud/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/services/nfv/</loc>
-    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/onpremstorage/</loc>
-    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/openstack/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/services/cloud-solutions/</loc>
@@ -56,10 +65,16 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vmware/</loc>
+    <loc>http://localhost:1313/tags/vendorlockin/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/success-stories/vmware-to-openstack/</loc>
+    <loc>http://localhost:1313/tags/vpcservicecontrols/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/success-stories/zero-trust-google-cloud/</loc>
+    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/zerotrust/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/services/devops/</loc>
@@ -69,12 +84,27 @@
     <lastmod>2024-01-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gcp/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/03/</loc>
+    <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/02/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/onpremstorage/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/cloudmigrations/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/openstack/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vmware/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/01/</loc>

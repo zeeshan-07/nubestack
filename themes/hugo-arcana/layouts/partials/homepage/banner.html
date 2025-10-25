@@ -54,15 +54,29 @@
     opacity: 0;
 }
 
+
 .banner-cta-btn {
     animation: fadeInUp 0.8s ease-out 0.8s both, borderPulse 2s ease-in-out 1.5s infinite;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, gap 0.3s ease;
     opacity: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.banner-cta-btn::after {
+    content: '→';
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
 }
 
 .banner-cta-btn:hover {
     background-color: #4c8d8d !important;
-    animation: fadeInUp 0.8s ease-out 0.8s both;
+    gap: 12px;
+}
+
+.banner-cta-btn:hover::after {
+    transform: translateX(4px);
 }
 
 </style>

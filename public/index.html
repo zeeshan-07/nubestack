@@ -152,15 +152,29 @@
     opacity: 0;
 }
 
+
 .banner-cta-btn {
     animation: fadeInUp 0.8s ease-out 0.8s both, borderPulse 2s ease-in-out 1.5s infinite;
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, gap 0.3s ease;
     opacity: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.banner-cta-btn::after {
+    content: '→';
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
 }
 
 .banner-cta-btn:hover {
     background-color: #4c8d8d !important;
-    animation: fadeInUp 0.8s ease-out 0.8s both;
+    gap: 12px;
+}
+
+.banner-cta-btn:hover::after {
+    transform: translateX(4px);
 }
 
 </style>
@@ -705,34 +719,49 @@
 
 <section class="success-stories-section">
     <div class="container">
+
         <header class="major">
-            <h2>Success Stories</h2><p>See how NubeStack delivers real results for enterprises.</p>
+            <h2>Success Stories</h2>
+            <p>Real-world transformations powered by our expertise</p>
         </header>
 
         <div class="row gtr-50">
             <div class="col-4 col-12-narrower">
                 <article class="success-card">
                     <div class="success-image-wrapper">
-                        <img src="/images/blog01.png" alt="VMware to OpenStack: Enterprise Cloud Migration Success" class="success-image" />
+                        <img src="/images/ss01.png" alt="Data Sovereignty Solved: On-Prem Compliance with Ceph Storage" class="success-image" />
                         <span class="success-badge">Case Study</span>
                     </div>
                     <div class="success-content">
-                        <h3 class="success-title">VMware to OpenStack: Enterprise Cloud Migration Success</h3>
-                        <p class="success-summary">How a major enterprise reduced costs and gained flexibility by migrating from VMware to OpenStack with NubeStack.</p>
-                        <a href="/success-stories/vmware-to-openstack" class="success-link">Read full story</a>
+                        <h3 class="success-title">Data Sovereignty Solved: On-Prem Compliance with Ceph Storage</h3>
+                        <p class="success-summary">How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack.</p>
+                        <a href="/success-stories/data-sovereignty-ceph/" class="success-link">Read full story</a>
                     </div>
                 </article>
             </div>
             <div class="col-4 col-12-narrower">
                 <article class="success-card">
                     <div class="success-image-wrapper">
-                        <img src="/images/blog02.png" alt="Data Sovereignty: On-Prem Storage for Compliance" class="success-image" />
+                        <img src="/images/ss02.png" alt="Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction" class="success-image" />
                         <span class="success-badge">Case Study</span>
                     </div>
                     <div class="success-content">
-                        <h3 class="success-title">Data Sovereignty: On-Prem Storage for Compliance</h3>
-                        <p class="success-summary">How NubeStack enabled a global enterprise to meet data residency requirements with on-prem Ceph storage clusters.</p>
-                        <a href="/success-stories/data-sovereignty-onprem" class="success-link">Read full story</a>
+                        <h3 class="success-title">Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction</h3>
+                        <p class="success-summary">How a technology provider achieved true multi-cloud portability and massive cost savings by standardizing on OpenStack and Kubernetes with NubeStack&#39;s guidance.</p>
+                        <a href="/success-stories/multicloud-k8s-optimization/" class="success-link">Read full story</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-4 col-12-narrower">
+                <article class="success-card">
+                    <div class="success-image-wrapper">
+                        <img src="/images/ss03.png" alt="Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk" class="success-image" />
+                        <span class="success-badge">Case Study</span>
+                    </div>
+                    <div class="success-content">
+                        <h3 class="success-title">Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</h3>
+                        <p class="success-summary">A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</p>
+                        <a href="/success-stories/zero-trust-google-cloud/" class="success-link">Read full story</a>
                     </div>
                 </article>
             </div>

@@ -59,15 +59,8 @@ items:
   - type: success-stories
     title: "Success Stories"
     subtitle: "See how NubeStack delivers real results for enterprises."
-    items:
-      - title: "VMware to OpenStack: Enterprise Cloud Migration Success"
-        url: "/success-stories/vmware-to-openstack"
-        image: "images/blog01.png"
-        summary: "How a major enterprise reduced costs and gained flexibility by migrating from VMware to OpenStack with NubeStack."
-      - title: "Data Sovereignty: On-Prem Storage for Compliance"
-        url: "/success-stories/data-sovereignty-onprem"
-        image: "images/blog02.png"
-        summary: "How NubeStack enabled a global enterprise to meet data residency requirements with on-prem Ceph storage clusters."
+    # The items array is intentionally left empty. Stories are sourced from content/success-stories/*.md
+    items: []
         
   - type: posts
     #heading: Recent Posts
