@@ -35,22 +35,34 @@
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/duis-neque/</loc>
+    <loc>http://localhost:1313/tags/ceph/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/example/</loc>
+    <loc>http://localhost:1313/blog/02/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/datasovereignty/</loc>
+    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/onpremstorage/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2020-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/second/</loc>
-    <lastmod>2020-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/lorem-ipsum/</loc>
+    <loc>http://localhost:1313/tags/cloudmigrations/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/first/</loc>
+    <loc>http://localhost:1313/tags/openstack/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vmware/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/01/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/vmwaretoopenstack/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contact/</loc>

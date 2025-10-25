@@ -1,0 +1,9 @@
+/* Fix for certified engineers badge images: remove white background */
+#cert-slider img {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: 0 2px 12px rgba(60,125,125,0.10);
+  border-radius: 0.5rem;
+  padding: 0;
+  border: none;
+}

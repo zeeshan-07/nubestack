@@ -390,56 +390,55 @@ document.addEventListener('DOMContentLoaded', function() {
       <h2>Certified Engineers</h2>
       <p>Our team includes certified professionals in leading cloud technologies. We proudly display our certifications below.</p>
     </header>
-  <div id="cert-slider-wrapper" style="overflow:hidden; width:100%; display:flex; justify-content:center; align-items:center; background:none;">
-      <div id="cert-slider" style="display:flex; transition: transform 0.8s cubic-bezier(.22,.9,.32,1); will-change:transform; gap:2rem; margin-top:2rem; min-height:192px; align-items:center;"></div>
+    <div id="cert-slider-wrapper" style="overflow:hidden; max-width:700px; margin:0 auto; display:flex; justify-content:center; align-items:center; background:none;">
+  <div id="cert-slider" style="display:flex; gap:10px; margin-top:2rem; min-height:170px; align-items:center;"></div>
     </div>
     <script>
       (function() {
-        var badges = JSON.parse('[{\u0022alt\u0022:\u0022AWS Certified\u0022,\u0022image\u0022:\u0022images\/cert-aws.png\u0022},{\u0022alt\u0022:\u0022OpenShift Certified\u0022,\u0022image\u0022:\u0022images\/cert-openshift.png\u0022},{\u0022alt\u0022:\u0022K8S Certified\u0022,\u0022image\u0022:\u0022images\/cert-k8s.png\u0022}]');
+  var visible = 4; 
+  var imgSize = 180;
+  var gap = 8; 
+        var badges = JSON.parse('[{\u0022alt\u0022:\u0022AWS Certified\u0022,\u0022image\u0022:\u0022images\/cert-aws.png\u0022},{\u0022alt\u0022:\u0022OpenShift Certified\u0022,\u0022image\u0022:\u0022images\/cert-openshift.png\u0022},{\u0022alt\u0022:\u0022Ansible Certified\u0022,\u0022image\u0022:\u0022images\/cert-ansible.png\u0022},{\u0022alt\u0022:\u0022K8S Certified\u0022,\u0022image\u0022:\u0022images\/cert-k8s.png\u0022},{\u0022alt\u0022:\u0022Red Hat Certified\u0022,\u0022image\u0022:\u0022images\/cert-redhat.png\u0022},{\u0022alt\u0022:\u0022RHCSACertified\u0022,\u0022image\u0022:\u0022images\/cert-rhcsa.png\u0022}]');
         var slider = document.getElementById('cert-slider');
         var wrapper = document.getElementById('cert-slider-wrapper');
-        var idx = 0, perSlide = 4;
-        
-        
-        badges.forEach(function(badge) {
-          var img = document.createElement('img');
-          img.src = '/' + badge.image;
-          img.alt = badge.alt;
-           img.style.height = '192px';
-           img.style.margin = '0 1rem';
-           img.style.borderRadius = '0.5rem';
-           img.style.background = 'none';
-           img.style.padding = '0';
-           img.style.border = 'none';
-          img.style.boxShadow = '0 2px 12px rgba(60,125,125,0.10)';
-          slider.appendChild(img);
-        });
-        var perSlide = 4;
-        var imgWidth = 224; 
-        function updateImgWidth() {
-          if (slider.children[0]) {
-            imgWidth = slider.children[0].offsetWidth + 32;
+        (function() {
+          var visible = 4;
+          var imgSize = 170;
+          var gap = 10;
+          var badges = JSON.parse('[{\u0022alt\u0022:\u0022AWS Certified\u0022,\u0022image\u0022:\u0022images\/cert-aws.png\u0022},{\u0022alt\u0022:\u0022OpenShift Certified\u0022,\u0022image\u0022:\u0022images\/cert-openshift.png\u0022},{\u0022alt\u0022:\u0022Ansible Certified\u0022,\u0022image\u0022:\u0022images\/cert-ansible.png\u0022},{\u0022alt\u0022:\u0022K8S Certified\u0022,\u0022image\u0022:\u0022images\/cert-k8s.png\u0022},{\u0022alt\u0022:\u0022Red Hat Certified\u0022,\u0022image\u0022:\u0022images\/cert-redhat.png\u0022},{\u0022alt\u0022:\u0022RHCSACertified\u0022,\u0022image\u0022:\u0022images\/cert-rhcsa.png\u0022}]');
+          var slider = document.getElementById('cert-slider');
+          var wrapper = document.getElementById('cert-slider-wrapper');
+          badges.forEach(function(badge) {
+            var img = document.createElement('img');
+            img.src = '/' + badge.image;
+            img.alt = badge.alt;
+            img.style.height = imgSize + 'px';
+            img.style.width = imgSize + 'px';
+            img.style.objectFit = 'contain';
+            img.style.margin = '0';
+            img.style.borderRadius = '0.5rem';
+            img.style.background = 'none';
+            img.style.padding = '0';
+            img.style.border = 'none';
+            img.style.boxShadow = '0 2px 12px rgba(60,125,125,0.10)';
+            slider.appendChild(img);
+          });
+          wrapper.style.width = (imgSize * visible + gap * (visible - 1)) + 'px';
+          var sliding = false;
+          function slideToNext() {
+            if (sliding) return;
+            sliding = true;
+            slider.style.transition = 'transform 0.7s cubic-bezier(.22,.9,.32,1)';
+            slider.style.transform = 'translateX(-' + (imgSize + gap) + 'px)';
           }
-        }
-        updateImgWidth();
-        window.addEventListener('resize', updateImgWidth);
-
-        
-        slider.style.transform = 'translateX(0)';
-
-        setInterval(function() {
-          updateImgWidth();
-          
-          slider.style.transition = 'transform 0.8s cubic-bezier(.22,.9,.32,1)';
-          slider.style.transform = 'translateX(-' + imgWidth + 'px)';
-          setTimeout(function() {
-            
-            slider.appendChild(slider.children[0]);
-            
+          slider.addEventListener('transitionend', function() {
             slider.style.transition = 'none';
+            slider.appendChild(slider.children[0]);
             slider.style.transform = 'translateX(0)';
-          }, 820);
-        }, 3000);
+            setTimeout(function() { sliding = false; }, 20);
+          });
+          setInterval(slideToNext, 2600);
+        })();
       })();
     </script>
   </div>

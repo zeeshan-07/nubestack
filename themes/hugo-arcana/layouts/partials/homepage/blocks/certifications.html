@@ -4,56 +4,55 @@
       <h2>{{ .item.title }}</h2>
       <p>{{ .item.subtitle }}</p>
     </header>
-  <div id="cert-slider-wrapper" style="overflow:hidden; width:100%; display:flex; justify-content:center; align-items:center; background:none;">
-      <div id="cert-slider" style="display:flex; transition: transform 0.8s cubic-bezier(.22,.9,.32,1); will-change:transform; gap:2rem; margin-top:2rem; min-height:192px; align-items:center;"></div>
+    <div id="cert-slider-wrapper" style="overflow:hidden; max-width:700px; margin:0 auto; display:flex; justify-content:center; align-items:center; background:none;">
+  <div id="cert-slider" style="display:flex; gap:10px; margin-top:2rem; min-height:170px; align-items:center;"></div>
     </div>
     <script>
       (function() {
+  var visible = 4; // Number of images visible at once
+  var imgSize = 180;
+  var gap = 8; // 8px gap for spacing
         var badges = JSON.parse('{{ .item.badges | jsonify | safeJS }}');
         var slider = document.getElementById('cert-slider');
         var wrapper = document.getElementById('cert-slider-wrapper');
-        var idx = 0, perSlide = 4;
-        // Create all images in a row
-        // Render all images in order for sliding
-        badges.forEach(function(badge) {
-          var img = document.createElement('img');
-          img.src = '/' + badge.image;
-          img.alt = badge.alt;
-           img.style.height = '192px';
-           img.style.margin = '0 1rem';
-           img.style.borderRadius = '0.5rem';
-           img.style.background = 'none';
-           img.style.padding = '0';
-           img.style.border = 'none';
-          img.style.boxShadow = '0 2px 12px rgba(60,125,125,0.10)';
-          slider.appendChild(img);
-        });
-        var perSlide = 4;
-        var imgWidth = 224; // fallback width
-        function updateImgWidth() {
-          if (slider.children[0]) {
-            imgWidth = slider.children[0].offsetWidth + 32;
+        (function() {
+          var visible = 4;
+          var imgSize = 170;
+          var gap = 10;
+          var badges = JSON.parse('{{ .item.badges | jsonify | safeJS }}');
+          var slider = document.getElementById('cert-slider');
+          var wrapper = document.getElementById('cert-slider-wrapper');
+          badges.forEach(function(badge) {
+            var img = document.createElement('img');
+            img.src = '/' + badge.image;
+            img.alt = badge.alt;
+            img.style.height = imgSize + 'px';
+            img.style.width = imgSize + 'px';
+            img.style.objectFit = 'contain';
+            img.style.margin = '0';
+            img.style.borderRadius = '0.5rem';
+            img.style.background = 'none';
+            img.style.padding = '0';
+            img.style.border = 'none';
+            img.style.boxShadow = '0 2px 12px rgba(60,125,125,0.10)';
+            slider.appendChild(img);
+          });
+          wrapper.style.width = (imgSize * visible + gap * (visible - 1)) + 'px';
+          var sliding = false;
+          function slideToNext() {
+            if (sliding) return;
+            sliding = true;
+            slider.style.transition = 'transform 0.7s cubic-bezier(.22,.9,.32,1)';
+            slider.style.transform = 'translateX(-' + (imgSize + gap) + 'px)';
           }
-        }
-        updateImgWidth();
-        window.addEventListener('resize', updateImgWidth);
-
-        // Show initial position
-        slider.style.transform = 'translateX(0)';
-
-        setInterval(function() {
-          updateImgWidth();
-          // Animate left by 1 image
-          slider.style.transition = 'transform 0.8s cubic-bezier(.22,.9,.32,1)';
-          slider.style.transform = 'translateX(-' + imgWidth + 'px)';
-          setTimeout(function() {
-            // Move first image to end
-            slider.appendChild(slider.children[0]);
-            // Instantly reset transform
+          slider.addEventListener('transitionend', function() {
             slider.style.transition = 'none';
+            slider.appendChild(slider.children[0]);
             slider.style.transform = 'translateX(0)';
-          }, 820);
-        }, 3000);
+            setTimeout(function() { sliding = false; }, 20);
+          });
+          setInterval(slideToNext, 2600);
+        })();
       })();
     </script>
   </div>
