@@ -7,8 +7,57 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© NubeStack. All rights reserved</copyright>
-    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;about-nubestack&#34;&gt;About NubeStack&lt;/h1&gt;&#xA;&lt;p&gt;NubeStack is dedicated to delivering enterprise-grade cloud solutions, consulting, and managed services. Our mission is to simplify cloud adoption and empower businesses with secure, scalable, and innovative technology.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-vision&#34;&gt;Our Vision&lt;/h2&gt;&#xA;&lt;p&gt;To be the trusted partner for organizations seeking to transform and modernize their IT infrastructure.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-values&#34;&gt;Our Values&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Innovation&lt;/li&gt;&#xA;&lt;li&gt;Integrity&lt;/li&gt;&#xA;&lt;li&gt;Customer Success&lt;/li&gt;&#xA;&lt;li&gt;Excellence&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;meet-the-team&#34;&gt;Meet the Team&lt;/h2&gt;&#xA;&lt;p&gt;Our team consists of certified cloud architects, DevOps engineers, and technology consultants with years of industry experience.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Container Orchestration</title>
+      <link>http://localhost:1313/services/container-orchestration/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/container-orchestration/</guid>
+      <description>&lt;h1 id=&#34;container-orchestration&#34;&gt;Container Orchestration&lt;/h1&gt;&#xA;&lt;p&gt;Scalable and secure Kubernetes solutions for managing containerized applications across cloud environments with enterprise-grade security and 99.9% uptime guarantee.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infrastructure Automation</title>
+      <link>http://localhost:1313/services/automation/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/automation/</guid>
+      <description>&lt;h1 id=&#34;infrastructure-automation&#34;&gt;Infrastructure Automation&lt;/h1&gt;&#xA;&lt;p&gt;Automate your IT infrastructure deployment with IaC (Terraform/Ansible) to reduce provisioning time, enhance consistency, ensure disaster recovery, and lower costs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Managed Services</title>
+      <link>http://localhost:1313/services/managed-services/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/managed-services/</guid>
+      <description>&lt;h1 id=&#34;managed-services&#34;&gt;Managed Services&lt;/h1&gt;&#xA;&lt;p&gt;We provide 24/7 monitoring, maintenance, and support to ensure your cloud infrastructure runs smoothly and efficiently.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NFV Solutions</title>
+      <link>http://localhost:1313/services/nfv/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/nfv/</guid>
+      <description>&lt;h1 id=&#34;nfv-solutions&#34;&gt;NFV Solutions&lt;/h1&gt;&#xA;&lt;p&gt;Incorporate Telco and HPC grade low-latency NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Private Cloud Solutions</title>
+      <link>http://localhost:1313/services/private-cloud/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/private-cloud/</guid>
+      <description>&lt;h1 id=&#34;private-cloud-solutions&#34;&gt;Private Cloud Solutions&lt;/h1&gt;&#xA;&lt;p&gt;OpenStack and OpenShift based cloud solutions for building and managing private clouds with flexibility, scalability, and cost-effectiveness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Public Cloud Solutions</title>
+      <link>http://localhost:1313/services/public-cloud/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/public-cloud/</guid>
+      <description>&lt;h1 id=&#34;public-cloud-solutions&#34;&gt;Public Cloud Solutions&lt;/h1&gt;&#xA;&lt;p&gt;GCP, AWS, and Azure based cloud infrastructure solutions to help your business grow efficiently with enterprise-grade security and 99.9% uptime guarantee.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cloud Solutions</title>
       <link>http://localhost:1313/services/cloud/</link>

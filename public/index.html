@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-	<meta name="generator" content="Hugo 0.152.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
 <title></title>
 <meta charset="utf-8" />
@@ -63,16 +63,24 @@
                 <li class="">
                     <a href="#">Services</a><ul>
                         <li class="">
-                            <a href="/services/cloud">Cloud Solutions</a>
+                            <a href="/services/private-cloud">Private Cloud Solutions</a>
                         <li class="">
-                            <a href="/services/web-development">Web Development</a>
+                            <a href="/services/container-orchestration">Container Orchestration</a>
                         <li class="">
-                            <a href="/services/devops">DevOps</a>
+                            <a href="/services/nfv">NFV Solutions</a>
                         <li class="">
-                            <a href="/services/consulting">Consulting</a>
+                            <a href="/services/managed-services">Managed Services</a>
+                        <li class="">
+                            <a href="/services/public-cloud">Public Cloud Solutions</a>
+                        <li class="">
+                            <a href="/services/automation">Infrastructure Automation</a>
                     </ul>
                 <li class="">
+                    <a href="/industry">Industry</a>
+                <li class="">
                     <a href="/blog">Blog</a>
+                <li class="">
+                    <a href="/about">About us</a>
                 <li class="">
                     <a href="/contact">Contact</a>
         </ul>
@@ -81,12 +89,109 @@
 
 
             
-            <section id="banner">
-    <header>
-        <h2>State of the art, scaleable, and secure cloud solutions.</h2>
-            <a href="#" class="button">Learn More</a>
-    </header>
+            </style>
+<style>
+@media (min-width: 900px) {
+    .banner-text-slide {
+        font-size: 4em !important;
+    }
+}
+</style>
+
+
+<section id="banner" style="position:relative; min-height:340px; display:flex; align-items:center; justify-content:center;">
+    <div style="
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        z-index:1;
+        overflow:hidden;
+    ">
+        <div style="
+            width:100%;
+            height:100%;
+            background: url('/images/banner.jpg') center center/cover no-repeat;
+            filter: blur(2px);
+            transform: scale(1.04);
+        "></div>
+        <div style="
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            background: rgba(20, 20, 30, 0.28);
+            z-index:2;
+        "></div>
+    </div>
+        
+                            <div style="position:relative; display:flex; flex-direction:column; align-items:flex-start; justify-content:center; z-index:3;">
+                                <div style="position:relative; display:inline-block;">
+                            
+                            <span class="banner-text-slide" style="
+                                position:relative;
+                                display:block;
+                                font-size:3em;
+                                font-weight:900;
+                                color:#fff;
+                                text-shadow:0 4px 24px rgba(0,0,0,0.7), 0 1px 0 #222;
+                                letter-spacing:-1px;
+                                line-height:1.1;
+                                max-width: 24ch;
+                                word-break:break-word;
+                                z-index:2;
+                                padding:0.2em 1.2em 0.2em 1.2em;
+                                margin-left: -0.9em;
+                                text-align:left;
+                                opacity:0;
+                                transform:translateX(-60px);
+                                transition:all 1.4s cubic-bezier(.77,0,.18,1);
+                            ">
+                                Enterprise Cloud Simplified<br>
+                                <span style="display:block; text-align:left;"></span>
+                            </span>
+                        </div>
+                                    <div style="position:relative; display:inline-block; margin-top:1.2em; margin-left:0.9em;">
+                                <span style="
+                                    position:absolute;
+                                    left:0; top:0; right:0; bottom:0;
+                                    z-index:1;
+                                    background: linear-gradient(100deg, rgba(30,30,30,0.35) 70%, rgba(30,30,30,0.07) 100%);
+                                      border-radius:0.5em 1.2em 0.5em 0.5em;
+                                    filter: blur(2px);
+                                    pointer-events:none;
+                                    width:100%; height:100%;
+                                "></span>
+                                <a href="/contact" class="button banner-cta-btn" style="position:relative; z-index:2; font-size:1.2em; text-decoration:none; transition:transform 0.2s cubic-bezier(.77,0,.18,1);">GET A FREE CONSULTATION</a>
+</style>
+<style>
+.banner-cta-btn:hover {
+    text-decoration: none !important;
+    transform: scale(1.08);
+    box-shadow: 0 6px 24px rgba(30,30,30,0.18);
+}
+</style>
+                            </div>
+                    </div>
 </section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    setTimeout(function() {
+        var shadow = document.querySelector('.banner-shadow-slide');
+        var text = document.querySelector('.banner-text-slide');
+        if (shadow) {
+            shadow.style.opacity = 1;
+            shadow.style.transform = 'translateX(0)';
+        }
+        if (text) {
+            text.style.opacity = 1;
+            text.style.transform = 'translateX(0)';
+        }
+    }, 200);
+});
+</script>
 <section class="wrapper style1">
   <div class="container">
 

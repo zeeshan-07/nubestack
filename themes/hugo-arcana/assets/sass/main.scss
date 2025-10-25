@@ -5,6 +5,15 @@
         background-image: none !important;
         box-shadow: none !important;
     }
+    #header {
+        background: #fff !important;
+        background-image: none !important;
+    }
+    #titleBar {
+        background: #fff !important;
+        background-image: none !important;
+        box-shadow: none !important;
+    }
 }
 @import 'libs/vars';
 @import 'libs/functions';
@@ -960,14 +969,14 @@
         box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         padding: 0;
 
-        &:after {
-          content: '';
-          display: block;
-          width: 100%;
-          height: 0.50em;
-          background-color: #3c7d7d !important;
-          background-image: none !important;
-        }
+                &:after {
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    height: 0.50em;
+                    background-color: #3c7d7d !important;
+                    background-image: none !important;
+                }
 
         > ul {
             margin: 0;
@@ -1028,7 +1037,7 @@
                         left: 50%;
                         margin-left: -0.375em;
                         background-color: _palette(accent, bg);
-                        background-image: url("images/bg01.png");
+                        background-image: none;
                     }
 
                     a {
@@ -1186,15 +1195,15 @@
 
         &.style2 {
             background-color:       _palette(bg);
-            background-image:       url('images/bg02.png'),         url('images/bg03.png'),         url('images/bg01.png');
-            background-position:    top left,                       bottom left,                    top left;
-            background-size:        100% 6em,                       100% 6em,                       auto;
-            background-repeat:      no-repeat,                      no-repeat,                      repeat;
+            background-image:       none;
+            background-position:    initial;
+            background-size:        initial;
+            background-repeat:      initial;
         }
 
         &.style3 {
             background-color: _palette(accent, bg);
-            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15))', 'url("images/bg01.png")'));
+            @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.15))'));
             color: _palette(accent, fg);
 
             .button {
@@ -1587,7 +1596,7 @@
                 width: 100%;
                 z-index: _misc(z-index-base) + 1;
                 background-color: _palette(obscure, bg);
-                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3))', 'url("images/bg01.png")'));
+                @include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.3))'));
                 height: 44px;
                 line-height: 44px;
                 box-shadow: 0 4px 0 0 _palette(accent, bg);
@@ -1657,7 +1666,7 @@
             #navPanel {
                 background-color: _palette(obscure, bg-bold);
                 box-shadow: inset -1px 0 3px 0 rgba(0,0,0,0.5);
-                @include vendor('background-image', ('linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15))', 'url("images/bg01.png")'));
+                @include vendor('background-image', ('linear-gradient(left, rgba(0,0,0,0) 75%, rgba(0,0,0,0.15))'));
                 @include vendor('backface-visibility', 'hidden');
                 @include vendor('transform', 'translateX(#{_size(navPanel) * -1})');
                 @include vendor('transition', ('transform #{_duration(navPanel)} ease'));
@@ -1964,8 +1973,8 @@
             left: 0;
             right: 0;
             bottom: 0;
-            background: url("images/bg01.png");
-            opacity: 0.1;
+            background: none;
+            opacity: 0;
         }
         
         .floating-shapes {

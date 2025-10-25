@@ -7,43 +7,65 @@ copyright = "© NubeStack. All rights reserved"
 # Menu Configuration - Easy to manage menu order and items
 [menu]
 [[menu.main]]
+name = "Private Cloud Solutions"
+url = "/services/private-cloud"
+parent = "Services"
+weight = 15
+
+[[menu.main]]
+name = "Container Orchestration"
+url = "/services/container-orchestration"
+parent = "Services"
+weight = 16
+
+[[menu.main]]
+name = "NFV Solutions"
+url = "/services/nfv"
+parent = "Services"
+weight = 17
+
+[[menu.main]]
+name = "Managed Services"
+url = "/services/managed-services"
+parent = "Services"
+weight = 18
+
+[[menu.main]]
+name = "Public Cloud Solutions"
+url = "/services/public-cloud"
+parent = "Services"
+weight = 19
+
+[[menu.main]]
+name = "Infrastructure Automation"
+url = "/services/automation"
+parent = "Services"
+weight = 20
+[[menu.main]]
 name = "Services"
 url = "#"
 weight = 1
 
-[[menu.main]]
-name = "Cloud Solutions"
-url = "/services/cloud"
-parent = "Services"
-weight = 11
 
 [[menu.main]]
-name = "Web Development"
-url = "/services/web-development"
-parent = "Services"
-weight = 12
-
-[[menu.main]]
-name = "DevOps"
-url = "/services/devops"
-parent = "Services"
-weight = 13
-
-[[menu.main]]
-name = "Consulting"
-url = "/services/consulting"
-parent = "Services"
-weight = 14
+name = "Industry"
+url = "/industry"
+weight = 2
 
 [[menu.main]]
 name = "Blog"
 url = "/blog"
-weight = 2
+weight = 3
+
+[[menu.main]]
+name = "About us"
+url = "/about"
+weight = 4
 
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 3
+weight = 5
 
 [taxonomies]
     tag = "tags"

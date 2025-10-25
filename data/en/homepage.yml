@@ -1,10 +1,16 @@
 banner:
   enable: true
   image: "images/banner.jpg"
-  contents: "State of the art, scaleable, and secure cloud solutions."
+  contents: "Enterprise Cloud Simplified"
   button:
-    contents: "Learn More"
-    url: "#"
+    contents: "GET A FREE CONSULTATION"
+    url: "/contact"
+    # Example for a second slide:
+    # - image: "images/banner2.jpg"
+    #   contents: "Next-Gen Infrastructure for Modern Business"
+    #   button:
+    #     contents: "LEARN MORE"
+    #     url: "/services"
 items:
   - type: highlights
     title: "Our Services"
