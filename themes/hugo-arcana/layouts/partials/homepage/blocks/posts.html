@@ -1,5 +1,5 @@
-<section class="wrapper style1">
-    <div class="container">
+<section style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 0; margin: 0;">
+    <div class="container" style="padding: 4em 0;">
         {{ with .item.heading }}<h2>{{ . }}</h2>{{ end }}
         {{- $pages := (.ctx.Site.GetPage .item.content_type).RegularPagesRecursive }}
         {{- range $idx, $itm := first (.item.max | default 4) $pages }}

@@ -1,4 +1,8 @@
 /* Custom footer styling to maintain black background and white text */
+section {
+    margin: 0 !important;
+}
+
 #footer {
     background-color: #1f1f1f !important;
     color: #ffffff !important;
