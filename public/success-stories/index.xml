@@ -1,1 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Success-Stories on</title><link>https://nubestack.com/success-stories/</link><description>Recent content in Success-Stories on</description><generator>Hugo</generator><language>en-us</language><copyright>© 2025 - NubeStack. All rights reserved</copyright><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nubestack.com/success-stories/index.xml" rel="self" type="application/rss+xml"/><item><title>Data Sovereignty Solved: On-Prem Compliance with Ceph Storage</title><link>https://nubestack.com/success-stories/data-sovereignty-ceph/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/success-stories/data-sovereignty-ceph/</guid><description>How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack.</description></item><item><title>Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction</title><link>https://nubestack.com/success-stories/multicloud-k8s-optimization/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/success-stories/multicloud-k8s-optimization/</guid><description>How a technology provider achieved true multi-cloud portability and massive cost savings by standardizing on OpenStack and Kubernetes with NubeStack&amp;rsquo;s guidance.</description></item><item><title>Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</title><link>https://nubestack.com/success-stories/zero-trust-google-cloud/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/success-stories/zero-trust-google-cloud/</guid><description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Success-Stories on </title>
+    <link>http://localhost:1313/success-stories/</link>
+    <description>Recent content in Success-Stories on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/success-stories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Sovereignty Solved: On-Prem Compliance with Ceph Storage</title>
+      <link>http://localhost:1313/success-stories/data-sovereignty-ceph/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success-stories/data-sovereignty-ceph/</guid>
+      <description>How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack.</description>
+    </item>
+    <item>
+      <title>Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction</title>
+      <link>http://localhost:1313/success-stories/multicloud-k8s-optimization/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success-stories/multicloud-k8s-optimization/</guid>
+      <description>How a technology provider achieved true multi-cloud portability and massive cost savings by standardizing on OpenStack and Kubernetes with NubeStack&amp;rsquo;s guidance.</description>
+    </item>
+    <item>
+      <title>Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</title>
+      <link>http://localhost:1313/success-stories/zero-trust-google-cloud/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success-stories/zero-trust-google-cloud/</guid>
+      <description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description>
+    </item>
+  </channel>
+</rss>

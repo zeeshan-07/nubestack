@@ -158,3 +158,206 @@ section {
         padding-bottom: 3px !important;
     }
 }
+
+/* ==========================================================================
+   Dark Mode / Night Mode
+   ========================================================================== */
+
+/* Dark mode toggle in navigation menu */
+.dark-mode-menu-item {
+    
+    a#dark-mode-toggle {
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 0.9em;
+        opacity: 0.8;
+        
+        &:hover {
+            opacity: 1;
+            color: #5fa3a3 !important;
+            transform: scale(1.1);
+        }
+        
+        i {
+            transition: transform 0.3s ease;
+        }
+    }
+}
+
+/* Smooth transitions for dark mode */
+body,
+#header,
+#nav,
+.contact-bar,
+.wrapper,
+.success-stories-section,
+.certifications-section,
+.success-card,
+.contact-card,
+.box,
+section {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    
+    #header {
+        background: #2d2d2d !important;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+    }
+    
+    .contact-bar {
+        background: #1a1a1a !important;
+        border-bottom: 1px solid #333;
+        
+        .contact-item {
+            color: #e0e0e0 !important;
+            
+            &:hover {
+                color: #5fa3a3 !important;
+            }
+        }
+    }
+    
+    #nav > ul > li {
+        > a {
+            color: #e0e0e0 !important;
+            
+            &:hover {
+                color: #5fa3a3 !important;
+            }
+        }
+        
+        &.current > a {
+            color: #5fa3a3 !important;
+        }
+    }
+    
+    .dropotron {
+        background: #2d2d2d !important;
+        border: 1px solid #404040 !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+        
+        > li > a {
+            color: #e0e0e0 !important;
+            
+            &:hover {
+                background: #3a3a3a !important;
+                color: #5fa3a3 !important;
+            }
+        }
+    }
+    
+    .wrapper {
+        background: #1a1a1a !important;
+        
+        &.style1 {
+            background: #1a1a1a !important;
+        }
+        
+        &.style2 {
+            background: #222 !important;
+        }
+    }
+    
+    .success-stories-section,
+    .certifications-section {
+        background: linear-gradient(135deg, #222 0%, #2a2a2a 100%) !important;
+    }
+    
+    .success-card {
+        background: #2d2d2d !important;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        
+        &:hover {
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+        }
+    }
+    
+    .success-tag {
+        background: #3a3a3a !important;
+        color: #5fa3a3 !important;
+    }
+    
+    .contact-card {
+        background: #2d2d2d !important;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+        
+        &:hover {
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+        }
+    }
+    
+    .contact-icon {
+        background: #3a3a3a !important;
+    }
+    
+    .box {
+        background: #2d2d2d !important;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        
+        &.post {
+            background: #2d2d2d !important;
+        }
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        color: #e0e0e0 !important;
+    }
+    
+    p {
+        color: #c0c0c0 !important;
+    }
+    
+    a {
+        color: #5fa3a3 !important;
+        
+        &:hover {
+            color: #7fc5c5 !important;
+        }
+    }
+    
+    input, textarea, select {
+        background: #2d2d2d !important;
+        color: #e0e0e0 !important;
+        border-color: #404040 !important;
+        
+        &:focus {
+            border-color: #5fa3a3 !important;
+        }
+    }
+    
+    button, .button {
+        background: #3c7d7d !important;
+        color: white !important;
+        
+        &:hover {
+            background: #5fa3a3 !important;
+        }
+    }
+    
+    #footer {
+        background-color: #0f0f0f !important;
+        border-top: 1px solid #333;
+    }
+    
+    .cert-image {
+        filter: brightness(0.9);
+        
+        &:hover {
+            filter: brightness(1.1);
+        }
+    }
+}
+
+/* Mobile adjustments for dark mode toggle in menu */
+@media screen and (max-width: 736px) {
+    .dark-mode-menu-item {
+        a#dark-mode-toggle {
+            font-size: 1.1em;
+        }
+    }
+}

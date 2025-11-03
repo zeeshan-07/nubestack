@@ -1,1 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GoogleCloud on</title><link>https://nubestack.com/tags/googlecloud/</link><description>Recent content in GoogleCloud on</description><generator>Hugo</generator><language>en-us</language><copyright>© 2025 - NubeStack. All rights reserved</copyright><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nubestack.com/tags/googlecloud/index.xml" rel="self" type="application/rss+xml"/><item><title>Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</title><link>https://nubestack.com/success-stories/zero-trust-google-cloud/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/success-stories/zero-trust-google-cloud/</guid><description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GoogleCloud on </title>
+    <link>http://localhost:1313/tags/googlecloud/</link>
+    <description>Recent content in GoogleCloud on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/googlecloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</title>
+      <link>http://localhost:1313/success-stories/zero-trust-google-cloud/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success-stories/zero-trust-google-cloud/</guid>
+      <description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description>
+    </item>
+  </channel>
+</rss>
