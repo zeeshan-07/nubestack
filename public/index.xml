@@ -1,160 +1,175 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on </title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Home on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© NubeStack. All rights reserved</copyright>
-    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Us</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;NubeStack delivers enterprise-grade cloud solutions, consulting, and managed services designed to simplify cloud adoption and accelerate digital transformation. We empower businesses with secure, scalable, and innovative technology, leveraging the power of open-source and cloud-native solutions to drive efficiency and growth.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-vision&#34;&gt;Our Vision&lt;/h2&gt;&#xA;&lt;p&gt;To be the trusted partner for organizations looking to modernize IT infrastructure, harness innovation, and unlock the full potential of the cloud.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-values&#34;&gt;Our Values&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt; – Driving continuous improvement and embracing forward-thinking technology.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Integrity&lt;/strong&gt; – Building trust through transparency, accountability, and reliability.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Open Technology&lt;/strong&gt; – Delivering opensource, future-ready solutions and avoiding vendor lock-in.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Customer Success&lt;/strong&gt; – Partnering with clients to achieve measurable business outcomes.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Container Orchestration</title>
-      <link>http://localhost:1313/services/container-orchestration/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/container-orchestration/</guid>
-      <description>&lt;h1 id=&#34;container-orchestration&#34;&gt;Container Orchestration&lt;/h1&gt;&#xA;&lt;p&gt;Scalable and secure Kubernetes solutions for managing containerized applications across cloud environments with enterprise-grade security and 99.9% uptime guarantee.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Data Sovereignty Solved: On-Prem Compliance with Ceph Storage</title>
-      <link>http://localhost:1313/success-stories/data-sovereignty-ceph/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/success-stories/data-sovereignty-ceph/</guid>
-      <description>How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack.</description>
-    </item>
-    <item>
-      <title>Industry Solutions</title>
-      <link>http://localhost:1313/industry/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/industry/</guid>
-      <description>&lt;h1 id=&#34;industry-solutions&#34;&gt;Industry Solutions&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to our industry solutions page. Explore how NubeStack empowers different sectors with tailored cloud and technology services.&lt;/p&gt;&#xA;&lt;h2 id=&#34;telecommunication&#34;&gt;Telecommunications&lt;/h2&gt;&#xA;&lt;p&gt;Through extensive collaboration with telecom providers, NubeStack has developed deep expertise in cloud, NFV, and network automation. We help telecom organizations modernize their infrastructure, deploy next-generation networks, and accelerate digital transformation initiatives. Our services cover virtualized network functions, edge and core cloud deployments, and fully automated network orchestration, enabling operators to improve service delivery, reduce operational costs, and scale efficiently.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Infrastructure Automation</title>
-      <link>http://localhost:1313/services/automation/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/automation/</guid>
-      <description>&lt;h1 id=&#34;infrastructure-automation&#34;&gt;Infrastructure Automation&lt;/h1&gt;&#xA;&lt;p&gt;Automate your IT infrastructure deployment with IaC (Terraform/Ansible) to reduce provisioning time, enhance consistency, ensure disaster recovery, and lower costs.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Managed Services</title>
-      <link>http://localhost:1313/services/managed-services/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/managed-services/</guid>
-      <description>&lt;h1 id=&#34;managed-services&#34;&gt;Managed Services&lt;/h1&gt;&#xA;&lt;p&gt;We provide 24/7 monitoring, maintenance, and support to ensure your cloud infrastructure runs smoothly and efficiently.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction</title>
-      <link>http://localhost:1313/success-stories/multicloud-k8s-optimization/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/success-stories/multicloud-k8s-optimization/</guid>
-      <description>How a technology provider achieved true multi-cloud portability and massive cost savings by standardizing on OpenStack and Kubernetes with NubeStack&amp;rsquo;s guidance.</description>
-    </item>
-    <item>
-      <title>NFV Solutions</title>
-      <link>http://localhost:1313/services/nfv/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/nfv/</guid>
-      <description>&lt;h1 id=&#34;nfv-solutions&#34;&gt;NFV Solutions&lt;/h1&gt;&#xA;&lt;p&gt;Incorporate Telco and HPC grade low-latency NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Private/Public Cloud Solutions</title>
-      <link>http://localhost:1313/services/cloud-solutions/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/cloud-solutions/</guid>
-      <description>&lt;h1 id=&#34;privatepublic-cloud-solutions&#34;&gt;Private/Public Cloud Solutions&lt;/h1&gt;&#xA;&lt;p&gt;OpenStack, OpenShift, AWS, Azure, and GCP based cloud solutions for building, managing, and scaling private and public clouds with flexibility, security, and cost-effectiveness.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-cloud-services&#34;&gt;Our Cloud Services&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Private cloud design and deployment (OpenStack, OpenShift)&lt;/li&gt;&#xA;&lt;li&gt;Public cloud migration and management (AWS, Azure, GCP)&lt;/li&gt;&#xA;&lt;li&gt;Hybrid and multi-cloud strategies&lt;/li&gt;&#xA;&lt;li&gt;Enterprise-grade security and compliance&lt;/li&gt;&#xA;&lt;li&gt;99.9% uptime guarantee&lt;/li&gt;&#xA;&lt;li&gt;24/7 support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Ready to transform your business with the right cloud solution? &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Contact us&lt;/a&gt; today!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</title>
-      <link>http://localhost:1313/success-stories/zero-trust-google-cloud/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/success-stories/zero-trust-google-cloud/</guid>
-      <description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description>
-    </item>
-    <item>
-      <title>DevOps Services</title>
-      <link>http://localhost:1313/services/devops/</link>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/devops/</guid>
-      <description>&lt;h1 id=&#34;devops-services&#34;&gt;DevOps Services&lt;/h1&gt;&#xA;&lt;p&gt;Streamline your development and operations with our comprehensive DevOps solutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-devops-expertise&#34;&gt;Our DevOps Expertise&lt;/h2&gt;&#xA;&lt;h3 id=&#34;continuous-integrationcontinuous-deployment-cicd&#34;&gt;Continuous Integration/Continuous Deployment (CI/CD)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automated build pipelines&lt;/li&gt;&#xA;&lt;li&gt;Testing automation&lt;/li&gt;&#xA;&lt;li&gt;Deployment automation&lt;/li&gt;&#xA;&lt;li&gt;Code quality checks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;infrastructure-as-code-iac&#34;&gt;Infrastructure as Code (IaC)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Terraform and CloudFormation&lt;/li&gt;&#xA;&lt;li&gt;Ansible and Puppet&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes orchestration&lt;/li&gt;&#xA;&lt;li&gt;Docker containerization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;monitoring--logging&#34;&gt;Monitoring &amp;amp; Logging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Application performance monitoring&lt;/li&gt;&#xA;&lt;li&gt;Infrastructure monitoring&lt;/li&gt;&#xA;&lt;li&gt;Log aggregation and analysis&lt;/li&gt;&#xA;&lt;li&gt;Alert management&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;devops-tools-we-use&#34;&gt;DevOps Tools We Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Version Control&lt;/strong&gt;: Git, GitLab, GitHub&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CI/CD&lt;/strong&gt;: Jenkins, GitLab CI, GitHub Actions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Containerization&lt;/strong&gt;: Docker, Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Prometheus, Grafana, ELK Stack&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloud Platforms&lt;/strong&gt;: AWS, Azure, Google Cloud&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;benefits-of-our-devops-approach&#34;&gt;Benefits of Our DevOps Approach&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Faster Deployment&lt;/strong&gt;: Reduce time to market&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Improved Quality&lt;/strong&gt;: Automated testing and monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Better Collaboration&lt;/strong&gt;: Bridge development and operations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Handle growth efficiently&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;implementation-process&#34;&gt;Implementation Process&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Assessment&lt;/strong&gt;: Evaluate current processes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Strategy&lt;/strong&gt;: Design DevOps roadmap&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Implementation&lt;/strong&gt;: Set up tools and pipelines&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Training&lt;/strong&gt;: Team education and best practices&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Optimization&lt;/strong&gt;: Continuous improvement&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Transform your development workflow with DevOps. &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Contact us&lt;/a&gt; to get started!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Web Development</title>
-      <link>http://localhost:1313/services/web-development/</link>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/web-development/</guid>
-      <description>&lt;h1 id=&#34;web-development&#34;&gt;Web Development&lt;/h1&gt;&#xA;&lt;p&gt;Professional web development services to bring your digital vision to life.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-development-services&#34;&gt;Our Development Services&lt;/h2&gt;&#xA;&lt;h3 id=&#34;frontend-development&#34;&gt;Frontend Development&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Responsive web design&lt;/li&gt;&#xA;&lt;li&gt;React, Vue.js, Angular&lt;/li&gt;&#xA;&lt;li&gt;Progressive Web Apps (PWA)&lt;/li&gt;&#xA;&lt;li&gt;Mobile-first approach&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;backend-development&#34;&gt;Backend Development&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;RESTful APIs&lt;/li&gt;&#xA;&lt;li&gt;Database design&lt;/li&gt;&#xA;&lt;li&gt;Server architecture&lt;/li&gt;&#xA;&lt;li&gt;Performance optimization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;full-stack-solutions&#34;&gt;Full-Stack Solutions&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;End-to-end development&lt;/li&gt;&#xA;&lt;li&gt;Modern frameworks&lt;/li&gt;&#xA;&lt;li&gt;Scalable architecture&lt;/li&gt;&#xA;&lt;li&gt;Cross-platform compatibility&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;technologies-we-use&#34;&gt;Technologies We Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: HTML5, CSS3, JavaScript, React, Vue.js&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Node.js, Python, PHP, Java&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt;: PostgreSQL, MongoDB, MySQL&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloud&lt;/strong&gt;: AWS, Google Cloud, Azure&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;development-process&#34;&gt;Development Process&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Requirements Analysis&lt;/strong&gt;: Understanding your needs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Design &amp;amp; Planning&lt;/strong&gt;: Creating the roadmap&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: Building your solution&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Ensuring quality and performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: Launch and maintenance&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Ready to build your web presence? &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Strengthening Cloud Security with Zero Trust and VPC Service Controls</title>
-      <link>http://localhost:1313/blog/03/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/03/</guid>
-      <description>&lt;p&gt;As organizations continue their digital transformation journeys, securing cloud environments has become more critical than ever. Traditional perimeter-based security is no longer sufficient in a world where workloads are distributed across hybrid and multi-cloud environments.&lt;/p&gt;&#xA;&lt;p&gt;Enter the &lt;strong&gt;Zero Trust model&lt;/strong&gt; — a modern approach to cloud security that assumes no user, device, or service is inherently trusted. Combined with &lt;strong&gt;Google Cloud’s VPC Service Controls&lt;/strong&gt;, enterprises can significantly reduce data exfiltration risks, strengthen compliance, and maintain strict control over sensitive assets.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cloud Data Sovereignty Challenges and On-Prem Storage Solutions</title>
-      <link>http://localhost:1313/blog/02/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/02/</guid>
-      <description>&lt;p&gt;As enterprises increasingly adopt cloud technologies, &lt;strong&gt;data sovereignty and compliance&lt;/strong&gt; have become critical concerns. Organizations must ensure that &lt;strong&gt;sensitive data remains within specific geographic or regulatory boundaries&lt;/strong&gt; while still enabling modern cloud workloads.&lt;/p&gt;&#xA;&lt;p&gt;NubeStack helps enterprises address these challenges by provisioning &lt;strong&gt;on-prem Ceph storage clusters&lt;/strong&gt;, allowing &lt;strong&gt;public and private workloads to access data securely&lt;/strong&gt; without ever leaving the organization’s premises.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>VMware State and OpenStack Migrations</title>
-      <link>http://localhost:1313/blog/01/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/01/</guid>
-      <description>&lt;p&gt;Virtualization has been the backbone of modern IT infrastructure for over a decade. VMware continues to be a dominant player, powering enterprise data centers with robust virtualization, management tools, and integrated solutions. However, many organizations are now exploring &lt;strong&gt;OpenStack&lt;/strong&gt; as a &lt;strong&gt;flexible, open-source alternative&lt;/strong&gt; to reduce vendor lock-in, enable cloud-native workloads, and achieve cost optimization.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we explore the current state of VMware environments, the challenges organizations face during migration, and how &lt;strong&gt;NubeStack&lt;/strong&gt; can help enterprises &lt;strong&gt;successfully transition to OpenStack-based cloud solutions&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Left Sidebar</title>
-      <link>http://localhost:1313/left-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/left-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>No Sidebar</title>
-      <link>http://localhost:1313/no-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/no-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Right Sidebar</title>
-      <link>http://localhost:1313/right-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/right-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Services</title>
-      <link>http://localhost:1313/services/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/</guid>
-      <description>&lt;h1 id=&#34;our-services&#34;&gt;Our Services&lt;/h1&gt;&#xA;&lt;h2 id=&#34;cloud-solutions&#34;&gt;Cloud Solutions&lt;/h2&gt;&#xA;&lt;p&gt;We provide comprehensive cloud infrastructure and deployment solutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;web-development&#34;&gt;Web Development&lt;/h2&gt;&#xA;&lt;p&gt;Custom web applications and responsive websites built with modern technologies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mobile-app-development&#34;&gt;Mobile App Development&lt;/h2&gt;&#xA;&lt;p&gt;Native and cross-platform mobile applications for iOS and Android.&lt;/p&gt;&#xA;&lt;h2 id=&#34;devops--infrastructure&#34;&gt;DevOps &amp;amp; Infrastructure&lt;/h2&gt;&#xA;&lt;p&gt;Continuous integration, deployment pipelines, and infrastructure automation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;consulting-services&#34;&gt;Consulting Services&lt;/h2&gt;&#xA;&lt;p&gt;Technical consulting and architecture design for your projects.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Two Sidebar</title>
-      <link>http://localhost:1313/two-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/two-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on</title><link>https://nubestack.com/</link><description>Recent content in Home on</description><generator>Hugo</generator><language>en-us</language><copyright>© NubeStack. All rights reserved</copyright><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nubestack.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About Us</title><link>https://nubestack.com/about/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/about/</guid><description>&lt;p&gt;NubeStack delivers enterprise-grade cloud solutions, consulting, and managed services designed to simplify cloud adoption and accelerate digital transformation. We empower businesses with secure, scalable, and innovative technology, leveraging the power of open-source and cloud-native solutions to drive efficiency and growth.&lt;/p&gt;
+&lt;h2 id="our-vision"&gt;Our Vision&lt;/h2&gt;
+&lt;p&gt;To be the trusted partner for organizations looking to modernize IT infrastructure, harness innovation, and unlock the full potential of the cloud.&lt;/p&gt;
+&lt;h2 id="our-values"&gt;Our Values&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Innovation&lt;/strong&gt; – Driving continuous improvement and embracing forward-thinking technology.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrity&lt;/strong&gt; – Building trust through transparency, accountability, and reliability.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open Technology&lt;/strong&gt; – Delivering opensource, future-ready solutions and avoiding vendor lock-in.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customer Success&lt;/strong&gt; – Partnering with clients to achieve measurable business outcomes.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Container Orchestration</title><link>https://nubestack.com/services/container-orchestration/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/container-orchestration/</guid><description>&lt;h1 id="container-orchestration"&gt;Container Orchestration&lt;/h1&gt;
+&lt;p&gt;Scalable and secure Kubernetes solutions for managing containerized applications across cloud environments with enterprise-grade security and 99.9% uptime guarantee.&lt;/p&gt;</description></item><item><title>Data Sovereignty Solved: On-Prem Compliance with Ceph Storage</title><link>https://nubestack.com/success-stories/data-sovereignty-ceph/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/success-stories/data-sovereignty-ceph/</guid><description>How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack.</description></item><item><title>Industry Solutions</title><link>https://nubestack.com/industry/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/industry/</guid><description>&lt;h1 id="industry-solutions"&gt;Industry Solutions&lt;/h1&gt;
+&lt;p&gt;Welcome to our industry solutions page. Explore how NubeStack empowers different sectors with tailored cloud and technology services.&lt;/p&gt;
+&lt;h2 id="telecommunication"&gt;Telecommunications&lt;/h2&gt;
+&lt;p&gt;Through extensive collaboration with telecom providers, NubeStack has developed deep expertise in cloud, NFV, and network automation. We help telecom organizations modernize their infrastructure, deploy next-generation networks, and accelerate digital transformation initiatives. Our services cover virtualized network functions, edge and core cloud deployments, and fully automated network orchestration, enabling operators to improve service delivery, reduce operational costs, and scale efficiently.&lt;/p&gt;</description></item><item><title>Infrastructure Automation</title><link>https://nubestack.com/services/automation/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/automation/</guid><description>&lt;h1 id="infrastructure-automation"&gt;Infrastructure Automation&lt;/h1&gt;
+&lt;p&gt;Automate your IT infrastructure deployment with IaC (Terraform/Ansible) to reduce provisioning time, enhance consistency, ensure disaster recovery, and lower costs.&lt;/p&gt;</description></item><item><title>Managed Services</title><link>https://nubestack.com/services/managed-services/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/managed-services/</guid><description>&lt;h1 id="managed-services"&gt;Managed Services&lt;/h1&gt;
+&lt;p&gt;We provide 24/7 monitoring, maintenance, and support to ensure your cloud infrastructure runs smoothly and efficiently.&lt;/p&gt;</description></item><item><title>Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction</title><link>https://nubestack.com/success-stories/multicloud-k8s-optimization/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/success-stories/multicloud-k8s-optimization/</guid><description>How a technology provider achieved true multi-cloud portability and massive cost savings by standardizing on OpenStack and Kubernetes with NubeStack&amp;rsquo;s guidance.</description></item><item><title>NFV Solutions</title><link>https://nubestack.com/services/nfv/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/nfv/</guid><description>&lt;h1 id="nfv-solutions"&gt;NFV Solutions&lt;/h1&gt;
+&lt;p&gt;Incorporate Telco and HPC grade low-latency NFV technologies like SRIOV, DPDK, and OVN to accelerate cloud network performance.&lt;/p&gt;</description></item><item><title>Private/Public Cloud Solutions</title><link>https://nubestack.com/services/cloud-solutions/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/cloud-solutions/</guid><description>&lt;h1 id="privatepublic-cloud-solutions"&gt;Private/Public Cloud Solutions&lt;/h1&gt;
+&lt;p&gt;OpenStack, OpenShift, AWS, Azure, and GCP based cloud solutions for building, managing, and scaling private and public clouds with flexibility, security, and cost-effectiveness.&lt;/p&gt;
+&lt;h2 id="our-cloud-services"&gt;Our Cloud Services&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Private cloud design and deployment (OpenStack, OpenShift)&lt;/li&gt;
+&lt;li&gt;Public cloud migration and management (AWS, Azure, GCP)&lt;/li&gt;
+&lt;li&gt;Hybrid and multi-cloud strategies&lt;/li&gt;
+&lt;li&gt;Enterprise-grade security and compliance&lt;/li&gt;
+&lt;li&gt;99.9% uptime guarantee&lt;/li&gt;
+&lt;li&gt;24/7 support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ready to transform your business with the right cloud solution? &lt;a href="https://nubestack.com/contact"&gt;Contact us&lt;/a&gt; today!&lt;/p&gt;</description></item><item><title>Zero Trust in Google Cloud: Mitigating Data Exfiltration Risk</title><link>https://nubestack.com/success-stories/zero-trust-google-cloud/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/success-stories/zero-trust-google-cloud/</guid><description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description></item><item><title>DevOps Services</title><link>https://nubestack.com/services/devops/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/devops/</guid><description>&lt;h1 id="devops-services"&gt;DevOps Services&lt;/h1&gt;
+&lt;p&gt;Streamline your development and operations with our comprehensive DevOps solutions.&lt;/p&gt;
+&lt;h2 id="our-devops-expertise"&gt;Our DevOps Expertise&lt;/h2&gt;
+&lt;h3 id="continuous-integrationcontinuous-deployment-cicd"&gt;Continuous Integration/Continuous Deployment (CI/CD)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Automated build pipelines&lt;/li&gt;
+&lt;li&gt;Testing automation&lt;/li&gt;
+&lt;li&gt;Deployment automation&lt;/li&gt;
+&lt;li&gt;Code quality checks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="infrastructure-as-code-iac"&gt;Infrastructure as Code (IaC)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Terraform and CloudFormation&lt;/li&gt;
+&lt;li&gt;Ansible and Puppet&lt;/li&gt;
+&lt;li&gt;Kubernetes orchestration&lt;/li&gt;
+&lt;li&gt;Docker containerization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="monitoring--logging"&gt;Monitoring &amp;amp; Logging&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Application performance monitoring&lt;/li&gt;
+&lt;li&gt;Infrastructure monitoring&lt;/li&gt;
+&lt;li&gt;Log aggregation and analysis&lt;/li&gt;
+&lt;li&gt;Alert management&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="devops-tools-we-use"&gt;DevOps Tools We Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Version Control&lt;/strong&gt;: Git, GitLab, GitHub&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CI/CD&lt;/strong&gt;: Jenkins, GitLab CI, GitHub Actions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Containerization&lt;/strong&gt;: Docker, Kubernetes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Prometheus, Grafana, ELK Stack&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud Platforms&lt;/strong&gt;: AWS, Azure, Google Cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="benefits-of-our-devops-approach"&gt;Benefits of Our DevOps Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Faster Deployment&lt;/strong&gt;: Reduce time to market&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Improved Quality&lt;/strong&gt;: Automated testing and monitoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Better Collaboration&lt;/strong&gt;: Bridge development and operations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Handle growth efficiently&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="implementation-process"&gt;Implementation Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Assessment&lt;/strong&gt;: Evaluate current processes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Strategy&lt;/strong&gt;: Design DevOps roadmap&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Implementation&lt;/strong&gt;: Set up tools and pipelines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Training&lt;/strong&gt;: Team education and best practices&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Optimization&lt;/strong&gt;: Continuous improvement&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Transform your development workflow with DevOps. &lt;a href="https://nubestack.com/contact"&gt;Contact us&lt;/a&gt; to get started!&lt;/p&gt;</description></item><item><title>Web Development</title><link>https://nubestack.com/services/web-development/</link><pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/web-development/</guid><description>&lt;h1 id="web-development"&gt;Web Development&lt;/h1&gt;
+&lt;p&gt;Professional web development services to bring your digital vision to life.&lt;/p&gt;
+&lt;h2 id="our-development-services"&gt;Our Development Services&lt;/h2&gt;
+&lt;h3 id="frontend-development"&gt;Frontend Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsive web design&lt;/li&gt;
+&lt;li&gt;React, Vue.js, Angular&lt;/li&gt;
+&lt;li&gt;Progressive Web Apps (PWA)&lt;/li&gt;
+&lt;li&gt;Mobile-first approach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="backend-development"&gt;Backend Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;RESTful APIs&lt;/li&gt;
+&lt;li&gt;Database design&lt;/li&gt;
+&lt;li&gt;Server architecture&lt;/li&gt;
+&lt;li&gt;Performance optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="full-stack-solutions"&gt;Full-Stack Solutions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;End-to-end development&lt;/li&gt;
+&lt;li&gt;Modern frameworks&lt;/li&gt;
+&lt;li&gt;Scalable architecture&lt;/li&gt;
+&lt;li&gt;Cross-platform compatibility&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="technologies-we-use"&gt;Technologies We Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Frontend&lt;/strong&gt;: HTML5, CSS3, JavaScript, React, Vue.js&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Backend&lt;/strong&gt;: Node.js, Python, PHP, Java&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Databases&lt;/strong&gt;: PostgreSQL, MongoDB, MySQL&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cloud&lt;/strong&gt;: AWS, Google Cloud, Azure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="development-process"&gt;Development Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Requirements Analysis&lt;/strong&gt;: Understanding your needs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design &amp;amp; Planning&lt;/strong&gt;: Creating the roadmap&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Development&lt;/strong&gt;: Building your solution&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing&lt;/strong&gt;: Ensuring quality and performance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployment&lt;/strong&gt;: Launch and maintenance&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Ready to build your web presence? &lt;a href="https://nubestack.com/contact"&gt;Get in touch&lt;/a&gt;!&lt;/p&gt;</description></item><item><title>Strengthening Cloud Security with Zero Trust and VPC Service Controls</title><link>https://nubestack.com/blog/03/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/blog/03/</guid><description>&lt;p&gt;As organizations continue their digital transformation journeys, securing cloud environments has become more critical than ever. Traditional perimeter-based security is no longer sufficient in a world where workloads are distributed across hybrid and multi-cloud environments.&lt;/p&gt;
+&lt;p&gt;Enter the &lt;strong&gt;Zero Trust model&lt;/strong&gt; — a modern approach to cloud security that assumes no user, device, or service is inherently trusted. Combined with &lt;strong&gt;Google Cloud’s VPC Service Controls&lt;/strong&gt;, enterprises can significantly reduce data exfiltration risks, strengthen compliance, and maintain strict control over sensitive assets.&lt;/p&gt;</description></item><item><title>Cloud Data Sovereignty Challenges and On-Prem Storage Solutions</title><link>https://nubestack.com/blog/02/</link><pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/blog/02/</guid><description>&lt;p&gt;As enterprises increasingly adopt cloud technologies, &lt;strong&gt;data sovereignty and compliance&lt;/strong&gt; have become critical concerns. Organizations must ensure that &lt;strong&gt;sensitive data remains within specific geographic or regulatory boundaries&lt;/strong&gt; while still enabling modern cloud workloads.&lt;/p&gt;
+&lt;p&gt;NubeStack helps enterprises address these challenges by provisioning &lt;strong&gt;on-prem Ceph storage clusters&lt;/strong&gt;, allowing &lt;strong&gt;public and private workloads to access data securely&lt;/strong&gt; without ever leaving the organization’s premises.&lt;/p&gt;</description></item><item><title>VMware State and OpenStack Migrations</title><link>https://nubestack.com/blog/01/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/blog/01/</guid><description>&lt;p&gt;Virtualization has been the backbone of modern IT infrastructure for over a decade. VMware continues to be a dominant player, powering enterprise data centers with robust virtualization, management tools, and integrated solutions. However, many organizations are now exploring &lt;strong&gt;OpenStack&lt;/strong&gt; as a &lt;strong&gt;flexible, open-source alternative&lt;/strong&gt; to reduce vendor lock-in, enable cloud-native workloads, and achieve cost optimization.&lt;/p&gt;
+&lt;p&gt;In this post, we explore the current state of VMware environments, the challenges organizations face during migration, and how &lt;strong&gt;NubeStack&lt;/strong&gt; can help enterprises &lt;strong&gt;successfully transition to OpenStack-based cloud solutions&lt;/strong&gt;.&lt;/p&gt;</description></item><item><title>Contact</title><link>https://nubestack.com/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/contact/</guid><description/></item><item><title>Left Sidebar</title><link>https://nubestack.com/left-sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/left-sidebar/</guid><description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;
+&lt;h3 id="and-yet-another-subheading"&gt;And Yet Another Subheading&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
+justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
+ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
+vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
+Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
+rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
+Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
+Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description></item><item><title>No Sidebar</title><link>https://nubestack.com/no-sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/no-sidebar/</guid><description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;
+&lt;h3 id="and-yet-another-subheading"&gt;And Yet Another Subheading&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
+justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
+ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
+vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
+Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
+rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
+Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
+Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description></item><item><title>Right Sidebar</title><link>https://nubestack.com/right-sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/right-sidebar/</guid><description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;
+&lt;h3 id="and-yet-another-subheading"&gt;And Yet Another Subheading&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
+justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
+ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
+vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
+Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
+rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
+Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
+Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description></item><item><title>Services</title><link>https://nubestack.com/services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/</guid><description>&lt;h1 id="our-services"&gt;Our Services&lt;/h1&gt;
+&lt;h2 id="cloud-solutions"&gt;Cloud Solutions&lt;/h2&gt;
+&lt;p&gt;We provide comprehensive cloud infrastructure and deployment solutions.&lt;/p&gt;
+&lt;h2 id="web-development"&gt;Web Development&lt;/h2&gt;
+&lt;p&gt;Custom web applications and responsive websites built with modern technologies.&lt;/p&gt;
+&lt;h2 id="mobile-app-development"&gt;Mobile App Development&lt;/h2&gt;
+&lt;p&gt;Native and cross-platform mobile applications for iOS and Android.&lt;/p&gt;
+&lt;h2 id="devops--infrastructure"&gt;DevOps &amp;amp; Infrastructure&lt;/h2&gt;
+&lt;p&gt;Continuous integration, deployment pipelines, and infrastructure automation.&lt;/p&gt;
+&lt;h2 id="consulting-services"&gt;Consulting Services&lt;/h2&gt;
+&lt;p&gt;Technical consulting and architecture design for your projects.&lt;/p&gt;</description></item><item><title>Two Sidebar</title><link>https://nubestack.com/two-sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/two-sidebar/</guid><description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
+Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
+Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi
+consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;
+&lt;h3 id="and-yet-another-subheading"&gt;And Yet Another Subheading&lt;/h3&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus
+justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,
+ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet
+vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.
+Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis
+rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.
+Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.
+Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description></item></channel></rss>
