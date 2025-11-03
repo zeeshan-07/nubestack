@@ -36,8 +36,9 @@
     </div>
 
     <ul class="icons">
-    {{- range .Site.Params.social }}
-        <li><a href="{{ .url }}" class="{{ if .icon }}icon brands {{ .icon  }}{{ end }}">
+    {{- $contactInfo := .Site.Data.contact_info }}
+    {{- range $contactInfo.social }}
+        <li><a href="{{ .url }}" class="icon brands {{ .icon }}">
             <span class="label">{{ .title }}</span>
         </a>
     {{- end }}

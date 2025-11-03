@@ -16,22 +16,20 @@ hero:
 contact_methods:
   title: "Get in Touch"
   subtitle: "Choose your preferred way to contact us"
+  # Note: Actual contact values (email, phone, links) are pulled from /data/contact_info.yml
   methods:
     - name: "Email Us"
       icon: "fas fa-envelope"
-      value: "contact@nubestack.com"
-      link: "mailto:contact@nubestack.com"
       description: "Send us a detailed message"
+      type: "email"
     - name: "Call Us"
       icon: "fas fa-phone"
-      value: "+1 (555) 123-4567"
-      link: "tel:+15551234567"
       description: "Speak with our team directly"
+      type: "phone"
     - name: "WhatsApp"
       icon: "fab fa-whatsapp"
-      value: "+1 (555) 123-4567"
-      link: "https://wa.me/15551234567"
       description: "Quick messaging support"
+      type: "whatsapp"
 
 contact_form:
   title: "Send a Message"

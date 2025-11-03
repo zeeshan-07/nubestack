@@ -1,0 +1,27 @@
+# Centralized Contact Information
+# All contact details used across the site (header, footer, contact page)
+
+email: "contact@nubestack.com"
+#phone: "test"
+phone_link: "tel:+15551234567"
+
+# WhatsApp
+# whatsapp:
+#   number: "+1 (555) 123-4567"
+#   link: "https://wa.me/15551234567"
+#   display: "WhatsApp"
+
+# Social Media
+social:
+  - title: "LinkedIn"
+    url: "https://linkedin.com/company/nubestack"
+    icon: "fab fa-linkedin"
+  # - title: "GitHub"
+  #   url: "https://github.com/nubestack"
+  #   icon: "fab fa-github"
+  # - title: "Twitter"
+  #   url: "https://twitter.com/nubestack"
+  #   icon: "fab fa-twitter"
+
+# For Formspree contact form
+formspree_endpoint: "https://formspree.io/f/xovpzrbj"

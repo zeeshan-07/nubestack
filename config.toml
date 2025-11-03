@@ -2,7 +2,7 @@ baseURL = "https://nubestack.com/"
 languageCode = "en-us"
 #title = "Arcana for Hugo"
 theme = "hugo-arcana"
-copyright = "© NubeStack. All rights reserved"
+copyright = "© 2025 - NubeStack. All rights reserved"
 
 # Menu Configuration - Easy to manage menu order and items
 [menu]

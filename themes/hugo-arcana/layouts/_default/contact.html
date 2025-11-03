@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{ $contact := .Site.Data.en.contact }}
+{{ $contactInfo := .Site.Data.contact_info }}
 
 <!-- Contact Section -->
 <section class="wrapper style1">
@@ -14,6 +15,33 @@
                 
                 <div class="contact-cards-grid">
                     {{ range $method := $contact.contact_methods.methods }}
+                    {{ $showMethod := false }}
+                    {{ $value := "" }}
+                    {{ $link := "" }}
+                    
+                    {{ if eq $method.type "email" }}
+                        {{ with $contactInfo.email }}
+                            {{ $showMethod = true }}
+                            {{ $value = . }}
+                            {{ $link = printf "mailto:%s" . }}
+                        {{ end }}
+                    {{ else if eq $method.type "phone" }}
+                        {{ with $contactInfo.phone }}
+                            {{ $showMethod = true }}
+                            {{ $value = . }}
+                            {{ $link = $contactInfo.phone_link }}
+                        {{ end }}
+                    {{ else if eq $method.type "whatsapp" }}
+                        {{ with $contactInfo.whatsapp }}
+                            {{ if and .number .link }}
+                                {{ $showMethod = true }}
+                                {{ $value = .number }}
+                                {{ $link = .link }}
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                    
+                    {{ if $showMethod }}
                     <div class="contact-card">
                         <div class="card-inner">
                             <div class="contact-icon">
@@ -22,11 +50,7 @@
                             <div class="contact-details">
                                 <h4>{{ $method.name }}</h4>
                                 <div class="contact-value">
-                                    {{ if $method.link }}
-                                        <a href="{{ $method.link }}">{{ $method.value }}</a>
-                                    {{ else }}
-                                        {{ $method.value }}
-                                    {{ end }}
+                                    <a href="{{ $link }}">{{ $value }}</a>
                                 </div>
                                 <div class="contact-description">
                                     {{ $method.description }}
@@ -34,6 +58,7 @@
                             </div>
                         </div>
                     </div>
+                    {{ end }}
                     {{ end }}
                 </div>
             </div>
@@ -44,7 +69,7 @@
                     <p>{{ $contact.contact_form.subtitle }}</p>
                 </div>
                 
-                <form class="contact-form" action="https://formspree.io/f/xovpzrbj" method="POST">
+                <form class="contact-form" action="{{ $contactInfo.formspree_endpoint }}" method="POST">
                     {{ range $contact.contact_form.fields }}
                     <div class="form-group">
                         <label for="{{ .name }}">{{ .label }}{{ if .required }} *{{ end }}</label>
@@ -56,10 +81,7 @@
                             {{ end }}
                             
                             {{ if eq .type "textarea" }}
-                                <textarea id="{{ .name }}" name="{{ .name }}" 
-                                         {{ if .required }}required{{ end }}
-                                         {{ with .placeholder }}placeholder="{{ . }}"{{ end }}>
-                                </textarea>
+                                <textarea id="{{ .name }}" name="{{ .name }}" {{ if .required }}required{{ end }} {{ with .placeholder }}placeholder="{{ . }}"{{ end }}></textarea>
                             {{ else if eq .type "select" }}
                                 <select id="{{ .name }}" name="{{ .name }}"{{ if .required }} required{{ end }}>
                                     <option value="">Select an option</option>

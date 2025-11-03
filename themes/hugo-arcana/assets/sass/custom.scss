@@ -7,6 +7,154 @@
 		text-align: center;
 	}
 }
-/* This file intentionally left blank.
- * Put your custom CSS into your (not the theme's) assets/sass/custom.scss
- */
+
+/* ==========================================================================
+   Custom Styles - Consolidated from root /assets/ directory
+   ========================================================================== */
+
+/* Fix spacing between homepage sections */
+.success-stories-section {
+    padding: 2em 0 1em 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.certifications-section {
+    padding: 2em 0 1em 0 !important;
+    margin-top: 0 !important;
+}
+
+/* Remove excessive spacing from posts section between success stories and certifications */
+section:has(> .container > .row > section.col-6) {
+    padding-top: 2em !important;
+    padding-bottom: 1em !important;
+}
+
+/* Reduce excessive padding on contact page */
+.contact-grid {
+    margin-top: -3em;
+}
+
+/* Custom footer styling to maintain black background and white text */
+section {
+    margin: 0 !important;
+}
+
+#footer {
+    background-color: #1f1f1f !important;
+    color: #ffffff !important;
+
+    a {
+        color: #ffffff !important;
+        border-bottom-color: rgba(255, 255, 255, 0.25) !important;
+
+        &:hover {
+            color: #3c7d7d !important;
+        }
+    }
+
+    .icons a {
+        color: #cccccc !important;
+
+        &:hover {
+            color: #3c7d7d !important;
+        }
+    }
+
+    .copyright {
+        color: #cccccc !important;
+    }
+}
+
+/* Custom styles for square service boxes */
+.icon.major.square {
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 0 0 7px rgba(60, 125, 125, 0.2), 0 0 0 8px rgba(60, 125, 125, 0.1), 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.box.highlight {
+    transition: transform 0.3s ease;
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+
+        &:hover h3 {
+            color: #3c7d7d;
+            transition: color 0.3s ease;
+        }
+    }
+
+    &:hover {
+        transform: translateY(-2px);
+    }
+}
+
+/* Fix for certified engineers badge images: remove white background */
+#cert-slider img {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: 0 2px 12px rgba(60, 125, 125, 0.10);
+    border-radius: 0.5rem;
+    padding: 0;
+    border: none;
+}
+
+/* Mobile menu collapsible submenu styles */
+#navPanel {
+    .submenu-toggle {
+        float: right;
+        font-weight: bold;
+        font-size: 1.4em;
+        margin-left: 0.5em;
+        pointer-events: none;
+        user-select: none;
+        transition: transform 0.3s ease, opacity 0.2s ease;
+        display: inline-block;
+        line-height: 1;
+        transform: rotate(90deg);
+    }
+
+    .has-submenu {
+        position: relative;
+        cursor: pointer !important;
+        
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+        
+        &:active {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+    }
+
+    .hidden-submenu {
+        display: none !important;
+    }
+
+    .has-submenu.collapsed .submenu-toggle {
+        opacity: 0.7;
+        transform: rotate(90deg);
+    }
+
+    .has-submenu:not(.collapsed) .submenu-toggle {
+        opacity: 1;
+        transform: rotate(270deg);
+    }
+}
+
+/* Fix mobile titleBar logo size for responsive testing */
+@media screen and (max-width: 980px) {
+    #titleBar .title a img {
+        height: 38px !important;
+        max-height: 38px !important;
+        width: auto !important;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+    }
+}
