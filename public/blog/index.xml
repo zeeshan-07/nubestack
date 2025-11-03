@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on </title>
-    <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blog on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
-    <lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Strengthening Cloud Security with Zero Trust and VPC Service Controls</title>
-      <link>http://localhost:1313/blog/03/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/03/</guid>
-      <description>&lt;p&gt;As organizations continue their digital transformation journeys, securing cloud environments has become more critical than ever. Traditional perimeter-based security is no longer sufficient in a world where workloads are distributed across hybrid and multi-cloud environments.&lt;/p&gt;&#xA;&lt;p&gt;Enter the &lt;strong&gt;Zero Trust model&lt;/strong&gt; — a modern approach to cloud security that assumes no user, device, or service is inherently trusted. Combined with &lt;strong&gt;Google Cloud’s VPC Service Controls&lt;/strong&gt;, enterprises can significantly reduce data exfiltration risks, strengthen compliance, and maintain strict control over sensitive assets.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cloud Data Sovereignty Challenges and On-Prem Storage Solutions</title>
-      <link>http://localhost:1313/blog/02/</link>
-      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/02/</guid>
-      <description>&lt;p&gt;As enterprises increasingly adopt cloud technologies, &lt;strong&gt;data sovereignty and compliance&lt;/strong&gt; have become critical concerns. Organizations must ensure that &lt;strong&gt;sensitive data remains within specific geographic or regulatory boundaries&lt;/strong&gt; while still enabling modern cloud workloads.&lt;/p&gt;&#xA;&lt;p&gt;NubeStack helps enterprises address these challenges by provisioning &lt;strong&gt;on-prem Ceph storage clusters&lt;/strong&gt;, allowing &lt;strong&gt;public and private workloads to access data securely&lt;/strong&gt; without ever leaving the organization’s premises.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>VMware State and OpenStack Migrations</title>
-      <link>http://localhost:1313/blog/01/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/01/</guid>
-      <description>&lt;p&gt;Virtualization has been the backbone of modern IT infrastructure for over a decade. VMware continues to be a dominant player, powering enterprise data centers with robust virtualization, management tools, and integrated solutions. However, many organizations are now exploring &lt;strong&gt;OpenStack&lt;/strong&gt; as a &lt;strong&gt;flexible, open-source alternative&lt;/strong&gt; to reduce vendor lock-in, enable cloud-native workloads, and achieve cost optimization.&lt;/p&gt;&#xA;&lt;p&gt;In this post, we explore the current state of VMware environments, the challenges organizations face during migration, and how &lt;strong&gt;NubeStack&lt;/strong&gt; can help enterprises &lt;strong&gt;successfully transition to OpenStack-based cloud solutions&lt;/strong&gt;.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on</title><link>https://nubestack.com/blog/</link><description>Recent content in Blog on</description><generator>Hugo</generator><language>en-us</language><copyright>© 2025 - NubeStack. All rights reserved</copyright><lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://nubestack.com/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Strengthening Cloud Security with Zero Trust and VPC Service Controls</title><link>https://nubestack.com/blog/03/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/blog/03/</guid><description>&lt;p&gt;As organizations continue their digital transformation journeys, securing cloud environments has become more critical than ever. Traditional perimeter-based security is no longer sufficient in a world where workloads are distributed across hybrid and multi-cloud environments.&lt;/p&gt;
+&lt;p&gt;Enter the &lt;strong&gt;Zero Trust model&lt;/strong&gt; — a modern approach to cloud security that assumes no user, device, or service is inherently trusted. Combined with &lt;strong&gt;Google Cloud’s VPC Service Controls&lt;/strong&gt;, enterprises can significantly reduce data exfiltration risks, strengthen compliance, and maintain strict control over sensitive assets.&lt;/p&gt;</description></item><item><title>Cloud Data Sovereignty Challenges and On-Prem Storage Solutions</title><link>https://nubestack.com/blog/02/</link><pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/blog/02/</guid><description>&lt;p&gt;As enterprises increasingly adopt cloud technologies, &lt;strong&gt;data sovereignty and compliance&lt;/strong&gt; have become critical concerns. Organizations must ensure that &lt;strong&gt;sensitive data remains within specific geographic or regulatory boundaries&lt;/strong&gt; while still enabling modern cloud workloads.&lt;/p&gt;
+&lt;p&gt;NubeStack helps enterprises address these challenges by provisioning &lt;strong&gt;on-prem Ceph storage clusters&lt;/strong&gt;, allowing &lt;strong&gt;public and private workloads to access data securely&lt;/strong&gt; without ever leaving the organization’s premises.&lt;/p&gt;</description></item><item><title>VMware State and OpenStack Migrations</title><link>https://nubestack.com/blog/01/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/blog/01/</guid><description>&lt;p&gt;Virtualization has been the backbone of modern IT infrastructure for over a decade. VMware continues to be a dominant player, powering enterprise data centers with robust virtualization, management tools, and integrated solutions. However, many organizations are now exploring &lt;strong&gt;OpenStack&lt;/strong&gt; as a &lt;strong&gt;flexible, open-source alternative&lt;/strong&gt; to reduce vendor lock-in, enable cloud-native workloads, and achieve cost optimization.&lt;/p&gt;
+&lt;p&gt;In this post, we explore the current state of VMware environments, the challenges organizations face during migration, and how &lt;strong&gt;NubeStack&lt;/strong&gt; can help enterprises &lt;strong&gt;successfully transition to OpenStack-based cloud solutions&lt;/strong&gt;.&lt;/p&gt;</description></item></channel></rss>
