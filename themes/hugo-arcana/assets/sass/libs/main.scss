@@ -845,6 +845,7 @@
                     border: 0;
                     display: block;
                     padding: 1.5em 0.5em 1.35em 0.5em;
+                    font-weight: 400;
                 }
 
                 &:first-child {
@@ -858,7 +859,7 @@
                 }
 
                 &.current {
-                    font-weight: 600;
+                    font-weight: 400;
 
                     &:before {
                         @include vendor('transform', 'rotateZ(45deg)');
