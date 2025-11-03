@@ -4,11 +4,18 @@ Hugo static website hosted on Firebase Hosting with Formspree contact form. **10
 
 ## What You Get (Free)
 
-- Firebase Hosting: 10GB storage, 360MB/day bandwidth
+**Firebase Hosting (Spark Plan):**
+- 10GB storage, 360MB/day bandwidth
 - Free SSL certificate
 - Global CDN
-- Formspree contact form: 100 submissions/month
-- **Cost: $0/month**
+- No credit card required
+
+**Formspree Contact Form:**
+- 100 submissions/month free
+- Email notifications to your inbox
+- Spam filtering included
+
+**Total Cost: $0/month**
 
 ## Prerequisites
 
