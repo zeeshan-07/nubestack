@@ -83,3 +83,12 @@ section {
         padding-bottom: 3px !important;
     }
 }
+
+/* Reduce main menu and submenu text size */
+#nav > ul > li > a {
+    font-size: 0.88em;
+}
+
+.dropotron > li > a {
+    font-size: 0.85em !important;
+}
