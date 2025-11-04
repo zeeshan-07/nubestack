@@ -1,1 +1,160 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on</title><link>https://nubestack.com/tags/</link><description>Recent content in Tags on</description><generator>Hugo</generator><language>en-us</language><copyright>© 2025 - NubeStack. All rights reserved</copyright><lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nubestack.com/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Ceph</title><link>https://nubestack.com/tags/ceph/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/ceph/</guid><description/></item><item><title>CloudSecurity</title><link>https://nubestack.com/tags/cloudsecurity/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/cloudsecurity/</guid><description/></item><item><title>Compliance</title><link>https://nubestack.com/tags/compliance/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/compliance/</guid><description/></item><item><title>CostOptimization</title><link>https://nubestack.com/tags/costoptimization/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/costoptimization/</guid><description/></item><item><title>DataSovereignty</title><link>https://nubestack.com/tags/datasovereignty/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/datasovereignty/</guid><description/></item><item><title>GoogleCloud</title><link>https://nubestack.com/tags/googlecloud/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/googlecloud/</guid><description/></item><item><title>HybridCloud</title><link>https://nubestack.com/tags/hybridcloud/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/hybridcloud/</guid><description/></item><item><title>Kubernetes</title><link>https://nubestack.com/tags/kubernetes/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/kubernetes/</guid><description/></item><item><title>MultiCloud</title><link>https://nubestack.com/tags/multicloud/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/multicloud/</guid><description/></item><item><title>VendorLockin</title><link>https://nubestack.com/tags/vendorlockin/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/vendorlockin/</guid><description/></item><item><title>VPCServiceControls</title><link>https://nubestack.com/tags/vpcservicecontrols/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/vpcservicecontrols/</guid><description/></item><item><title>ZeroTrust</title><link>https://nubestack.com/tags/zerotrust/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/zerotrust/</guid><description/></item><item><title>GCP</title><link>https://nubestack.com/tags/gcp/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/gcp/</guid><description/></item><item><title>OnPremStorage</title><link>https://nubestack.com/tags/onpremstorage/</link><pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/onpremstorage/</guid><description/></item><item><title>CloudMigrations</title><link>https://nubestack.com/tags/cloudmigrations/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/cloudmigrations/</guid><description/></item><item><title>OpenStack</title><link>https://nubestack.com/tags/openstack/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/openstack/</guid><description/></item><item><title>VMware</title><link>https://nubestack.com/tags/vmware/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/vmware/</guid><description/></item><item><title>VMwareToOpenStack</title><link>https://nubestack.com/tags/vmwaretoopenstack/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/vmwaretoopenstack/</guid><description/></item><item><title>Content</title><link>https://nubestack.com/tags/content/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/content/</guid><description/></item><item><title>Examples</title><link>https://nubestack.com/tags/examples/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/examples/</guid><description/></item><item><title>Sidebar</title><link>https://nubestack.com/tags/sidebar/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/tags/sidebar/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on </title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ceph</title>
+      <link>http://localhost:1313/tags/ceph/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ceph/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CloudSecurity</title>
+      <link>http://localhost:1313/tags/cloudsecurity/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloudsecurity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Compliance</title>
+      <link>http://localhost:1313/tags/compliance/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/compliance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CostOptimization</title>
+      <link>http://localhost:1313/tags/costoptimization/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/costoptimization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DataSovereignty</title>
+      <link>http://localhost:1313/tags/datasovereignty/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/datasovereignty/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GoogleCloud</title>
+      <link>http://localhost:1313/tags/googlecloud/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/googlecloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>HybridCloud</title>
+      <link>http://localhost:1313/tags/hybridcloud/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/hybridcloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/tags/kubernetes/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MultiCloud</title>
+      <link>http://localhost:1313/tags/multicloud/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/multicloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VendorLockin</title>
+      <link>http://localhost:1313/tags/vendorlockin/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vendorlockin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VPCServiceControls</title>
+      <link>http://localhost:1313/tags/vpcservicecontrols/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vpcservicecontrols/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ZeroTrust</title>
+      <link>http://localhost:1313/tags/zerotrust/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/zerotrust/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GCP</title>
+      <link>http://localhost:1313/tags/gcp/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gcp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OnPremStorage</title>
+      <link>http://localhost:1313/tags/onpremstorage/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/onpremstorage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CloudMigrations</title>
+      <link>http://localhost:1313/tags/cloudmigrations/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/cloudmigrations/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OpenStack</title>
+      <link>http://localhost:1313/tags/openstack/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/openstack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VMware</title>
+      <link>http://localhost:1313/tags/vmware/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vmware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>VMwareToOpenStack</title>
+      <link>http://localhost:1313/tags/vmwaretoopenstack/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/vmwaretoopenstack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>http://localhost:1313/tags/content/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/content/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Examples</title>
+      <link>http://localhost:1313/tags/examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/examples/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sidebar</title>
+      <link>http://localhost:1313/tags/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/sidebar/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
