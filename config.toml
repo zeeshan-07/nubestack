@@ -92,6 +92,10 @@ url = "/services/automation"
 parent = "Services"
 weight = 20
 
+[[menu.main]]
+name = "Success Stories"
+url = "/success-stories"
+weight = 2.5
 
 [[menu.main]]
 name = "Blog"
