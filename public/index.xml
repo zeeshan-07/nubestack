@@ -10,6 +10,13 @@
     <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title></title>
+      <link>http://localhost:1313/industry/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/industry/</guid>
+      <description>&lt;h1 id=&#34;industry-solutions&#34;&gt;Industry Solutions&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to our industry solutions page. Explore how NubeStack empowers different sectors with tailored cloud and technology services.&lt;/p&gt;&#xA;&lt;h2 id=&#34;telecommunication&#34;&gt;Telecommunications&lt;/h2&gt;&#xA;&lt;p&gt;Modernize networks with cloud‑native NFV and automation across core and edge. We deliver 5G‑ready platforms on OpenStack and Kubernetes with CI/CD, observability, and zero‑touch operations—reducing OpEx and accelerating service rollout.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;5G/SDN/NFV migrations (vEPC, CNFs) with blue‑green cutovers&lt;/li&gt;&#xA;&lt;li&gt;Multi‑site edge orchestration using GitOps, Terraform, and Ansible&lt;/li&gt;&#xA;&lt;li&gt;End‑to‑end SLO/SLA monitoring with Prometheus, Grafana, and alerting&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;bioinformatics&#34;&gt;Bioinformatics&lt;/h2&gt;&#xA;&lt;p&gt;Accelerate genomics and life‑science workloads with secure, scalable HPC on Kubernetes. We build reproducible pipelines, data management, and GPU/CPU clusters for analytics and AI—shortening time‑to‑insight while meeting compliance.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>About Us</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
@@ -29,13 +36,6 @@
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/success-stories/data-sovereignty-ceph/</guid>
       <description>How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack.</description>
-    </item>
-    <item>
-      <title>Industry Solutions</title>
-      <link>http://localhost:1313/industry/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/industry/</guid>
-      <description>&lt;h1 id=&#34;industry-solutions&#34;&gt;Industry Solutions&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to our industry solutions page. Explore how NubeStack empowers different sectors with tailored cloud and technology services.&lt;/p&gt;&#xA;&lt;h2 id=&#34;telecommunication&#34;&gt;Telecommunications&lt;/h2&gt;&#xA;&lt;p&gt;Through extensive collaboration with telecom providers, NubeStack has developed deep expertise in cloud, NFV, and network automation. We help telecom organizations modernize their infrastructure, deploy next-generation networks, and accelerate digital transformation initiatives. Our services cover virtualized network functions, edge and core cloud deployments, and fully automated network orchestration, enabling operators to improve service delivery, reduce operational costs, and scale efficiently.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Infrastructure Automation</title>

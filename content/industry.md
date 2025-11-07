@@ -1,18 +1,18 @@
 ---
-title: "Industry Solutions"
+#title: "Industry Solutions"
 date: 2025-10-25
 draft: false
 type: "industry"
 sections:
   - title: "Telecommunications"
     id: "telecommunication"
-    image: "/images/blog01.png"
+    image: "/images/industry-telecom.png"
   - title: "Bioinformatics"
     id: "bioinformatics"
-    image: "/images/blog02.png"
+    image: "/images/industry-bio.png"
   - title: "Education & Research"
     id: "education"
-    image: "/images/blog03.png"
+    image: "/images/industry-edu.png"
 ---
 
 
@@ -23,15 +23,19 @@ Welcome to our industry solutions page. Explore how NubeStack empowers different
 
 ## Telecommunications {#telecommunication}
 
-Through extensive collaboration with telecom providers, NubeStack has developed deep expertise in cloud, NFV, and network automation. We help telecom organizations modernize their infrastructure, deploy next-generation networks, and accelerate digital transformation initiatives. Our services cover virtualized network functions, edge and core cloud deployments, and fully automated network orchestration, enabling operators to improve service delivery, reduce operational costs, and scale efficiently.
+Modernize networks with cloud‑native NFV and automation across core and edge. We deliver 5G‑ready platforms on OpenStack and Kubernetes with CI/CD, observability, and zero‑touch operations—reducing OpEx and accelerating service rollout.
 
-We follow industry best practices for migrating telecom workloads to cloud platforms, leveraging OpenStack, Kubernetes, and containerized microservices for high performance and reliability. NubeStack empowers operators to implement 5G, SDN, and next-gen network services, optimize resource allocation, and achieve rapid, secure, and compliant network modernization.
+- 5G/SDN/NFV migrations (vEPC, CNFs) with blue‑green cutovers
+- Multi‑site edge orchestration using GitOps, Terraform, and Ansible
+- End‑to‑end SLO/SLA monitoring with Prometheus, Grafana, and alerting
 
 ## Bioinformatics {#bioinformatics}
 
-NubeStack provides high-performance computing and cloud solutions tailored for genomics, life sciences, and research institutions. We enable organizations to accelerate discovery, manage large-scale data efficiently, and scale compute-intensive workloads for complex bioinformatics pipelines.
+Accelerate genomics and life‑science workloads with secure, scalable HPC on Kubernetes. We build reproducible pipelines, data management, and GPU/CPU clusters for analytics and AI—shortening time‑to‑insight while meeting compliance.
 
-Our experts implement secure, scalable cloud infrastructure with containerized workflows, Kubernetes orchestration, and HPC clusters optimized for genomics, AI-driven research, and advanced analytics. NubeStack helps researchers leverage data visualization, reproducible pipelines, and compliance-ready environments to gain insights faster, collaborate globally, and reduce operational overhead.
+- Workflow engines (Nextflow, Snakemake, CWL) with artifact versioning
+- Secure data lakes (S3/GCS) with fine‑grained access, audit, and retention
+- GPU acceleration for AI/ML, variant calling, and large‑scale analytics
 
 
 ---
@@ -47,6 +51,8 @@ Our experts implement secure, scalable cloud infrastructure with containerized w
 
 ## Education & Research {#education}
 
-Through partnerships with educational and research institutions, NubeStack helps create digital ecosystems that transform learning and research outcomes. We virtualize learning environments, develop cloud-based learning management systems, assist faculty in creating customized content, and design student performance evaluation systems.
+Power digital learning and research with cloud platforms, LMS integrations, and analytics. We enable virtual labs, elastic compute for projects and HPC, and data‑driven insights—improving student outcomes and speeding discoveries.
 
-We implement best practices for migrating institutional data to AWS and Azure, leveraging VMs, microservices, containerization, and Kubernetes. Our solutions allow universities and research centers to embrace virtual learning, accelerate research workflows, and execute data-driven decisions. By integrating interactive visualization tools, analytics platforms, and HPC capabilities, we help institutions identify trends, support at-risk students, and enable cutting-edge scientific discoveries.
+- LMS integrations (Moodle/Canvas) with SSO and provisioning automation
+- On‑demand virtual labs and per‑course cloud budgets with guardrails
+- Research data governance, reproducible environments, and cost insights

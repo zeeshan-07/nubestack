@@ -25,7 +25,9 @@
                 
                 <div class="industry-section {{ if $isEven }}image-right{{ else }}image-left{{ end }}">
                     <div class="industry-image">
-                        <img src="{{ $section.image }}" alt="{{ $section.title }}" />
+                        <div class="image-frame">
+                            <img src="{{ $section.image }}" alt="{{ $section.title }}" />
+                        </div>
                     </div>
                     
                     <div class="industry-text">
@@ -44,12 +46,12 @@
 
 <style>
 .industry-intro {
-    margin-bottom: 3em;
+    margin-bottom: 1.5em;
     text-align: center;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1em;
+    padding: 0.2em 1em;
 }
 
 .industry-intro p {
@@ -62,8 +64,8 @@
     display: flex;
     align-items: center;
     gap: 4em;
-    margin: 3em 0;
-    padding: 1.5em 0;
+    margin: 1.5em 0;
+    padding: 0.5em 0;
     position: relative;
 }
 
@@ -74,7 +76,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background: linear-gradient(to bottom, transparent, rgba(26, 35, 126, 0.1) 15%, rgba(26, 35, 126, 0.1) 85%, transparent);
+    background: linear-gradient(to bottom, transparent, rgba(60, 125, 125, 0.12) 15%, rgba(60, 125, 125, 0.12) 85%, transparent);
     transform: translateX(-50%);
 }
 
@@ -87,21 +89,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5em;
+    padding: 1em;
+}
+
+.industry-image .image-frame {
+    width: 100%;
+    max-width: 520px;
+    height: 340px;
+    border-radius: 0.8em;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    background: #f7f9fb;
 }
 
 .industry-image img {
     width: 100%;
-    max-width: 450px;
-    height: auto;
-    border-radius: 0.8em;
-    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
-.industry-image img:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.15);
+.industry-image .image-frame:hover img {
+    transform: scale(1.03);
 }
 
 .industry-text {
@@ -113,7 +123,7 @@
     margin-top: 0;
     margin-bottom: 1.2em;
     font-size: 2.1em;
-    color: #1a237e;
+    color: #3c7d7d;
     position: relative;
     padding-bottom: 0.6em;
     text-align: left;
@@ -126,7 +136,7 @@
     left: 0;
     width: 70px;
     height: 3px;
-    background: linear-gradient(90deg, #1a237e, #5e72e4);
+    background: linear-gradient(90deg, #3c7d7d, #2e6363);
     border-radius: 2px;
 }
 
@@ -185,6 +195,10 @@
     .industry-text {
         flex: 0 0 auto;
         width: 100%;
+        max-width: 100%;
+    }
+    .industry-image .image-frame {
+        height: 240px;
         max-width: 100%;
     }
     
