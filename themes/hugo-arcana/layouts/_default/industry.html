@@ -7,7 +7,6 @@
     {{ $sections := .Params.sections }}
     {{ $content := .RawContent }}
     
-    {{ $h1Pattern := "# Industry Solutions" }}
     {{ $intro := index (split $content "## ") 0 }}
     
     <div class="industry-intro">
@@ -22,23 +21,19 @@
                 {{ $section := index $sections $sectionIndex }}
                 {{ $isEven := eq (mod $sectionIndex 2) 1 }}
                 
-                <div class="industry-section {{ if $isEven }}image-right{{ else }}image-left{{ end }}">
-                    {{ if not $isEven }}
+                {{ $cleanContent := replaceRE `^[^{]+\{#[^}]+\}\s*` "" $sectionContent }}
+                
+                <div id="{{ $section.id }}" class="industry-section {{ if $isEven }}image-right{{ else }}image-left{{ end }}">
                     <div class="industry-image">
-                        <img src="{{ $section.image }}" alt="{{ $section.title }}" />
+                        <div class="image-frame">
+                            <img src="{{ $section.image }}" alt="{{ $section.title }}" />
+                        </div>
                     </div>
-                    {{ end }}
                     
                     <div class="industry-text">
                         <h2>{{ $section.title }}</h2>
-                        {{ $sectionContent | markdownify }}
+                        {{ $cleanContent | markdownify }}
                     </div>
-                    
-                    {{ if $isEven }}
-                    <div class="industry-image">
-                        <img src="{{ $section.image }}" alt="{{ $section.title }}" />
-                    </div>
-                    {{ end }}
                 </div>
             {{ else }}
                 <div class="industry-extra">
@@ -51,15 +46,38 @@
 
 <style>
 .industry-intro {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
+    text-align: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em 1em;
+}
+
+.industry-intro p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.7;
 }
 
 .industry-section {
     display: flex;
-    align-items: flex-start;
-    gap: 3em;
-    margin: 3em 0;
-    flex-wrap: wrap;
+    align-items: center;
+    gap: 4em;
+    margin: 1.5em 0;
+    padding: 0.5em 0;
+    position: relative;
+}
+
+.industry-section::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, rgba(60, 125, 125, 0.12) 15%, rgba(60, 125, 125, 0.12) 85%, transparent);
+    transform: translateX(-50%);
 }
 
 .industry-section.image-right {
@@ -67,39 +85,126 @@
 }
 
 .industry-image {
-    flex: 0 0 300px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+.industry-image .image-frame {
+    width: 100%;
+    max-width: 520px;
+    height: 340px;
+    border-radius: 0.8em;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+    background: #f7f9fb;
 }
 
 .industry-image img {
     width: 100%;
-    height: auto;
-    border-radius: 0.5em;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.industry-image .image-frame:hover img {
+    transform: scale(1.03);
 }
 
 .industry-text {
     flex: 1;
-    min-width: 300px;
+    padding: 1.5em;
 }
 
 .industry-text h2 {
     margin-top: 0;
+    margin-bottom: 1.2em;
+    font-size: 2.1em;
+    color: #3c7d7d;
+    position: relative;
+    padding-bottom: 0.6em;
+    text-align: left;
+}
+
+.industry-text h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 3px;
+    background: linear-gradient(90deg, #3c7d7d, #2e6363);
+    border-radius: 2px;
+}
+
+.industry-section.image-right .industry-text h2 {
+    text-align: left;
+}
+
+.industry-section.image-right .industry-text h2::after {
+    left: 0;
+    right: auto;
+}
+
+.industry-text p {
+    line-height: 1.85;
+    color: #444;
+    margin-bottom: 1.2em;
+    font-size: 1.02em;
+}
+
+.industry-text p:first-of-type {
+    font-size: 1.08em;
+    color: #333;
 }
 
 .industry-extra {
-    margin: 3em 0;
+    margin: 4em 0;
+    padding: 2.5em;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-radius: 1em;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Subtle background patterns */
+.industry-section:nth-child(odd) {
+    background: linear-gradient(to right, rgba(240, 244, 248, 0.4) 0%, transparent 50%);
+    border-radius: 0.5em;
+}
+
+.industry-section:nth-child(even) {
+    background: linear-gradient(to left, rgba(243, 246, 244, 0.4) 0%, transparent 50%);
+    border-radius: 0.5em;
 }
 
 @media screen and (max-width: 980px) {
     .industry-section,
     .industry-section.image-right {
         flex-direction: column;
+        gap: 2em;
     }
     
-    .industry-image {
+    .industry-section::before {
+        display: none;
+    }
+    
+    .industry-image,
+    .industry-text {
         flex: 0 0 auto;
         width: 100%;
-        max-width: 400px;
+        max-width: 100%;
+    }
+    .industry-image .image-frame {
+        height: 240px;
+        max-width: 100%;
+    }
+    
+    .industry-text h2::after {
+        left: 0 !important;
+        right: auto !important;
     }
 }
 </style>
