@@ -4,6 +4,11 @@ languageCode = "en-us"
 theme = "hugo-arcana"
 copyright = "© 2025 - NubeStack. All rights reserved"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Menu Configuration - Easy to manage menu order and items
 [menu]
 [[menu.main]]
