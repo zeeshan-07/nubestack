@@ -172,6 +172,18 @@
                     
                     
                 </div>
+
+                
+                <div class="locations-map-section">
+                    <div class="section-header">
+                        <h3><i class="fas fa-map-marked-alt"></i> Our Locations</h3>
+                        <p>Cambridge, UK & Islamabad, Pakistan</p>
+                    </div>
+                    
+                    <div class="map-container">
+                        <div id="locations-map"></div>
+                    </div>
+                </div>
             </div>
 
             <div class="contact-form-section">
@@ -305,6 +317,92 @@
         </div>
     </div>
 </section>
+
+<style>
+.locations-map-section {
+    margin-top: 3em;
+}
+
+.locations-map-section .section-header {
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.locations-map-section .section-header h3 {
+    margin-bottom: 0.5em;
+}
+
+.locations-map-section .section-header h3 i {
+    margin-right: 0.5em;
+}
+
+.map-container {
+    width: 100%;
+    height: 600px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e0e0e0;
+}
+
+#locations-map {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 980px) {
+    .map-container {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .map-container {
+        height: 400px;
+    }
+    
+    .locations-map-section {
+        margin-top: 2em;
+    }
+}
+</style>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    
+    var map = L.map('locations-map').setView([40, 35], 3);
+    
+    
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 18,
+    }).addTo(map);
+    
+    
+    var customIcon = L.divIcon({
+        className: 'custom-marker',
+        html: '<div style="background: #3c7d7d; width: 30px; height: 30px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 3px solid white; box-shadow: 0 3px 10px rgba(0,0,0,0.3);"><div style="transform: rotate(45deg); color: white; font-size: 16px; margin-top: 2px; margin-left: 5px;">📍</div></div>',
+        iconSize: [30, 30],
+        iconAnchor: [15, 30],
+        popupAnchor: [0, -30]
+    });
+    
+    
+    var cambridge = L.marker([52.2053, 0.1218], {icon: customIcon}).addTo(map);
+    cambridge.bindPopup('<div style="text-align: center; font-weight: 600; color: #3c7d7d;">📍 Cambridge, UK</div>');
+    
+    
+    var islamabad = L.marker([33.6844, 73.0479], {icon: customIcon}).addTo(map);
+    islamabad.bindPopup('<div style="text-align: center; font-weight: 600; color: #3c7d7d;">📍 Islamabad, Pakistan</div>');
+    
+    
+    var group = L.featureGroup([cambridge, islamabad]);
+    map.fitBounds(group.getBounds().pad(0.2));
+});
+</script>
 
 
                                 </article>
