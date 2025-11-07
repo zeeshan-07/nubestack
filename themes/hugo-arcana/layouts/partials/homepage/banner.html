@@ -1,10 +1,5 @@
 </style>
 <style>
-@media (min-width: 900px) {
-    .banner-text-slide {
-        font-size: 4em !important;
-    }
-}
 
 /* Banner animation keyframes */
 @keyframes fadeInUp {
@@ -66,7 +61,6 @@
 
 .banner-cta-btn::after {
     content: '→';
-    font-size: 1.2em;
     transition: transform 0.3s ease;
 }
 
@@ -116,7 +110,7 @@
                             <span class="banner-text-slide" style="
                                 position:relative;
                                 display:block;
-                                font-size:3em;
+                                font-size:4em;
                                 font-weight:900;
                                 color:#fff;
                                 text-shadow:0 4px 24px rgba(0,0,0,0.7), 0 1px 0 #222;
@@ -135,7 +129,7 @@
                         </div>
                                 {{- if .button }}
                                     <div style="position:relative; display:inline-block; margin-top:1.2em; margin-left:0.9em;">
-                                        <a href="{{ .button.url }}" class="button banner-cta-btn" style="position:relative; z-index:2; font-size:1.2em; text-decoration:none;">{{ .button.contents }}</a>
+                                        <a href="{{ .button.url }}" class="button banner-cta-btn" style="position:relative; z-index:2; text-decoration:none;">{{ .button.contents }}</a>
                                     </div>
                             </div>
                         {{- end }}

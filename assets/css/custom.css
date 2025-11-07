@@ -1,6 +1,254 @@
+/* ====================================
+   TYPOGRAPHY - Site-wide consistent font sizes
+   ==================================== */
+
+/* Base body text - pleasant reading size */
+body {
+    font-size: 16pt !important;
+    line-height: 1.65em !important;
+}
+
+/* Headings - Consistent hierarchy across ALL sections */
+h1 {
+    font-size: 2.25em !important;
+    line-height: 1.3em !important;
+    margin-bottom: 0.75em !important;
+    font-weight: 600 !important;
+}
+
+h2 {
+    font-size: 1.85em !important;
+    line-height: 1.35em !important;
+    margin-bottom: 0.8em !important;
+    font-weight: 600 !important;
+}
+
+h3 {
+    font-size: 1.35em !important;
+    line-height: 1.4em !important;
+    margin-bottom: 0.75em !important;
+    font-weight: 600 !important;
+}
+
+h4 {
+    font-size: 1.15em !important;
+    line-height: 1.45em !important;
+    margin-bottom: 0.7em !important;
+    font-weight: 600 !important;
+}
+
+/* Section headers (major headers) - consistent across home, services, etc. */
+header.major h2,
+.major h2 {
+    font-size: 1.95em !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+}
+
+header.major p,
+.major p {
+    font-size: 1.15em !important;
+    line-height: 1.6em !important;
+}
+
+/* Article/Page headers */
+article header h2,
+.wrapper header h2 {
+    font-size: 1.95em !important;
+    text-align: center !important;
+}
+
+/* Success Stories - Match with services */
+.success-title {
+    font-size: 1.35em !important;
+    font-weight: 700 !important;
+    line-height: 1.4em !important;
+}
+
+.success-summary {
+    font-size: 0.98em !important;
+    line-height: 1.7em !important;
+}
+
+/* Service tiles - Match with success stories */
+.svc-title {
+    font-size: 1.35em !important;
+    font-weight: 700 !important;
+    line-height: 1.4em !important;
+}
+
+.svc-desc {
+    font-size: 0.92em !important;
+    line-height: 1.6em !important;
+}
+
+.svc-content {
+    font-size: 0.95em !important;
+    line-height: 1.7em !important;
+}
+
+/* Service box headings */
+.box.highlight h3 {
+    font-size: 1.35em !important;
+    font-weight: 700 !important;
+    line-height: 1.4em !important;
+}
+
+.box.highlight p {
+    font-size: 0.95em !important;
+    line-height: 1.7em !important;
+}
+
+/* Paragraph text */
+p {
+    font-size: 1.05em !important;
+    line-height: 1.7em !important;
+    margin-bottom: 1.5em !important;
+}
+
+/* List text */
+ul li, ol li {
+    font-size: 1.02em !important;
+    line-height: 1.65em !important;
+    margin-bottom: 0.5em !important;
+}
+
+/* Header descriptions */
+header p {
+    font-size: 1.15em !important;
+    line-height: 1.6em !important;
+    color: #666 !important;
+}
+
+/* Industry page specific */
+.industry-intro p {
+    font-size: 1.12em !important;
+    line-height: 1.75em !important;
+}
+
+.industry-text h2 {
+    font-size: 1.85em !important;
+}
+
+.industry-text p {
+    font-size: 1.06em !important;
+    line-height: 1.8em !important;
+}
+
+/* Contact page */
+.contact-card h4 {
+    font-size: 1.2em !important;
+}
+
+.contact-details p {
+    font-size: 1em !important;
+}
+
+/* Certifications section */
+.certifications-section .major h2 {
+    font-size: 1.95em !important;
+}
+
+/* Banner text */
+.banner-text-slide {
+    font-size: 4em !important;
+}
+
+@media (min-width: 900px) {
+    .banner-text-slide {
+        font-size: 4em !important;
+    }
+}
+
+.banner-cta-btn {
+    font-size: 1.2em !important;
+}
+
+.banner-cta-btn::after {
+    font-size: 1.2em !important;
+}
+
+/* Success stories badge */
+.success-badge {
+    font-size: 0.75em !important;
+}
+
+/* Success stories link */
+.success-link {
+    font-size: 0.9em !important;
+}
+
+.success-link::after {
+    font-size: 1.2em !important;
+}
+
+/* Service icons */
+.svc-icon {
+    font-size: 40px !important;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1680px) {
+    body { font-size: 15pt !important; }
+    h1 { font-size: 2.1em !important; }
+    h2 { font-size: 1.75em !important; }
+    h3 { font-size: 1.3em !important; }
+    header.major h2, .major h2 { font-size: 1.85em !important; }
+    .success-title, .svc-title, .box.highlight h3 { font-size: 1.3em !important; }
+    .banner-text-slide { font-size: 3.8em !important; }
+}
+
+@media screen and (max-width: 1280px) {
+    body { font-size: 14pt !important; }
+    h1 { font-size: 2em !important; }
+    h2 { font-size: 1.65em !important; }
+    h3 { font-size: 1.25em !important; }
+    header.major h2, .major h2 { font-size: 1.75em !important; }
+    .success-title, .svc-title, .box.highlight h3 { font-size: 1.25em !important; }
+    .banner-text-slide { font-size: 3.5em !important; }
+}
+
+@media screen and (max-width: 980px) {
+    body { font-size: 13pt !important; }
+    h1 { font-size: 1.85em !important; }
+    h2 { font-size: 1.55em !important; }
+    h3 { font-size: 1.2em !important; }
+    p { font-size: 1.03em !important; }
+    header.major h2, .major h2 { font-size: 1.65em !important; }
+    .success-title, .svc-title, .box.highlight h3 { font-size: 1.2em !important; }
+    .banner-text-slide { font-size: 3em !important; }
+}
+
+@media screen and (max-width: 736px) {
+    body { font-size: 12pt !important; }
+    h1 { font-size: 1.7em !important; }
+    h2 { font-size: 1.45em !important; }
+    h3 { font-size: 1.15em !important; }
+    p { font-size: 1.02em !important; }
+    header.major h2, .major h2 { font-size: 1.55em !important; }
+    .success-title, .svc-title, .box.highlight h3 { font-size: 1.15em !important; }
+    .banner-text-slide { font-size: 2.5em !important; }
+}
+
+@media screen and (max-width: 640px) {
+    header.major h2, .major h2 {
+        font-size: 1.5em !important;
+    }
+    .banner-text-slide { font-size: 2.2em !important; }
+    .svc-icon { font-size: 32px !important; }
+}
+
+@media screen and (max-width: 900px) and (min-width: 641px) {
+    .svc-icon { font-size: 36px !important; }
+}
+
+/* ====================================
+   EXISTING CUSTOM STYLES
+   ==================================== */
+
 /* Custom styles for square service boxes */
 .icon.major.square {
-    border-radius: 8px; /* Square with slight rounded corners */
+    border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
