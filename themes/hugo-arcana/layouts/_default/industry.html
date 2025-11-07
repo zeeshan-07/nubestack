@@ -1,0 +1,106 @@
+{{ define "main" }}
+<article>
+    <header>
+        <h2>{{ .Title }}</h2>
+    </header>
+    
+    {{ $sections := .Params.sections }}
+    {{ $content := .RawContent }}
+    
+    {{ $h1Pattern := "# Industry Solutions" }}
+    {{ $intro := index (split $content "## ") 0 }}
+    
+    <div class="industry-intro">
+        {{ $intro | markdownify }}
+    </div>
+    
+    {{ $allSections := split $content "## " }}
+    {{ range $i, $sectionContent := $allSections }}
+        {{ if gt $i 0 }}
+            {{ $sectionIndex := sub $i 1 }}
+            {{ if lt $sectionIndex (len $sections) }}
+                {{ $section := index $sections $sectionIndex }}
+                {{ $isEven := eq (mod $sectionIndex 2) 1 }}
+                
+                <div class="industry-section {{ if $isEven }}image-right{{ else }}image-left{{ end }}">
+                    {{ if not $isEven }}
+                    <div class="industry-image">
+                        <img src="{{ $section.image }}" alt="{{ $section.title }}" />
+                    </div>
+                    {{ end }}
+                    
+                    <div class="industry-text">
+                        <h2>{{ $section.title }}</h2>
+                        {{ $sectionContent | markdownify }}
+                    </div>
+                    
+                    {{ if $isEven }}
+                    <div class="industry-image">
+                        <img src="{{ $section.image }}" alt="{{ $section.title }}" />
+                    </div>
+                    {{ end }}
+                </div>
+            {{ else }}
+                <div class="industry-extra">
+                    {{ $sectionContent | markdownify }}
+                </div>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+</article>
+
+<style>
+.industry-intro {
+    margin-bottom: 2em;
+}
+
+.industry-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 3em;
+    margin: 3em 0;
+    flex-wrap: wrap;
+}
+
+.industry-section.image-right {
+    flex-direction: row-reverse;
+}
+
+.industry-image {
+    flex: 0 0 300px;
+}
+
+.industry-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.industry-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.industry-text h2 {
+    margin-top: 0;
+}
+
+.industry-extra {
+    margin: 3em 0;
+}
+
+@media screen and (max-width: 980px) {
+    .industry-section,
+    .industry-section.image-right {
+        flex-direction: column;
+    }
+    
+    .industry-image {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 400px;
+    }
+}
+</style>
+{{ end }}

@@ -2,7 +2,17 @@
 title: "Industry Solutions"
 date: 2025-10-25
 draft: false
-layout: "left-sidebar"
+type: "industry"
+sections:
+  - title: "Telecommunications"
+    id: "telecommunication"
+    image: "/images/blog01.png"
+  - title: "Bioinformatics"
+    id: "bioinformatics"
+    image: "/images/blog02.png"
+  - title: "Education & Research"
+    id: "education"
+    image: "/images/blog03.png"
 ---
 
 
