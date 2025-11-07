@@ -19,24 +19,27 @@ sections:
 
 # Industry Solutions
 
-Welcome to our industry solutions page. Explore how NubeStack empowers different sectors with tailored cloud and technology services.
+NubeStack empowers organizations across diverse sectors to innovate, scale, and operate efficiently with tailored cloud and technology solutions. Our expertise spans telecommunications, bioinformatics, and education—delivering secure, automated, and future-ready platforms for every need.
+
+Explore how we help industries transform with advanced cloud infrastructure and automation.
 
 ## Telecommunications {#telecommunication}
 
-Modernize networks with cloud‑native NFV and automation across core and edge. We deliver 5G‑ready platforms on OpenStack and Kubernetes with CI/CD, observability, and zero‑touch operations—reducing OpEx and accelerating service rollout.
+We modernize telecom networks with cloud-native NFV and automation, enabling rapid 5G deployment and seamless operations from core to edge. Our platforms leverage OpenStack, Kubernetes, and best-in-class automation to reduce OpEx and accelerate service delivery.
 
-- 5G/SDN/NFV migrations (vEPC, CNFs) with blue‑green cutovers
-- Multi‑site edge orchestration using GitOps, Terraform, and Ansible
-- End‑to‑end SLO/SLA monitoring with Prometheus, Grafana, and alerting
+- 5G and NFV transformation with OpenStack, Kubernetes, and CI/CD
+- Automated network orchestration using Terraform, Juju, and Ansible
+- High-performance networking with SR-IOV, DPDK, and zero-touch operations
+- End-to-end observability and SLA monitoring with Prometheus and Grafana
 
 ## Bioinformatics {#bioinformatics}
 
-Accelerate genomics and life‑science workloads with secure, scalable HPC on Kubernetes. We build reproducible pipelines, data management, and GPU/CPU clusters for analytics and AI—shortening time‑to‑insight while meeting compliance.
+We accelerate genomics and life-science research with secure, scalable cloud and HPC solutions. Our expertise in OpenStack, Kubernetes, and advanced storage enables reproducible pipelines, compliance, and rapid data analysis for scientific breakthroughs.
 
-- Workflow engines (Nextflow, Snakemake, CWL) with artifact versioning
-- Secure data lakes (S3/GCS) with fine‑grained access, audit, and retention
-- GPU acceleration for AI/ML, variant calling, and large‑scale analytics
-
+- HPC and AI-optimized clusters on Kubernetes and OpenStack
+- Secure, scalable storage: CEPH, Lustre, Longhorn
+- GPU-accelerated infrastructure for genomics, ML, and analytics
+- Compliant data management with granular access control and audit trails
 
 ---
 
@@ -51,8 +54,9 @@ Accelerate genomics and life‑science workloads with secure, scalable HPC on Ku
 
 ## Education & Research {#education}
 
-Power digital learning and research with cloud platforms, LMS integrations, and analytics. We enable virtual labs, elastic compute for projects and HPC, and data‑driven insights—improving student outcomes and speeding discoveries.
+We enable universities and research institutions to build flexible, cost-effective cloud environments for digital learning and scientific discovery. Our solutions deliver automation, reproducibility, and seamless integration for virtual labs and computational research.
 
-- LMS integrations (Moodle/Canvas) with SSO and provisioning automation
-- On‑demand virtual labs and per‑course cloud budgets with guardrails
-- Research data governance, reproducible environments, and cost insights
+- Virtual labs and scalable compute on OpenStack and Kubernetes
+- Automated provisioning and cost management with Terraform
+- Secure, reproducible research environments with observability
+- Integration with leading learning and research platforms
