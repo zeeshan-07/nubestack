@@ -38,9 +38,6 @@
     <loc>http://localhost:1313/industry/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/services/automation/</loc>
-    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/kubernetes/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -74,12 +71,6 @@
     <loc>http://localhost:1313/tags/zerotrust/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/services/devops/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/services/web-development/</loc>
-    <lastmod>2024-01-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/</loc>
     <lastmod>2020-01-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -110,15 +101,35 @@
     <loc>http://localhost:1313/tags/vmwaretoopenstack/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/24/7/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/automation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/cicd/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/cloud/</loc>
+  </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/content/</loc>
   </url><url>
+    <loc>http://localhost:1313/tags/devops/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/devops/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/examples/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/infrastructure/</loc>
+  </url><url>
+    <loc>http://localhost:1313/services/automation/</loc>
   </url><url>
     <loc>http://localhost:1313/left-sidebar/</loc>
   </url><url>
     <loc>http://localhost:1313/services/managed-services/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/managed-services/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/managedservices/</loc>
   </url><url>
     <loc>http://localhost:1313/contact-success/</loc>
   </url><url>
@@ -129,6 +140,8 @@
     <loc>http://localhost:1313/services/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/sidebar/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/support/</loc>
   </url><url>
     <loc>http://localhost:1313/two-sidebar/</loc>
   </url>

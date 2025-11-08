@@ -3,7 +3,7 @@ title: "Managed Services"
 description: "Simplifying Cloud Operations with Expert Management."
 image: images/services/managed-services.png
 image_alt: "managed-services"
-tags: ["examples", "content", "sidebar"]
+tags: ["Managed-Services", "24/7", "support"]
 sidebar_left: sidebar1
 ---
 
