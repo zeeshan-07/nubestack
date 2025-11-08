@@ -38,13 +38,6 @@
       <description>&lt;p&gt;NubeStack empowers organizations across diverse sectors to innovate, scale, and operate efficiently with tailored cloud and technology solutions. Our expertise spans telecommunications, bioinformatics, and education—delivering secure, automated, and future-ready platforms for every need.&lt;/p&gt;&#xA;&lt;p&gt;Explore how we help industries transform with advanced cloud infrastructure and automation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;telecommunication&#34;&gt;Telecommunications&lt;/h2&gt;&#xA;&lt;p&gt;We modernize telecom networks with cloud-native NFV and automation, enabling rapid 5G deployment and seamless operations from core to edge. Our platforms leverage OpenStack, Kubernetes, and best-in-class automation to reduce OpEx and accelerate service delivery.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Infrastructure Automation</title>
-      <link>http://localhost:1313/services/automation/</link>
-      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/automation/</guid>
-      <description>&lt;h1 id=&#34;infrastructure-automation&#34;&gt;Infrastructure Automation&lt;/h1&gt;&#xA;&lt;p&gt;Automate your IT infrastructure deployment with IaC (Terraform/Ansible) to reduce provisioning time, enhance consistency, ensure disaster recovery, and lower costs.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction</title>
       <link>http://localhost:1313/success-stories/multicloud-k8s-optimization/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
@@ -73,13 +66,6 @@
       <description>A global e-commerce platform successfully implemented a Zero Trust architecture and VPC Service Controls on Google Cloud with NubeStack to protect sensitive assets.</description>
     </item>
     <item>
-      <title>DevOps Services</title>
-      <link>http://localhost:1313/services/devops/</link>
-      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/services/devops/</guid>
-      <description>&lt;h1 id=&#34;devops-services&#34;&gt;DevOps Services&lt;/h1&gt;&#xA;&lt;p&gt;Streamline your development and operations with our comprehensive DevOps solutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;our-devops-expertise&#34;&gt;Our DevOps Expertise&lt;/h2&gt;&#xA;&lt;h3 id=&#34;continuous-integrationcontinuous-deployment-cicd&#34;&gt;Continuous Integration/Continuous Deployment (CI/CD)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Automated build pipelines&lt;/li&gt;&#xA;&lt;li&gt;Testing automation&lt;/li&gt;&#xA;&lt;li&gt;Deployment automation&lt;/li&gt;&#xA;&lt;li&gt;Code quality checks&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;infrastructure-as-code-iac&#34;&gt;Infrastructure as Code (IaC)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Terraform and CloudFormation&lt;/li&gt;&#xA;&lt;li&gt;Ansible and Puppet&lt;/li&gt;&#xA;&lt;li&gt;Kubernetes orchestration&lt;/li&gt;&#xA;&lt;li&gt;Docker containerization&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;monitoring--logging&#34;&gt;Monitoring &amp;amp; Logging&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Application performance monitoring&lt;/li&gt;&#xA;&lt;li&gt;Infrastructure monitoring&lt;/li&gt;&#xA;&lt;li&gt;Log aggregation and analysis&lt;/li&gt;&#xA;&lt;li&gt;Alert management&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;devops-tools-we-use&#34;&gt;DevOps Tools We Use&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Version Control&lt;/strong&gt;: Git, GitLab, GitHub&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;CI/CD&lt;/strong&gt;: Jenkins, GitLab CI, GitHub Actions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Containerization&lt;/strong&gt;: Docker, Kubernetes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Prometheus, Grafana, ELK Stack&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cloud Platforms&lt;/strong&gt;: AWS, Azure, Google Cloud&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;benefits-of-our-devops-approach&#34;&gt;Benefits of Our DevOps Approach&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Faster Deployment&lt;/strong&gt;: Reduce time to market&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Improved Quality&lt;/strong&gt;: Automated testing and monitoring&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Better Collaboration&lt;/strong&gt;: Bridge development and operations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scalability&lt;/strong&gt;: Handle growth efficiently&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;implementation-process&#34;&gt;Implementation Process&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Assessment&lt;/strong&gt;: Evaluate current processes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Strategy&lt;/strong&gt;: Design DevOps roadmap&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Implementation&lt;/strong&gt;: Set up tools and pipelines&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Training&lt;/strong&gt;: Team education and best practices&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Optimization&lt;/strong&gt;: Continuous improvement&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;Transform your development workflow with DevOps. &lt;a href=&#34;http://localhost:1313/contact&#34;&gt;Contact us&lt;/a&gt; to get started!&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Strengthening Cloud Security with Zero Trust and VPC Service Controls</title>
       <link>http://localhost:1313/blog/03/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
@@ -106,6 +92,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/contact/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>DevOps Services</title>
+      <link>http://localhost:1313/services/devops/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/devops/</guid>
+      <description>&lt;p&gt;In today’s digital landscape, organizations must deliver software faster, more securely, and more reliably than ever before. &lt;strong&gt;DevOps Services&lt;/strong&gt; bridge the gap between development and operations teams — enabling seamless collaboration, continuous integration, and automated delivery pipelines that accelerate innovation and reduce time to market.&lt;/p&gt;&#xA;&lt;p&gt;At &lt;strong&gt;Nubestack&lt;/strong&gt;, we bring together the best of development, automation, and operations to build high-performing, resilient, and scalable delivery systems tailored to your business needs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Infrastructure Automation</title>
+      <link>http://localhost:1313/services/automation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/automation/</guid>
+      <description>&lt;p&gt;Building and managing modern cloud infrastructure involves a multitude of repetitive and error-prone tasks — from provisioning servers and configuring networks to deploying complex workloads across multiple environments. &lt;strong&gt;Infrastructure Automation&lt;/strong&gt; transforms this process by replacing manual operations with code-driven, consistent, and scalable workflows.&lt;/p&gt;&#xA;&lt;p&gt;At &lt;strong&gt;Nubestack&lt;/strong&gt;, we help organizations automate every layer of their infrastructure — ensuring faster deployments, reduced human error, improved reliability, and greater agility across the entire lifecycle of your cloud environment.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Left Sidebar</title>
