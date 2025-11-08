@@ -104,29 +104,137 @@
                 <div class="container">
                     <div class="row gtr-200">
                             <div class="col-4 col-12-narrower">
-                                <div id="sidebar"><section>
-    <h3>Magna Feugiat</h3>
-    <p>Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
-    Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
-    Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis et nisi etiam.</p>
-    <footer>
-        <a href="#" class="button">More</a>
-    </footer>
-</section>
-<section>
-    <h3>Ipsum Dolore</h3>
-    <ul class="links">
-        <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-        <li><a href="#">Ornare in hendrerit in lectus</a></li>
-        <li><a href="#">Semper mod quis eget mi dolore</a></li>
-        <li><a href="#">Consequat etiam lorem phasellus</a></li>
-        <li><a href="#">Amet turpis, feugiat et sit amet</a></li>
-        <li><a href="#">Semper mod quisturpis nisi</a></li>
-    </ul>
-    <footer>
-        <a href="#" class="button">More</a>
-    </footer>
-</section>
+                                <div id="sidebar"><style>
+.sidebar-elegant section {
+    background: #fff;
+    padding: 1.2em;
+    border-radius: 6px;
+    margin-bottom: 1em;
+    border: 1px solid #e5e5e5;
+    transition: all 0.3s ease;
+}
+
+.sidebar-elegant section:hover {
+    border-color: #3c7d7d;
+    box-shadow: 0 2px 12px rgba(60, 125, 125, 0.08);
+}
+
+.sidebar-elegant h3 {
+    color: #2a2a2a;
+    font-size: 1.1em;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.4em;
+    border-bottom: 2px solid #3c7d7d;
+    font-weight: 600;
+}
+
+.sidebar-elegant p {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 0.8em;
+    font-size: 0.9em;
+}
+
+.sidebar-elegant .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-elegant .links li {
+    margin-bottom: 0.2em;
+}
+
+.sidebar-elegant .links li a {
+    color: #444;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 0.6em;
+    border-left: 3px solid transparent;
+    transition: all 0.25s ease;
+    font-size: 0.9em;
+}
+
+.sidebar-elegant .links li a:hover {
+    color: #3c7d7d;
+    background: rgba(60, 125, 125, 0.05);
+    border-left-color: #3c7d7d;
+    padding-left: 1em;
+}
+
+.sidebar-elegant .cta-section {
+    background: linear-gradient(135deg, #3c7d7d 0%, #2d6060 100%);
+    border: none;
+}
+
+.sidebar-elegant .cta-section:hover {
+    box-shadow: 0 4px 16px rgba(60, 125, 125, 0.2);
+}
+
+.sidebar-elegant .cta-section h3 {
+    color: #fff;
+    border-bottom-color: rgba(255,255,255,0.3);
+}
+
+.sidebar-elegant .cta-section p {
+    color: rgba(255,255,255,0.95);
+}
+
+.sidebar-elegant .button {
+    background: #fff;
+    color: #3c7d7d;
+    border: 2px solid #fff;
+    padding: 0.6em 1.5em;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-size: 0.9em;
+}
+
+.sidebar-elegant .button:hover {
+    background: transparent;
+    color: #fff;
+    transform: translateY(-2px);
+}
+</style>
+
+<div class="sidebar-elegant">
+    <section>
+        <header>
+            <h3>Our Services</h3>
+        </header>
+        <p>Explore our comprehensive cloud solutions designed to transform your infrastructure.</p>
+        <ul class="links">
+            
+            <li><a href="/services/container-orchestration/">Container Orchestration</a></li>
+            
+            <li><a href="/services/automation/">Infrastructure Automation</a></li>
+            
+            <li><a href="/services/nfv/">NFV Solutions</a></li>
+            
+            <li><a href="/services/cloud-solutions/">Private/Public Cloud Solutions</a></li>
+            
+            <li><a href="/services/devops/">DevOps Services</a></li>
+            
+            <li><a href="/services/web-development/">Web Development</a></li>
+            
+            <li><a href="/services/managed-services/">Managed Services</a></li>
+            
+        </ul>
+    </section>
+
+    <section class="cta-section">
+        <header>
+            <h3>Need Help?</h3>
+        </header>
+        <p>Our team is ready to discuss your cloud infrastructure needs and provide expert guidance.</p>
+        <footer>
+            <a href="/contact/" class="button">Contact Us</a>
+        </footer>
+    </section>
+</div>
                                 </div>
                             </div>
 
