@@ -61,6 +61,12 @@ items:
     subtitle: "See how NubeStack delivers real results for enterprises."
     # The items array is intentionally left empty. Stories are sourced from content/success-stories/*.md
     items: []
+  
+  - type: blog-posts
+    title: "Latest Insights"
+    subtitle: "Stay updated with our latest thoughts on cloud infrastructure, DevOps, and modern IT solutions."
+    content_type: blog
+    max: 3
         
   - type: posts
     #heading: Recent Posts
