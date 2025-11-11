@@ -111,19 +111,13 @@
   </url><url>
     <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/content/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/devops/</loc>
   </url><url>
     <loc>http://localhost:1313/services/devops/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/examples/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/infrastructure/</loc>
   </url><url>
     <loc>http://localhost:1313/services/automation/</loc>
-  </url><url>
-    <loc>http://localhost:1313/left-sidebar/</loc>
   </url><url>
     <loc>http://localhost:1313/services/managed-services/</loc>
   </url><url>
@@ -131,16 +125,8 @@
   </url><url>
     <loc>http://localhost:1313/contact-success/</loc>
   </url><url>
-    <loc>http://localhost:1313/no-sidebar/</loc>
-  </url><url>
-    <loc>http://localhost:1313/right-sidebar/</loc>
-  </url><url>
     <loc>http://localhost:1313/services/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/sidebar/</loc>
-  </url><url>
     <loc>http://localhost:1313/tags/support/</loc>
-  </url><url>
-    <loc>http://localhost:1313/two-sidebar/</loc>
   </url>
 </urlset>

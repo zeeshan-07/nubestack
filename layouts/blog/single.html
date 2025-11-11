@@ -1,0 +1,145 @@
+{{ define "main" }}
+    <div class="blog-single-container">
+        <!-- Left Sidebar -->
+        <aside class="blog-sidebar">
+            <!-- Post Meta -->
+            <section class="sidebar-section">
+                <h3><i class="far fa-newspaper"></i> Article Info</h3>
+                {{ if .Site.Params.show_post_dates | default true }}
+                    {{- with .Date }}
+                        <p class="sidebar-date">
+                            <i class="far fa-calendar-alt"></i>
+                            <strong>Published:</strong><br>
+                            {{ . | time.Format ":date_long" }}
+                        </p>
+                    {{ end }}
+                {{ end }}
+                {{ with .ReadingTime }}
+                    <p class="sidebar-reading-time">
+                        <i class="far fa-clock"></i>
+                        <strong>Reading Time:</strong><br>
+                        {{ . }} min read
+                    </p>
+                {{ end }}
+                {{ with .WordCount }}
+                    <p class="sidebar-word-count">
+                        <i class="fas fa-file-word"></i>
+                        <strong>Word Count:</strong><br>
+                        {{ . }} words
+                    </p>
+                {{ end }}
+            </section>
+
+            <!-- Tags -->
+            {{ with .Params.tags }}
+                <section class="sidebar-section">
+                    <h3><i class="fas fa-tags"></i> Topics</h3>
+                    <div class="sidebar-tags">
+                        {{ range . }}
+                            <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="sidebar-tag">
+                                {{ . }}
+                            </a>
+                        {{ end }}
+                    </div>
+                </section>
+            {{ end }}
+
+            <!-- Table of Contents -->
+            {{ if .Params.toc | default true }}
+                {{ with .TableOfContents }}
+                    <section class="sidebar-section">
+                        <h3><i class="fas fa-list"></i> Contents</h3>
+                        <div class="sidebar-toc">
+                            {{ . }}
+                        </div>
+                    </section>
+                {{ end }}
+            {{ end }}
+
+            <!-- Share -->
+            <section class="sidebar-section">
+                <h3><i class="fas fa-share-alt"></i> Share</h3>
+                <div class="sidebar-share">
+                    <a href="https://twitter.com/intent/tweet?url={{ .Permalink }}&text={{ .Title }}" 
+                       target="_blank" 
+                       rel="noopener"
+                       class="sidebar-share-btn share-twitter"
+                       title="Share on Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink }}" 
+                       target="_blank" 
+                       rel="noopener"
+                       class="sidebar-share-btn share-linkedin"
+                       title="Share on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}" 
+                       target="_blank" 
+                       rel="noopener"
+                       class="sidebar-share-btn share-facebook"
+                       title="Share on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="mailto:?subject={{ .Title }}&body={{ .Permalink }}" 
+                       class="sidebar-share-btn share-email"
+                       title="Share via Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </section>
+
+            <!-- Back to Blog -->
+            <section class="sidebar-section">
+                <a href="{{ "/blog" | relURL }}" class="sidebar-back-button">
+                    <i class="fas fa-arrow-left"></i> All Articles
+                </a>
+            </section>
+        </aside>
+
+        <!-- Main Content -->
+        <article class="blog-main-content">
+            <header class="blog-article-header">
+                <h1>{{ .Title }}</h1>
+                {{ with .Description }}
+                    <p class="blog-article-lead">{{ . }}</p>
+                {{ end }}
+            </header>
+
+            {{- if .Params.image }}
+                <div class="blog-article-featured">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt | default .Title }}" />
+                </div>
+            {{ end }}
+
+            <div class="blog-article-body">
+                {{- .Content }}
+            </div>
+        </article>
+    </div>
+
+    <!-- Related Posts Section -->
+    {{ $related := .Site.RegularPages.Related . | first 3 }}
+    {{ with $related }}
+        <section class="blog-related-section">
+            <h3><i class="fas fa-book-reader"></i> Related Articles</h3>
+            <div class="blog-related-grid">
+                {{ range . }}
+                    <article class="blog-related-card">
+                        <a href="{{ .RelPermalink }}" class="blog-related-image">
+                            <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt | default .Title }}" />
+                        </a>
+                        <div class="blog-related-content">
+                            <h4>
+                                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                            </h4>
+                            {{ with .Date }}
+                                <time>{{ . | time.Format ":date_medium" }}</time>
+                            {{ end }}
+                        </div>
+                    </article>
+                {{ end }}
+            </div>
+        </section>
+    {{ end }}
+{{ end }}

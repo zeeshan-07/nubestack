@@ -108,13 +108,6 @@
       <description>&lt;p&gt;Building and managing modern cloud infrastructure involves a multitude of repetitive and error-prone tasks — from provisioning servers and configuring networks to deploying complex workloads across multiple environments. &lt;strong&gt;Infrastructure Automation&lt;/strong&gt; transforms this process by replacing manual operations with code-driven, consistent, and scalable workflows.&lt;/p&gt;&#xA;&lt;p&gt;At &lt;strong&gt;Nubestack&lt;/strong&gt;, we help organizations automate every layer of their infrastructure — ensuring faster deployments, reduced human error, improved reliability, and greater agility across the entire lifecycle of your cloud environment.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Left Sidebar</title>
-      <link>http://localhost:1313/left-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/left-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Managed Services</title>
       <link>http://localhost:1313/services/managed-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -129,32 +122,11 @@
       <description>&lt;p&gt;Thank you for contacting us! We&amp;rsquo;ll get back to you soon.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>No Sidebar</title>
-      <link>http://localhost:1313/no-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/no-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Right Sidebar</title>
-      <link>http://localhost:1313/right-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/right-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Services</title>
       <link>http://localhost:1313/services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/services/</guid>
       <description>&lt;h1 id=&#34;our-services&#34;&gt;Our Services&lt;/h1&gt;&#xA;&lt;h2 id=&#34;cloud-solutions&#34;&gt;Cloud Solutions&lt;/h2&gt;&#xA;&lt;p&gt;We provide comprehensive cloud infrastructure and deployment solutions.&lt;/p&gt;&#xA;&lt;h2 id=&#34;web-development&#34;&gt;Web Development&lt;/h2&gt;&#xA;&lt;p&gt;Custom web applications and responsive websites built with modern technologies.&lt;/p&gt;&#xA;&lt;h2 id=&#34;mobile-app-development&#34;&gt;Mobile App Development&lt;/h2&gt;&#xA;&lt;p&gt;Native and cross-platform mobile applications for iOS and Android.&lt;/p&gt;&#xA;&lt;h2 id=&#34;devops--infrastructure&#34;&gt;DevOps &amp;amp; Infrastructure&lt;/h2&gt;&#xA;&lt;p&gt;Continuous integration, deployment pipelines, and infrastructure automation.&lt;/p&gt;&#xA;&lt;h2 id=&#34;consulting-services&#34;&gt;Consulting Services&lt;/h2&gt;&#xA;&lt;p&gt;Technical consulting and architecture design for your projects.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Two Sidebar</title>
-      <link>http://localhost:1313/two-sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/two-sidebar/</guid>
-      <description>&lt;p&gt;Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.&#xA;Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.&#xA;Aliquam luctus et mattis lectus sit amet pulvinar. Nam turpis nisi&#xA;consequat etiam lorem ipsum dolor sit amet nullam.&lt;/p&gt;&#xA;&lt;h3 id=&#34;and-yet-another-subheading&#34;&gt;And Yet Another Subheading&lt;/h3&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac quam risus, at tempus&#xA;justo. Sed dictum rutrum massa eu volutpat. Quisque vitae hendrerit sem. Pellentesque lorem felis,&#xA;ultricies a bibendum id, bibendum sit amet nisl. Mauris et lorem quam. Maecenas rutrum imperdiet&#xA;vulputate. Nulla quis nibh ipsum, sed egestas justo. Morbi ut ante mattis orci convallis tempor.&#xA;Etiam a lacus a lacus pharetra porttitor quis accumsan odio. Sed vel euismod nisi. Etiam convallis&#xA;rhoncus dui quis euismod. Maecenas lorem tellus, congue et condimentum ac, ullamcorper non sapien.&#xA;Donec sagittis massa et leo semper a scelerisque metus faucibus. Morbi congue mattis mi.&#xA;Phasellus sed nisl vitae risus tristique volutpat. Cras rutrum commodo luctus.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,57 @@
+{{ define "main" }}
+    <header class="blog-index-header">
+        <h2>{{ .Title }}</h2>
+        {{ with .Description -}}
+            <p>{{ . }}</p>
+        {{- end }}
+        <p class="blog-subtitle">Insights on Cloud Infrastructure, DevOps, and Modern IT Solutions</p>
+    </header>
+
+    <div class="blog-list-container">
+        {{ range .RegularPages }}
+            <article class="blog-list-item">
+                <a href="{{ .RelPermalink }}" class="blog-list-image">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt | default .Title }}" />
+                </a>
+                <div class="blog-list-content">
+                    <div class="blog-list-meta">
+                        {{ if .Site.Params.show_post_dates | default true }}
+                            {{- with .Date }}
+                                <time class="blog-list-date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    {{ . | time.Format ":date_medium" }}
+                                </time>
+                            {{ end }}
+                        {{ end }}
+                        {{ with .Params.tags }}
+                            <div class="blog-list-tags">
+                                {{ range first 3 . }}
+                                    <span class="blog-list-tag">{{ . }}</span>
+                                {{ end }}
+                            </div>
+                        {{ end }}
+                    </div>
+                    <h3 class="blog-list-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <p class="blog-list-excerpt">
+                        {{ with .Description }}
+                            {{- . | truncate 150 }}
+                        {{- else }}
+                            {{- .Summary | truncate 150 }}
+                        {{- end }}
+                    </p>
+                    <a href="{{ .RelPermalink }}" class="blog-list-readmore">
+                        Read Full Article <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+        {{ end }}
+    </div>
+
+    {{ if eq (len .RegularPages) 0 }}
+        <div class="no-posts">
+            <p>No blog posts yet. Check back soon!</p>
+        </div>
+    {{ end }}
+{{ end }}
