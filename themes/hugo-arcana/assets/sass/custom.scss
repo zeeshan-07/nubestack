@@ -433,6 +433,34 @@ body.dark-mode {
     .dark-mode-menu-item a#dark-mode-toggle {
         font-size: 1.1em;
     }
+
+    /* About page mobile fixes */
+    .about-page {
+        .about-hero {
+            margin-top: 1em;
+            padding: 1.5em 1em;
+
+            header.major h1 {
+                font-size: 1.8em;
+            }
+
+            header.major .about-tagline {
+                font-size: 1em;
+            }
+        }
+
+        .about-content {
+            padding: 0 1em;
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    }
 }
 
 /* ==========================================================================

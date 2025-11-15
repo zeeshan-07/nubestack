@@ -1,22 +1,18 @@
 {{ define "main" }}
-<section class="wrapper style1 about-page">
+<section class="about-page">
     <div class="container">
-        <div class="row gtr-200">
-            <div class="col-12">
-                <!-- Hero Section -->
-                <div class="about-hero">
-                    <header class="major">
-                        <h1>{{ .Title }}</h1>
-                        <p class="about-tagline">{{ .Description | default .Summary }}</p>
-                    </header>
-                </div>
-
-                <!-- Main Content -->
-                <article class="about-content">
-                    {{ .Content }}
-                </article>
-            </div>
+        <!-- Hero Section -->
+        <div class="about-hero">
+            <header class="major">
+                <h1>{{ .Title }}</h1>
+                <p class="about-tagline">{{ .Description | default .Summary }}</p>
+            </header>
         </div>
+
+        <!-- Main Content -->
+        <article class="about-content">
+            {{ .Content }}
+        </article>
     </div>
 </section>
 {{ end }}
