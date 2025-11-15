@@ -1,78 +1,73 @@
-@media (max-width: 736px) {
-	#footer .row > section:nth-child(3) {
-		margin-left: auto;
-		margin-right: auto;
-		float: none;
-		display: block;
-		text-align: center;
-	}
-}
-
 /* ==========================================================================
-   Custom Styles - Consolidated from root /assets/ directory
+   NUBESTACK CUSTOM STYLES
+   Overrides and extends hugo-arcana theme - Simplified & Optimized
    ========================================================================== */
 
-/* Fix spacing between homepage sections */
-.success-stories-section {
-    padding: 2em 0 1em 0 !important;
-    margin-bottom: 0 !important;
-}
+/* ==========================================================================
+   LAYOUT & SPACING
+   ========================================================================== */
 
+.success-stories-section,
 .certifications-section {
-    padding: 2em 0 1em 0 !important;
-    margin-top: 0 !important;
+    padding: 2em 0 1em 0;
+    margin: 0;
 }
 
-/* Remove excessive spacing from posts section between success stories and certifications */
 section:has(> .container > .row > section.col-6) {
-    padding-top: 2em !important;
-    padding-bottom: 1em !important;
+    padding: 2em 0 1em 0;
 }
 
-/* Reduce excessive padding on contact page */
+section {
+    margin: 0;
+}
+
 .contact-grid {
     margin-top: -3em;
 }
 
-/* Custom footer styling to maintain black background and white text */
-section {
-    margin: 0 !important;
-}
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
 
 #footer {
-    background-color: #1f1f1f !important;
-    color: #ffffff !important;
+    background-color: #1f1f1f;
+    color: #ffffff;
 
     a {
-        color: #ffffff !important;
-        border-bottom-color: rgba(255, 255, 255, 0.25) !important;
+        color: #ffffff;
+        border-bottom-color: rgba(255, 255, 255, 0.25);
 
         &:hover {
-            color: #3c7d7d !important;
+            color: #3c7d7d;
         }
     }
 
     .icons a {
-        color: #cccccc !important;
+        color: #cccccc;
 
         &:hover {
-            color: #3c7d7d !important;
+            color: #3c7d7d;
         }
     }
 
     .copyright {
-        color: #cccccc !important;
+        color: #cccccc;
     }
 }
 
-/* Custom styles for square service boxes */
+/* ==========================================================================
+   SERVICE BOXES
+   ========================================================================== */
+
 .icon.major.square {
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 0 0 7px rgba(60, 125, 125, 0.2), 0 0 0 8px rgba(60, 125, 125, 0.1), 0 8px 16px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 0 0 7px rgba(60, 125, 125, 0.2),
+                    0 0 0 8px rgba(60, 125, 125, 0.1),
+                    0 8px 16px rgba(0, 0, 0, 0.15);
     }
 }
 
@@ -95,17 +90,22 @@ section {
     }
 }
 
-/* Fix for certified engineers badge images: remove white background */
+/* ==========================================================================
+   CERTIFICATIONS
+   ========================================================================== */
+
 #cert-slider img {
-    background: transparent !important;
-    background-color: transparent !important;
+    background: transparent;
     box-shadow: 0 2px 12px rgba(60, 125, 125, 0.10);
     border-radius: 0.5rem;
     padding: 0;
     border: none;
 }
 
-/* Mobile menu collapsible submenu styles */
+/* ==========================================================================
+   MOBILE NAVIGATION
+   ========================================================================== */
+
 #navPanel {
     .submenu-toggle {
         float: right;
@@ -122,7 +122,7 @@ section {
 
     .has-submenu {
         position: relative;
-        cursor: pointer !important;
+        cursor: pointer;
         
         &:hover {
             background-color: rgba(255, 255, 255, 0.05);
@@ -131,145 +131,110 @@ section {
         &:active {
             background-color: rgba(255, 255, 255, 0.1);
         }
+
+        &.collapsed .submenu-toggle {
+            opacity: 0.7;
+            transform: rotate(90deg);
+        }
+
+        &:not(.collapsed) .submenu-toggle {
+            opacity: 1;
+            transform: rotate(270deg);
+        }
     }
 
     .hidden-submenu {
-        display: none !important;
-    }
-
-    .has-submenu.collapsed .submenu-toggle {
-        opacity: 0.7;
-        transform: rotate(90deg);
-    }
-
-    .has-submenu:not(.collapsed) .submenu-toggle {
-        opacity: 1;
-        transform: rotate(270deg);
-    }
-}
-
-/* Fix mobile titleBar logo size for responsive testing */
-@media screen and (max-width: 980px) {
-    #titleBar .title a img {
-        height: 38px !important;
-        max-height: 38px !important;
-        width: auto !important;
-        padding-top: 3px !important;
-        padding-bottom: 3px !important;
+        display: none;
     }
 }
 
 /* ==========================================================================
-   Dark Mode / Night Mode
+   DARK MODE
    ========================================================================== */
 
-/* Dark mode toggle in navigation menu */
-.dark-mode-menu-item {
+.dark-mode-menu-item a#dark-mode-toggle {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9em;
+    opacity: 0.8;
     
-    a#dark-mode-toggle {
-        cursor: pointer;
-        transition: all 0.3s ease;
-        font-size: 0.9em;
-        opacity: 0.8;
-        
-        &:hover {
-            opacity: 1;
-            color: #5fa3a3 !important;
-            transform: scale(1.1);
-        }
-        
-        i {
-            transition: transform 0.3s ease;
-        }
+    &:hover {
+        opacity: 1;
+        color: #5fa3a3;
+        transform: scale(1.1);
+    }
+    
+    i {
+        transition: transform 0.3s ease;
     }
 }
 
-/* Smooth transitions for dark mode */
-body,
-#header,
-#nav,
-.contact-bar,
-.wrapper,
-.success-stories-section,
-.certifications-section,
-.success-card,
-.contact-card,
-.box,
-section {
+/* Smooth transitions */
+body, #header, #nav, .contact-bar, .wrapper, 
+.success-stories-section, .certifications-section,
+.success-card, .contact-card, .box, section {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Dark mode styles */
 body.dark-mode {
     background-color: #1a1a1a;
     color: #e0e0e0;
     
     #header {
-        background: #2d2d2d !important;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+        background: #2d2d2d;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     
     .contact-bar {
-        background: #1a1a1a !important;
+        background: #1a1a1a;
         border-bottom: 1px solid #333;
         
         .contact-item {
-            color: #e0e0e0 !important;
-            
-            &:hover {
-                color: #5fa3a3 !important;
-            }
+            color: #e0e0e0;
+            &:hover { color: #5fa3a3; }
         }
     }
     
     #nav > ul > li {
         > a {
-            color: #e0e0e0 !important;
-            
-            &:hover {
-                color: #5fa3a3 !important;
-            }
+            color: #e0e0e0;
+            &:hover { color: #5fa3a3; }
         }
         
         &.current > a {
-            color: #5fa3a3 !important;
+            color: #5fa3a3;
         }
     }
     
     .dropotron {
-        background: #2d2d2d !important;
-        border: 1px solid #404040 !important;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+        background: #2d2d2d;
+        border: 1px solid #404040;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
         
         > li > a {
-            color: #e0e0e0 !important;
+            color: #e0e0e0;
             
             &:hover {
-                background: #3a3a3a !important;
-                color: #5fa3a3 !important;
+                background: #3a3a3a;
+                color: #5fa3a3;
             }
         }
     }
     
     .wrapper {
-        background: #1a1a1a !important;
+        background: #1a1a1a;
         
-        &.style1 {
-            background: #1a1a1a !important;
-        }
-        
-        &.style2 {
-            background: #222 !important;
-        }
+        &.style1 { background: #1a1a1a; }
+        &.style2 { background: #222; }
     }
     
     .success-stories-section,
     .certifications-section {
-        background: linear-gradient(135deg, #222 0%, #2a2a2a 100%) !important;
+        background: linear-gradient(135deg, #222 0%, #2a2a2a 100%);
     }
     
     .success-card {
-        background: #2d2d2d !important;
+        background: #2d2d2d;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
         
         &:hover {
@@ -278,12 +243,12 @@ body.dark-mode {
     }
     
     .success-tag {
-        background: #3a3a3a !important;
-        color: #5fa3a3 !important;
+        background: #3a3a3a;
+        color: #5fa3a3;
     }
     
     .contact-card {
-        background: #2d2d2d !important;
+        background: #2d2d2d;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         
         &:hover {
@@ -292,61 +257,60 @@ body.dark-mode {
     }
     
     .contact-icon {
-        background: #3a3a3a !important;
+        background: #3a3a3a;
     }
     
     .box {
-        background: #2d2d2d !important;
+        background: #2d2d2d;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         
         &.post {
-            background: #2d2d2d !important;
+            background: #2d2d2d;
         }
     }
     
     h1, h2, h3, h4, h5, h6 {
-        color: #e0e0e0 !important;
+        color: #e0e0e0;
     }
-    
 
-    /* Sidebar paragraph spacing fix */
     .sidebar-elegant p {
-        margin-bottom: 0.2em !important;
-        color: #555 !important;
+        margin-bottom: 0.2em;
+        color: #555;
     }
+
     p {
-        color: #c0c0c0 !important;
+        color: #c0c0c0;
     }
     
     a {
-        color: #5fa3a3 !important;
+        color: #5fa3a3;
         
         &:hover {
-            color: #7fc5c5 !important;
+            color: #7fc5c5;
         }
     }
     
     input, textarea, select {
-        background: #2d2d2d !important;
-        color: #e0e0e0 !important;
-        border-color: #404040 !important;
+        background: #2d2d2d;
+        color: #e0e0e0;
+        border-color: #404040;
         
         &:focus {
-            border-color: #5fa3a3 !important;
+            border-color: #5fa3a3;
         }
     }
     
     button, .button {
-        background: #3c7d7d !important;
-        color: white !important;
+        background: #3c7d7d;
+        color: white;
         
         &:hover {
-            background: #5fa3a3 !important;
+            background: #5fa3a3;
         }
     }
     
     #footer {
-        background-color: #0f0f0f !important;
+        background-color: #0f0f0f;
         border-top: 1px solid #333;
     }
     
@@ -359,11 +323,129 @@ body.dark-mode {
     }
 }
 
-/* Mobile adjustments for dark mode toggle in menu */
-@media screen and (max-width: 736px) {
-    .dark-mode-menu-item {
-        a#dark-mode-toggle {
+/* ==========================================================================
+   ABOUT PAGE
+   ========================================================================== */
+
+.about-page {
+    padding-top: 0 !important;
+    padding-bottom: 2em !important;
+    .about-hero {
+        text-align: center;
+        padding: 3em 0 2em 0;
+        background: linear-gradient(135deg, rgba(60, 125, 125, 0.05) 0%, rgba(60, 125, 125, 0.02) 100%);
+        border-radius: 8px;
+        margin-bottom: 3em;
+
+        header.major {
+            margin-bottom: 0;
+
+            h1 {
+                font-size: 2.5em;
+                color: #3c7d7d;
+                margin-bottom: 0.5em;
+                font-weight: 700;
+            }
+
+            .about-tagline {
+                font-size: 1.2em;
+                color: #555;
+                line-height: 1.6;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .about-content {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 2em;
+
+        p {
             font-size: 1.1em;
+            line-height: 1.8;
+            color: #444;
+            margin-bottom: 1.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #3c7d7d;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            font-weight: 600;
+            border-bottom: 2px solid #3c7d7d;
+            padding-bottom: 0.5em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            color: #2a5a5a;
+            margin-top: 1.5em;
+            margin-bottom: 0.8em;
+            font-weight: 600;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                padding-left: 2em;
+                margin-bottom: 1em;
+                position: relative;
+                line-height: 1.7;
+
+                &:before {
+                    content: "✓";
+                    position: absolute;
+                    left: 0;
+                    color: #3c7d7d;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                }
+
+                strong {
+                    color: #3c7d7d;
+                    font-weight: 600;
+                }
+            }
         }
     }
 }
+
+/* ==========================================================================
+   RESPONSIVE - MOBILE (max-width: 736px)
+   ========================================================================== */
+
+@media screen and (max-width: 736px) {
+    /* Footer layout */
+    #footer .row > section:nth-child(3) {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    /* Dark mode toggle sizing */
+    .dark-mode-menu-item a#dark-mode-toggle {
+        font-size: 1.1em;
+    }
+}
+
+/* ==========================================================================
+   RESPONSIVE - TABLET (max-width: 980px)
+   ========================================================================== */
+
+@media screen and (max-width: 980px) {
+    #titleBar .title a img {
+        height: 38px;
+        max-height: 38px;
+        width: auto;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+}
+

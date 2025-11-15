@@ -2,6 +2,8 @@
 title: "About Us"
 date: 2025-10-25T00:00:00Z
 draft: false
+layout: "about"
+description: "Enterprise-grade cloud solutions, consulting, and managed services designed to simplify cloud adoption and accelerate digital transformation."
 ---
 
 NubeStack delivers enterprise-grade cloud solutions, consulting, and managed services designed to simplify cloud adoption and accelerate digital transformation. We empower businesses with secure, scalable, and innovative technology, leveraging the power of open-source and cloud-native solutions to drive efficiency and growth.
