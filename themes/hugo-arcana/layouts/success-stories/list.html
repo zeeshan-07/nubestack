@@ -1,0 +1,51 @@
+{{ define "main" }}
+<section class="wrapper style1 success-stories-index">
+    <div class="container">
+        <!-- Header -->
+        <header class="major success-stories-header">
+            <h1>Success Stories</h1>
+            <p class="success-stories-tagline">Real-world results from our cloud infrastructure and DevOps solutions</p>
+        </header>
+
+        <!-- Stories Grid -->
+        <div class="success-stories-grid">
+            {{ range .Pages }}
+            <article class="success-story-card">
+                {{ if .Params.image }}
+                <a href="{{ .Permalink }}" class="success-story-image">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" />
+                </a>
+                {{ end }}
+
+                <div class="success-story-content">
+                    <div class="success-story-meta">
+                        <time class="success-story-date">
+                            <i class="far fa-calendar"></i>
+                            {{ .Date.Format "January 2, 2006" }}
+                        </time>
+                        
+                        {{ if .Params.tags }}
+                        <div class="success-story-tags">
+                            {{ range .Params.tags }}
+                            <span class="success-story-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                    </div>
+
+                    <h2 class="success-story-title">
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </h2>
+
+                    <p class="success-story-summary">{{ .Params.summary | default .Summary }}</p>
+
+                    <a href="{{ .Permalink }}" class="success-story-readmore">
+                        Read Case Study <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}

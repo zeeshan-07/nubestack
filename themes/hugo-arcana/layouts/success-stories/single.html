@@ -1,0 +1,71 @@
+{{ define "main" }}
+<section class="wrapper style1 success-story-page">
+    <div class="container">
+        <div class="success-story-container">
+            <!-- Sidebar -->
+            <aside class="success-story-sidebar">
+                <div class="sidebar-section">
+                    <h3><i class="fas fa-info-circle"></i> Case Study Details</h3>
+                    
+                    {{ if .Date }}
+                    <div class="sidebar-date">
+                        <p><strong>Published:</strong></p>
+                        <p>{{ .Date.Format "January 2, 2006" }}</p>
+                    </div>
+                    {{ end }}
+
+                    {{ if .Params.tags }}
+                    <div class="sidebar-tags-section">
+                        <p><strong>Technologies:</strong></p>
+                        <div class="sidebar-tags">
+                            {{ range .Params.tags }}
+                            <span class="sidebar-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+
+                <a href="/success-stories/" class="sidebar-back-button">
+                    <i class="fas fa-arrow-left"></i> All Success Stories
+                </a>
+            </aside>
+
+            <!-- Main Content -->
+            <div class="success-story-main">
+                <!-- Header -->
+                <header class="success-story-header">
+                    <h1>{{ .Title }}</h1>
+                    
+                    {{ if .Params.summary }}
+                    <p class="success-story-lead">{{ .Params.summary }}</p>
+                    {{ end }}
+
+                    <div class="success-story-meta">
+                        <time><i class="far fa-calendar"></i> {{ .Date.Format "January 2, 2006" }}</time>
+                    </div>
+                </header>
+
+                <!-- Featured Image -->
+                {{ if .Params.image }}
+                <div class="success-story-featured">
+                    <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" />
+                </div>
+                {{ end }}
+
+                <!-- Content -->
+                <article class="success-story-body">
+                    {{ .Content }}
+                </article>
+
+                <!-- Call to Action -->
+                <div class="success-story-cta">
+                    <h3>Ready to Transform Your Infrastructure?</h3>
+                    <p>Let's discuss how NubeStack can help you achieve similar results.</p>
+                    <a href="/contact/" class="button">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
