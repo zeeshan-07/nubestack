@@ -463,6 +463,24 @@ body.dark-mode {
     }
 }
 
+/* Additional mobile overrides with higher specificity to ensure page headings increase on small screens */
+@media screen and (max-width: 736px) {
+    /* Target the main article h1 (services page) specifically */
+    #content article > h1 {
+        font-size: 2.2em !important;
+        line-height: 1.12 !important;
+        margin-bottom: 0.6em !important;
+    }
+
+    /* Ensure sidebar widget title is prominent */
+    .sidebar-elegant section > header > h3 {
+        font-size: 1.6em !important;
+        line-height: 1.15 !important;
+        margin-bottom: 0.5em !important;
+    }
+}
+
+
 /* ==========================================================================
    RESPONSIVE - TABLET (max-width: 980px)
    ========================================================================== */
@@ -481,6 +499,92 @@ body.dark-mode {
 /* ==========================================================================
    SUCCESS STORIES - Index & Single Pages
    ========================================================================== */
+
+/* Desktop heading parity: make regular page/section h2 match header.major h2
+   (so "Our Services" and "Latest Insights" look consistent on wide screens) */
+@media screen and (min-width: 737px) {
+    /* target common page/section h2s */
+    .page h2,
+    #content h2,
+    .wrapper .container h2 {
+        font-size: 2.25em;
+        line-height: 1.08;
+        margin-bottom: 0.6em;
+        font-weight: 700;
+    }
+}
+
+/* --------------------------------------------------------------------------
+   Unified heading styles
+   - Ensure section headings (h2) and sidebar titles (h3) use the same size
+     and a darker color across mobile and desktop.
+   - Placed late in the file so it overrides earlier, more specific mobile rules.
+---------------------------------------------------------------------------- */
+
+/* Section headings */
+header.major h2,
+.page h2,
+#content h2,
+.wrapper .container h2,
+header.major h2,
+.section-header h2,
+.cert-header h2 {
+    /* enforce same size across mobile and desktop */
+    font-size: 2.25em !important;
+    line-height: 1.08 !important;
+    margin-bottom: 0.6em !important;
+    font-weight: 700 !important;
+    color: #222222 !important; /* darker than #3c7d7d */
+}
+
+/* Sidebar and widget titles */
+.sidebar-elegant h3,
+.sidebar-elegant section > header > h3,
+.sidebar section > header > h3,
+.cert-header h3,
+#content h3 {
+    font-size: 1.6em !important;
+    line-height: 1.15 !important;
+    margin-bottom: 0.6em !important;
+    font-weight: 600 !important;
+    color: #222222 !important;
+}
+
+/* Ensure header.major p (taglines) are still readable but slightly darker */
+header.major p,
+.success-stories-header .success-stories-tagline,
+.about-tagline {
+    color: #444444;
+}
+
+
+
+/* Mobile heading adjustments: make section headings (Our Services) larger on small screens
+   to match the visual weight of Homepage "Latest Insights" headings. */
+@media screen and (max-width: 736px) {
+    /* Increase h1 used on page templates (e.g. Services page) */
+    .page h1,
+    #content h1,
+    .wrapper .container h1 {
+        font-size: 2.0em;
+        line-height: 1.15;
+        margin-bottom: 0.6em;
+    }
+
+    /* Homepage/section block headings (header.major h2) like "Latest Insights" */
+    header.major h2 {
+        font-size: 1.8em;
+        line-height: 1.18;
+    }
+
+    /* Sidebar section title (Our Services widget) */
+    .sidebar-elegant h3 {
+        font-size: 1.4em;
+        line-height: 1.2;
+        margin-bottom: 0.6em;
+    }
+}
+
 
 /* Success Stories Index */
 .success-stories-index {

@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cicd on </title>
-    <link>https://nubestack.com/tags/cicd/</link>
-    <description>Recent content in Cicd on </description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
-    <atom:link href="https://nubestack.com/tags/cicd/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DevOps Services</title>
-      <link>https://nubestack.com/services/devops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/services/devops/</guid>
-      <description>&lt;p&gt;In today’s digital landscape, organizations must deliver software faster, more securely, and more reliably than ever before. &lt;strong&gt;DevOps Services&lt;/strong&gt; bridge the gap between development and operations teams — enabling seamless collaboration, continuous integration, and automated delivery pipelines that accelerate innovation and reduce time to market.&lt;/p&gt;&#xA;&lt;p&gt;At &lt;strong&gt;Nubestack&lt;/strong&gt;, we bring together the best of development, automation, and operations to build high-performing, resilient, and scalable delivery systems tailored to your business needs.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cicd on</title><link>https://nubestack.com/tags/cicd/</link><description>Recent content in Cicd on</description><generator>Hugo</generator><language>en-us</language><copyright>© 2025 - NubeStack. All rights reserved</copyright><atom:link href="https://nubestack.com/tags/cicd/index.xml" rel="self" type="application/rss+xml"/><item><title>DevOps Services</title><link>https://nubestack.com/services/devops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/devops/</guid><description>&lt;p&gt;In today’s digital landscape, organizations must deliver software faster, more securely, and more reliably than ever before. &lt;strong&gt;DevOps Services&lt;/strong&gt; bridge the gap between development and operations teams — enabling seamless collaboration, continuous integration, and automated delivery pipelines that accelerate innovation and reduce time to market.&lt;/p&gt;
+&lt;p&gt;At &lt;strong&gt;Nubestack&lt;/strong&gt;, we bring together the best of development, automation, and operations to build high-performing, resilient, and scalable delivery systems tailored to your business needs.&lt;/p&gt;</description></item></channel></rss>
