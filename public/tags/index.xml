@@ -2,193 +2,193 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on </title>
-    <link>https://nubestack.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© 2025 - NubeStack. All rights reserved</copyright>
     <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://nubestack.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ceph</title>
-      <link>https://nubestack.com/tags/ceph/</link>
+      <link>http://localhost:1313/tags/ceph/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/ceph/</guid>
+      <guid>http://localhost:1313/tags/ceph/</guid>
       <description></description>
     </item>
     <item>
       <title>CloudSecurity</title>
-      <link>https://nubestack.com/tags/cloudsecurity/</link>
+      <link>http://localhost:1313/tags/cloudsecurity/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/cloudsecurity/</guid>
+      <guid>http://localhost:1313/tags/cloudsecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Compliance</title>
-      <link>https://nubestack.com/tags/compliance/</link>
+      <link>http://localhost:1313/tags/compliance/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/compliance/</guid>
+      <guid>http://localhost:1313/tags/compliance/</guid>
       <description></description>
     </item>
     <item>
       <title>CostOptimization</title>
-      <link>https://nubestack.com/tags/costoptimization/</link>
+      <link>http://localhost:1313/tags/costoptimization/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/costoptimization/</guid>
+      <guid>http://localhost:1313/tags/costoptimization/</guid>
       <description></description>
     </item>
     <item>
       <title>DataSovereignty</title>
-      <link>https://nubestack.com/tags/datasovereignty/</link>
+      <link>http://localhost:1313/tags/datasovereignty/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/datasovereignty/</guid>
+      <guid>http://localhost:1313/tags/datasovereignty/</guid>
       <description></description>
     </item>
     <item>
       <title>GoogleCloud</title>
-      <link>https://nubestack.com/tags/googlecloud/</link>
+      <link>http://localhost:1313/tags/googlecloud/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/googlecloud/</guid>
+      <guid>http://localhost:1313/tags/googlecloud/</guid>
       <description></description>
     </item>
     <item>
       <title>HybridCloud</title>
-      <link>https://nubestack.com/tags/hybridcloud/</link>
+      <link>http://localhost:1313/tags/hybridcloud/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/hybridcloud/</guid>
+      <guid>http://localhost:1313/tags/hybridcloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Kubernetes</title>
-      <link>https://nubestack.com/tags/kubernetes/</link>
+      <link>http://localhost:1313/tags/kubernetes/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/kubernetes/</guid>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
       <description></description>
     </item>
     <item>
       <title>MultiCloud</title>
-      <link>https://nubestack.com/tags/multicloud/</link>
+      <link>http://localhost:1313/tags/multicloud/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/multicloud/</guid>
+      <guid>http://localhost:1313/tags/multicloud/</guid>
       <description></description>
     </item>
     <item>
       <title>VendorLockin</title>
-      <link>https://nubestack.com/tags/vendorlockin/</link>
+      <link>http://localhost:1313/tags/vendorlockin/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/vendorlockin/</guid>
+      <guid>http://localhost:1313/tags/vendorlockin/</guid>
       <description></description>
     </item>
     <item>
       <title>VPCServiceControls</title>
-      <link>https://nubestack.com/tags/vpcservicecontrols/</link>
+      <link>http://localhost:1313/tags/vpcservicecontrols/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/vpcservicecontrols/</guid>
+      <guid>http://localhost:1313/tags/vpcservicecontrols/</guid>
       <description></description>
     </item>
     <item>
       <title>ZeroTrust</title>
-      <link>https://nubestack.com/tags/zerotrust/</link>
+      <link>http://localhost:1313/tags/zerotrust/</link>
       <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/zerotrust/</guid>
+      <guid>http://localhost:1313/tags/zerotrust/</guid>
       <description></description>
     </item>
     <item>
       <title>GCP</title>
-      <link>https://nubestack.com/tags/gcp/</link>
+      <link>http://localhost:1313/tags/gcp/</link>
       <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/gcp/</guid>
+      <guid>http://localhost:1313/tags/gcp/</guid>
       <description></description>
     </item>
     <item>
       <title>OnPremStorage</title>
-      <link>https://nubestack.com/tags/onpremstorage/</link>
+      <link>http://localhost:1313/tags/onpremstorage/</link>
       <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/onpremstorage/</guid>
+      <guid>http://localhost:1313/tags/onpremstorage/</guid>
       <description></description>
     </item>
     <item>
       <title>CloudMigrations</title>
-      <link>https://nubestack.com/tags/cloudmigrations/</link>
+      <link>http://localhost:1313/tags/cloudmigrations/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/cloudmigrations/</guid>
+      <guid>http://localhost:1313/tags/cloudmigrations/</guid>
       <description></description>
     </item>
     <item>
       <title>OpenStack</title>
-      <link>https://nubestack.com/tags/openstack/</link>
+      <link>http://localhost:1313/tags/openstack/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/openstack/</guid>
+      <guid>http://localhost:1313/tags/openstack/</guid>
       <description></description>
     </item>
     <item>
       <title>VMware</title>
-      <link>https://nubestack.com/tags/vmware/</link>
+      <link>http://localhost:1313/tags/vmware/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/vmware/</guid>
+      <guid>http://localhost:1313/tags/vmware/</guid>
       <description></description>
     </item>
     <item>
       <title>VMwareToOpenStack</title>
-      <link>https://nubestack.com/tags/vmwaretoopenstack/</link>
+      <link>http://localhost:1313/tags/vmwaretoopenstack/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/vmwaretoopenstack/</guid>
+      <guid>http://localhost:1313/tags/vmwaretoopenstack/</guid>
       <description></description>
     </item>
     <item>
       <title>24/7</title>
-      <link>https://nubestack.com/tags/24/7/</link>
+      <link>http://localhost:1313/tags/24/7/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/24/7/</guid>
+      <guid>http://localhost:1313/tags/24/7/</guid>
       <description></description>
     </item>
     <item>
       <title>Automation</title>
-      <link>https://nubestack.com/tags/automation/</link>
+      <link>http://localhost:1313/tags/automation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/automation/</guid>
+      <guid>http://localhost:1313/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Cicd</title>
-      <link>https://nubestack.com/tags/cicd/</link>
+      <link>http://localhost:1313/tags/cicd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/cicd/</guid>
+      <guid>http://localhost:1313/tags/cicd/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://nubestack.com/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Devops</title>
-      <link>https://nubestack.com/tags/devops/</link>
+      <link>http://localhost:1313/tags/devops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/devops/</guid>
+      <guid>http://localhost:1313/tags/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure</title>
-      <link>https://nubestack.com/tags/infrastructure/</link>
+      <link>http://localhost:1313/tags/infrastructure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/infrastructure/</guid>
+      <guid>http://localhost:1313/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>Managed-Services</title>
-      <link>https://nubestack.com/tags/managed-services/</link>
+      <link>http://localhost:1313/tags/managed-services/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/managed-services/</guid>
+      <guid>http://localhost:1313/tags/managed-services/</guid>
       <description></description>
     </item>
     <item>
       <title>Support</title>
-      <link>https://nubestack.com/tags/support/</link>
+      <link>http://localhost:1313/tags/support/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://nubestack.com/tags/support/</guid>
+      <guid>http://localhost:1313/tags/support/</guid>
       <description></description>
     </item>
   </channel>
