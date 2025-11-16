@@ -12,7 +12,7 @@
             {{ range .Pages }}
             <article class="success-story-card">
                 {{ if .Params.image }}
-                <a href="{{ .Permalink }}" class="success-story-image">
+                <a href="{{ .RelPermalink }}" class="success-story-image">
                     <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}" />
                 </a>
                 {{ end }}
@@ -34,12 +34,12 @@
                     </div>
 
                     <h2 class="success-story-title">
-                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
                     </h2>
 
                     <p class="success-story-summary">{{ .Params.summary | default .Summary }}</p>
 
-                    <a href="{{ .Permalink }}" class="success-story-readmore">
+                    <a href="{{ .RelPermalink }}" class="success-story-readmore">
                         Read Case Study <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
