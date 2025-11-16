@@ -1047,3 +1047,20 @@ header.major p,
         gap: 2em;
     }
 }
+
+/* --------------------------------------------------------------------------
+   Enforce identical, smaller card heading size for list pages
+   - Targets the blog list card title and success-stories list card title
+   - Very specific selectors and !important to override theme defaults
+---------------------------------------------------------------------------- */
+.wrapper .container .blog-list-container .blog-list-item .blog-list-title,
+.wrapper .container .success-stories-grid .success-story-card .success-story-title,
+.blog-list-container .blog-list-item .blog-list-title,
+.success-stories-grid .success-story-card .success-story-title {
+    font-size: 1.35em !important;
+    line-height: 1.25 !important;
+    margin: 0 0 0.6em !important;
+    font-weight: 700 !important;
+    color: #222222 !important;
+}
+
