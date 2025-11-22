@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure on </title>
+    <link>http://localhost:1313/tags/azure/</link>
+    <description>Recent content in Azure on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
+    <atom:link href="http://localhost:1313/tags/azure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Private/Public Cloud Solutions</title>
+      <link>http://localhost:1313/services/cloud-solutions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/cloud-solutions/</guid>
+      <description>&lt;p&gt;In today&amp;rsquo;s dynamic business environment, organizations need cloud solutions that offer both flexibility and control. Whether you require the security of a private cloud, the scalability of public cloud, or the best of both worlds, a one-size-fits-all approach is no longer sufficient. &lt;strong&gt;Private/Public Cloud Solutions&lt;/strong&gt; from &lt;strong&gt;Nubestack&lt;/strong&gt; provide tailored infrastructure strategies that align with your specific technical and business requirements.&lt;/p&gt;&#xA;&lt;p&gt;We leverage industry-leading platforms including &lt;strong&gt;OpenStack, OpenShift, AWS, Azure, and GCP&lt;/strong&gt; to build, manage, and scale cloud environments that deliver optimal performance, security, and cost-efficiency.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telco on </title>
+    <link>http://localhost:1313/tags/telco/</link>
+    <description>Recent content in Telco on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
+    <atom:link href="http://localhost:1313/tags/telco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NFV Solutions</title>
+      <link>http://localhost:1313/services/nfv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/nfv/</guid>
+      <description>&lt;p&gt;In the era of 5G and real-time services, network performance is non-negotiable. Traditional virtualized networks introduce latency and bottlenecks that are unacceptable for Telco and High-Performance Computing (HPC) workloads. &lt;strong&gt;NFV Solutions&lt;/strong&gt; from &lt;strong&gt;Nubestack&lt;/strong&gt; break through these barriers by leveraging cutting-edge technologies to deliver bare-metal performance in a virtualized cloud environment.&lt;/p&gt;&#xA;&lt;p&gt;We specialize in integrating high-performance data plane acceleration into your cloud, ensuring your network functions can handle the most demanding traffic with minimal latency and maximum throughput.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
