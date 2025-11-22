@@ -1,0 +1,354 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+
+<title>Container Orchestration With Magnum | </title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<link rel="icon" type="image/png" href="/images/favicon.png" />
+<link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+<link rel="apple-touch-icon" type="image/png" href="/images/favicon.png" />
+<link rel="stylesheet" href="/style.css" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/metaimage.jpg">
+  <meta name="twitter:title" content="Container Orchestration With Magnum">
+  <meta name="twitter:description" content="OpenStack Magnum makes it easy to deploy and manage Kubernetes and other container clusters on OpenStack clouds. Learn how Magnum integrates with core OpenStack services to provide a unified, scalable platform for cloud-native workloads.">
+<meta property="og:url" content="http://localhost:1313/blog/05/">
+  <meta property="og:title" content="Container Orchestration With Magnum">
+  <meta property="og:description" content="OpenStack Magnum makes it easy to deploy and manage Kubernetes and other container clusters on OpenStack clouds. Learn how Magnum integrates with core OpenStack services to provide a unified, scalable platform for cloud-native workloads.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2020-01-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2020-01-01T00:00:00+00:00">
+    <meta property="article:tag" content="OpenStack">
+    <meta property="article:tag" content="Kubernetes">
+    <meta property="article:tag" content="ContainerOrchestration">
+    <meta property="article:tag" content="CloudNative">
+    <meta property="article:tag" content="Magnum">
+    <meta property="og:image" content="http://localhost:1313/images/metaimage.jpg">
+</head>
+    <body class="is-preload">
+        <div id="page-wrapper">
+
+<div class="contact-bar">
+    <div class="container">
+        <div class="contact-info">
+            
+            <a href="mailto:contact@nubestack.com" class="contact-item">
+                <i class="fas fa-envelope"></i> contact@nubestack.com
+            </a>
+            
+            
+            
+            
+            <a href="https://linkedin.com/company/nubestack" target="_blank" class="contact-item">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+<div id="header">
+    
+    <div id="logo-wrapper" style="display: none;">
+        <a href="/">
+                <img src="/images/logo.png" alt="" />
+            
+        </a>
+    </div>
+    
+    <nav id="nav">
+        <ul>
+            <li class="logo-item">
+                <a href="/" id="logo">
+                        <img src="/images/logo.png" alt="" />
+                    
+                </a>
+            </li>
+                <li class="">
+                    <a href="#">Services</a><ul>
+                        <li class="">
+                            <a href="/services/cloud-solutions">Private/Public Cloud Solutions</a>
+                        <li class="">
+                            <a href="/services/container-orchestration">Container Orchestration</a>
+                        <li class="">
+                            <a href="/services/nfv">NFV Solutions</a>
+                        <li class="">
+                            <a href="/services/managed-services">Managed Services</a>
+                        <li class="">
+                            <a href="/services/devops">DevOps Services</a>
+                        <li class="">
+                            <a href="/services/automation">Infrastructure Automation</a>
+                    </ul>
+                <li class="">
+                    <a href="/industry">Industry</a><ul>
+                        <li class="">
+                            <a href="/industry#telecommunication">Telecommunications</a>
+                        <li class="">
+                            <a href="/industry#bioinformatics">Bioinformatics</a>
+                        <li class="">
+                            <a href="/industry#education">Education &amp; Research</a>
+                    </ul>
+                <li class="">
+                    <a href="/success-stories">Success Stories</a>
+                <li class="">
+                    <a href="/blog">Blog</a>
+                <li class="">
+                    <a href="/about">About us</a>
+                <li class="">
+                    <a href="/contact">Contact</a>
+        </ul>
+    </nav>
+</div>
+
+
+            <section class="wrapper style1">
+                <div class="container">
+                    
+
+                        <div class="">
+                            <div id="content">
+                                <article>
+    <div class="blog-single-container">
+        
+        <aside class="blog-sidebar">
+            
+            <section class="sidebar-section">
+                <h3><i class="far fa-newspaper"></i> Article Info</h3>
+                
+                
+                    <p class="sidebar-reading-time">
+                        <i class="far fa-clock"></i>
+                        <strong>Reading Time:</strong><br>
+                        3 min read
+                    </p>
+                
+                
+                    <p class="sidebar-word-count">
+                        <i class="fas fa-file-word"></i>
+                        <strong>Word Count:</strong><br>
+                        543 words
+                    </p>
+                
+            </section>
+
+            
+            
+                <section class="sidebar-section">
+                    <h3><i class="fas fa-tags"></i> Topics</h3>
+                    <div class="sidebar-tags">
+                        
+                            <a href="/tags/openstack" class="sidebar-tag">
+                                OpenStack
+                            </a>
+                        
+                            <a href="/tags/kubernetes" class="sidebar-tag">
+                                Kubernetes
+                            </a>
+                        
+                            <a href="/tags/containerorchestration" class="sidebar-tag">
+                                ContainerOrchestration
+                            </a>
+                        
+                            <a href="/tags/cloudnative" class="sidebar-tag">
+                                CloudNative
+                            </a>
+                        
+                            <a href="/tags/magnum" class="sidebar-tag">
+                                Magnum
+                            </a>
+                        
+                    </div>
+                </section>
+            
+
+            
+            
+                
+                    <section class="sidebar-section">
+                        <h3><i class="fas fa-list"></i> Contents</h3>
+                        <div class="sidebar-toc">
+                            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#how-does-magnum-work-a-peek-under-the-hood">How Does Magnum Work? A Peek Under the Hood</a>
+      <ul>
+        <li><a href="#core-components">Core Components</a></li>
+      </ul>
+    </li>
+    <li><a href="#simple-and-effective-workflow">Simple and Effective Workflow</a></li>
+    <li><a href="#why-your-team-will-appreciate-magnum">Why Your Team Will Appreciate Magnum</a>
+      <ul>
+        <li><a href="#key-benefits">Key Benefits</a></li>
+      </ul>
+    </li>
+    <li><a href="#who-is-magnum-for">Who is Magnum For?</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+                        </div>
+                    </section>
+                
+            
+
+            
+            <section class="sidebar-section">
+                <h3><i class="fas fa-share-alt"></i> Share</h3>
+                <div class="sidebar-share">
+                    <a href="https://twitter.com/intent/tweet?url=http%3a%2f%2flocalhost%3a1313%2fblog%2f05%2f&text=Container%20Orchestration%20With%20Magnum" 
+                       target="_blank" 
+                       rel="noopener"
+                       class="sidebar-share-btn share-twitter"
+                       title="Share on Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3a%2f%2flocalhost%3a1313%2fblog%2f05%2f" 
+                       target="_blank" 
+                       rel="noopener"
+                       class="sidebar-share-btn share-linkedin"
+                       title="Share on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fblog%2f05%2f" 
+                       target="_blank" 
+                       rel="noopener"
+                       class="sidebar-share-btn share-facebook"
+                       title="Share on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="mailto:?subject=Container%20Orchestration%20With%20Magnum&body=http%3a%2f%2flocalhost%3a1313%2fblog%2f05%2f" 
+                       class="sidebar-share-btn share-email"
+                       title="Share via Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </section>
+
+            
+            <section class="sidebar-section">
+                <a href="/blog" class="sidebar-back-button">
+                    <i class="fas fa-arrow-left"></i> All Articles
+                </a>
+            </section>
+        </aside>
+
+        
+        <article class="blog-main-content">
+            <header class="blog-article-header">
+                <h1>Container Orchestration With Magnum</h1>
+                
+                    <p class="blog-article-lead">OpenStack Magnum makes it easy to deploy and manage Kubernetes and other container clusters on OpenStack clouds. Learn how Magnum integrates with core OpenStack services to provide a unified, scalable platform for cloud-native workloads.</p>
+                
+            </header>
+                <div class="blog-article-featured">
+                    <img src="/images/blogs/blog05.png" alt="Container Orchestration With Magnum" />
+                </div>
+            
+
+            <div class="blog-article-body"><p>OpenStack Magnum is a powerful Container Infrastructure Management service that simplifies the deployment and management of container orchestration engines like Kubernetes, Docker Swarm, and Mesos on OpenStack clouds. It allows users to easily create and manage container clusters using OpenStack resources such as Nova, Neutron, and Cinder. By integrating container management directly into OpenStack, Magnum enables a <strong>unified platform</strong> for both virtual machine and container workloads, improving flexibility and scalability for cloud-native applications.</p>
+<h2 id="how-does-magnum-work-a-peek-under-the-hood">How Does Magnum Work? A Peek Under the Hood</h2>
+<p>Magnum operates as a classic OpenStack service, making it familiar and easy to adopt for existing users. Its architecture is both elegant and powerful:</p>
+<h3 id="core-components">Core Components</h3>
+<ul>
+<li><strong>magnum CLI &amp; API</strong> Developers and operators can use the simple magnum command-line client or direct REST API calls to create and manage clusters in seconds</li>
+<li><strong>magnum-api Service</strong> This service receives your API requests and efficiently passes them to the conductor via a message queue (AMQP)</li>
+<li><strong>magnum-conductor Service</strong> The brains of the operation. The conductor handles the heavy lifting by leveraging Heat for orchestration and directly communicating with your Kubernetes cluster&rsquo;s API</li>
+</ul>
+<h2 id="simple-and-effective-workflow">Simple and Effective Workflow</h2>
+<p>The model is straightforward and efficient. You define a <strong>ClusterTemplate</strong> with your desired specifications (like Docker version, Kubernetes version, and node flavor), and then use that template to instantiate consistent, reproducible Clusters on demand.</p>
+<hr>
+<h2 id="why-your-team-will-appreciate-magnum">Why Your Team Will Appreciate Magnum</h2>
+<p>Magnum isn&rsquo;t just a technical tool; it&rsquo;s a productivity engine. Here are the key features that make it a game-changer:</p>
+<h3 id="key-benefits">Key Benefits</h3>
+<ul>
+<li><strong>Abstraction for Speed</strong> Magnum abstracts away the complexity of bootstrapping a cluster. Your developers get self-service access to Kubernetes without needing deep infrastructure expertise.</li>
+<li><strong>Deep OpenStack Integration</strong> Magnum doesn&rsquo;t operate in a silo. It leverages the core services you already depend on
+<ul>
+<li><strong>Keystone</strong> For robust, multi-tenant security and access control</li>
+<li><strong>Neutron</strong> To ensure secure, isolated networking for each Kubernetes cluster</li>
+<li><strong>Cinder</strong> To provide persistent storage volumes for your stateful container workloads</li>
+</ul>
+</li>
+<li><strong>Kubernetes-Native</strong> Magnum&rsquo;s primary integration is with Kubernetes, ensuring you are using a proven, industry-standard orchestration platform.</li>
+<li><strong>Open Source Freedom</strong> Released under the Apache 2.0 license, Magnum offers the flexibility and freedom of true open-source software, free from vendor lock-in.</li>
+</ul>
+<hr>
+<h2 id="who-is-magnum-for">Who is Magnum For?</h2>
+<p>Magnum is the ideal solution for organizations running OpenStack who want to:</p>
+<ul>
+<li>Accelerate their cloud-native application development.</li>
+<li>Provide a streamlined, internal Platform-as-a-Service (PaaS) experience.</li>
+<li>Maintain control over their container infrastructure while reducing management overhead</li>
+</ul>
+<p>By bringing the simplicity of managed Kubernetes to your private cloud, Magnum empowers your developers to move faster and your operations team to maintain control and compliance.</p>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<p>OpenStack Magnum represents the <strong>future of container management in private cloud environments</strong>. By seamlessly integrating Kubernetes and other container orchestrators with OpenStack&rsquo;s proven infrastructure services, it delivers enterprise-grade container capabilities without the complexity of manual cluster management.</p>
+<p>We believe that the <strong>future is hybrid</strong>, and tools like Magnum are critical for building a seamless, powerful infrastructure stack that can support both traditional and cloud-native workloads.</p>
+<p><strong>Ready to simplify your container orchestration?</strong> Explore how OpenStack Magnum can transform your cloud-native strategy and bring the power of managed Kubernetes to your OpenStack environment.</p>
+<p>If you’re ready to transition away from Ingress NGINX, <strong>NuBeStack can help you start in as little as 48 hours</strong>.</p>
+<p><strong>Contact us today</strong> to begin your Gateway API migration journey.</p>
+<hr>
+            </div>
+        </article>
+    </div>
+
+    
+    
+    
+
+                                </article>
+                            </div>
+                        </div>
+
+                    
+                </div>
+            </section><div id="footer">
+    <div class="container">
+        <div class="row">
+                <section class="col-4 col-6-narrower col-12-mobilep">
+                        <h3>Quick Links</h3>
+                    <ul class="links"><li><a href="/about">About Us</a><li><a href="/industry">Industries</a><li><a href="/blog">Blog</a><li><a href="/contact">Contact Us</a>
+                    </ul>
+                </section>
+                <section class="col-4 col-6-narrower col-12-mobilep">
+                        <h3>Services</h3>
+                    <ul class="links"><li><a href="/services/cloud-solutions">Private/Public Cloud Solutions</a><li><a href="/services/container-orchestration">Container Orchestration</a><li><a href="/services/nfv">NFV Solutions</a><li><a href="/services/managed-services">Managed Services</a><li><a href="/services/automation">Infrastructure Automation</a><li><a href="/services/devops">DevOps Services</a>
+                    </ul>
+                </section>
+                <section class="col-4 col-6-narrower col-12-mobilep">
+                        <img src="/images/logo2.png" alt="NubeStack Logo" style="max-width:200px;display:block;margin:0 auto 10px auto;">
+                        <p style="margin-bottom:0.5em;text-align:center;">NubeStack delivers Private/Public Cloud, DevOps, Automation, NFV, and Managed Services for modern enterprises.</p>
+                </section>
+            
+        </div>
+    </div>
+
+    <ul class="icons">
+        <li><a href="https://linkedin.com/company/nubestack" class="icon brands fab fa-linkedin">
+            <span class="label">LinkedIn</span>
+        </a>
+    </ul>
+
+    <div class="copyright">
+        <ul class="menu">
+            
+                <li>© 2025 - NubeStack. All rights reserved
+            
+        </ul>
+    </div>
+
+    
+    <elevenlabs-convai agent-id="agent_2001k95jmeerf6f8esk7ed2f447p"></elevenlabs-convai>
+    <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+</div>
+</div><script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.dropotron.min.js"></script>
+<script src="/js/browser.min.js"></script>
+<script src="/js/breakpoints.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>

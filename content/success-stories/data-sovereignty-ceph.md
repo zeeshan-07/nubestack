@@ -1,6 +1,6 @@
 ---
 title: "Data Sovereignty Solved: On-Prem Compliance with Ceph Storage"
-date: "2025-10-25"
+date: "2024-10-01"
 image: "images/success-stories/ss01.png"
 tags: ["DataSovereignty", "Compliance", "Ceph", "HybridCloud"]
 summary: "How a financial services company achieved strict data residency compliance by provisioning on-prem Ceph storage clusters with NubeStack."

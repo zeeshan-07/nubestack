@@ -1,6 +1,6 @@
 ---
 title: "Multi-Cloud Agility: Kubernetes Migration and Vendor Lock-in Reduction"
-date: "2025-10-25"
+date: "2025-03-25"
 image: "images/success-stories/ss02.png"
 tags: ["MultiCloud", "Kubernetes", "CostOptimization", "VendorLockin"]
 summary: "How a technology provider achieved true multi-cloud portability and massive cost savings by standardizing on OpenStack and Kubernetes with NubeStack's guidance."

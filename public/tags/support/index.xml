@@ -1,3 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Support on</title><link>https://nubestack.com/tags/support/</link><description>Recent content in Support on</description><generator>Hugo</generator><language>en-us</language><copyright>© 2025 - NubeStack. All rights reserved</copyright><atom:link href="https://nubestack.com/tags/support/index.xml" rel="self" type="application/rss+xml"/><item><title>Managed Services</title><link>https://nubestack.com/services/managed-services/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nubestack.com/services/managed-services/</guid><description>&lt;p&gt;In today’s fast-paced digital world, managing complex cloud environments can be challenging and time-consuming. &lt;strong&gt;Managed Services&lt;/strong&gt; are designed to take that burden off your shoulders.&lt;/p&gt;
-&lt;p&gt;In simple terms, &lt;em&gt;Managed Services&lt;/em&gt; mean that a specialized provider like &lt;strong&gt;Nubestack&lt;/strong&gt; takes full responsibility for the day-to-day management, monitoring, and maintenance of your cloud infrastructure — ensuring it runs smoothly, securely, and efficiently, around the clock.&lt;/p&gt;
-&lt;p&gt;Instead of worrying about software upgrades, downtime, or infrastructure health, you get a dedicated team of experts who handle it all for you — so your internal teams can focus on building applications and delivering business value.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Support on </title>
+    <link>http://localhost:1313/tags/support/</link>
+    <description>Recent content in Support on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© 2025 - NubeStack. All rights reserved</copyright>
+    <atom:link href="http://localhost:1313/tags/support/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Managed Services</title>
+      <link>http://localhost:1313/services/managed-services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/services/managed-services/</guid>
+      <description>&lt;p&gt;In today’s fast-paced digital world, managing complex cloud environments can be challenging and time-consuming. &lt;strong&gt;Managed Services&lt;/strong&gt; are designed to take that burden off your shoulders.&lt;/p&gt;&#xA;&lt;p&gt;In simple terms, &lt;em&gt;Managed Services&lt;/em&gt; mean that a specialized provider like &lt;strong&gt;Nubestack&lt;/strong&gt; takes full responsibility for the day-to-day management, monitoring, and maintenance of your cloud infrastructure — ensuring it runs smoothly, securely, and efficiently, around the clock.&lt;/p&gt;&#xA;&lt;p&gt;Instead of worrying about software upgrades, downtime, or infrastructure health, you get a dedicated team of experts who handle it all for you — so your internal teams can focus on building applications and delivering business value.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
